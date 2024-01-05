@@ -1,6 +1,6 @@
 interface Resources {
-    "translation": {
-      "title": "Home",
+  translation: {
+    title: string;
     }
   }
   
