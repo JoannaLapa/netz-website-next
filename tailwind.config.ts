@@ -3,7 +3,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-	content: ['./src/pages/**/*.{js,jsx,ts,tsx}', './src/components/**/*.{js,jsx,ts,tsx}'],
+	content: ['./app/[lng]/**/*.{js,jsx,ts,tsx}', './app/components/**/*.{js,jsx,ts,tsx}'],
 	theme: {
 		extend: {
 			fontFamily: {
@@ -24,12 +24,18 @@ module.exports = {
 			},
 
 			colors: {
-				'primary-100': '#00EE4D', // green
-				'danger-100': '#e3170a', // red
-				'neutral-100': '#FFFFFF', // white
-				'neutral-200': '#D9D9D9', // grey for underline
-				'neutral-300': '#444444', // grey font
-				'neutral-400': '#0a100d', // black font
+				primary: {
+					'100': '#00EE4D', // green
+				  },
+				  danger: {
+					'100': '#e3170a', // red
+				  },
+				  neutral: {
+					'100': '#FFFFFF', // white
+					'200': '#D9D9D9', // grey for underline
+					'300': '#444444', // grey font
+					'400': '#0a100d', // black font
+				  },
 			},
 		},
 	},
