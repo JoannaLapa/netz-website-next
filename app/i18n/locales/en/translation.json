@@ -1,1 +1,8 @@
-{ "title": "Hi there!" }
+{ 
+    "aboutUs": "About us",
+	"offer": "Offer",
+	"fleet": "Fleet",
+	"contact": "Contact",
+	"openMenu": "Open menu",
+	"title": "PROFESJONALNE USŁUGI TRANSPORTOWE I SPEDYCYJNE"
+ }

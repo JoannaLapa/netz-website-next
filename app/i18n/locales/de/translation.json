@@ -1,1 +1,8 @@
-{ "title": "Hallo Leute!"}
+{
+	"aboutUs": "Über uns",
+	"offer": "Angebot",
+	"fleet": "Fuhrpark",
+	"contact": "Kontakt",
+	"openMenu": "Menü öffnen",
+	"title": "PROFESSIONELLE TRANSPORT- UND SPEDITIONSLEISTUNGEN"
+}
