@@ -1,6 +1,6 @@
 import { dir } from 'i18next'
 import { languages } from '../i18n/settings'
-
+import '../globals.css'
 interface RootLayoutProps {
   children: React.ReactNode;
   params: {
