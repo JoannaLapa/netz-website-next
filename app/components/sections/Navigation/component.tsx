@@ -4,7 +4,8 @@ import * as React from 'react'
 import { motion, useCycle } from 'framer-motion'
 import NavList from './NavList/component'
 import MenuToggle from './MenuToggle/component'
-
+import { NavigationProps } from './component.types'
+import { useTranslation} from '../../../i18n/client'
 const sidebar = {
 	open: {
 		clipPath: `circle(135% at 90% 44px)`,
@@ -25,9 +26,9 @@ const sidebar = {
 	},
 }
 
-const Navigation = () => {
-	const [isOpen, toggleOpen] = useCycle(false, true)
-
+const Navigation: React.FC<NavigationProps> = (props) => {
+	const [isOpen, toggleOpen] = useCycle(false, true);
+	const { i18n } = useTranslation(props.lng, 'translation')
 	return (
 		<nav className='flex w-full gap-4'>
 			<motion.div
@@ -35,7 +36,7 @@ const Navigation = () => {
 				animate={isOpen ? 'open' : 'closed'}
 				className='absolute inset-y-0 right-0 w-full'
 				>
-				<NavList/>
+				<NavList i18n={i18n} lng={props.lng}/>
 				
 				<motion.div className='absolute z-0 h-screen w-screen bg-white' variants={sidebar} />
 				<MenuToggle handleNav={() => toggleOpen()} />

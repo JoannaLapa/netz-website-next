@@ -1,10 +1,9 @@
 import * as React from 'react'
-import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import NavItem from '../NavItem/component'
 import LanguageAccordion from '../LanguageAccordion/component'
-
-const titles = ['aboutUs', 'offer', 'fleet', 'contact']
+import { NavListProps } from './component.types'
+const titles = ['aboutUs', 'offer', 'fleet', 'contact'] as const
 
 const variants = {
 	open: {
@@ -14,13 +13,12 @@ const variants = {
 		transition: { staggerChildren: 0.1, staggerDirection: -1 },
 	},
 }
-const NavList = () => {
-    const { t } = useTranslation()
-
+const NavList: React.FC<NavListProps> = (props) => {
+ const t = props.i18n.getFixedT(props.lng, "translation")
 	return (
 		<motion.ul variants={variants} className='absolute top-[100px] z-20 w-[230px] p-10'>
 			{titles.map(title => (
-				<NavItem key={t(title)} title={t(title)} />
+				<NavItem key={(title)} title={t(title)} />
 			))}
 			<LanguageAccordion />
 		</motion.ul>

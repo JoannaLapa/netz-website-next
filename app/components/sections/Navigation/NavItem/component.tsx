@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { motion } from 'framer-motion'
-import { useTranslation } from 'react-i18next'
 import { NavItemProps } from './component.types'
 
 const variants = {
@@ -21,7 +20,6 @@ const variants = {
 }
 
 const NavItem: React.FC<NavItemProps> = (props) => {
-	const { t } = useTranslation()
 
 	return (
 		<motion.li
@@ -30,7 +28,7 @@ const NavItem: React.FC<NavItemProps> = (props) => {
 			whileHover={{ scale: 1.1 }}
 			whileTap={{ scale: 0.95 }}
 			transition={{ duration: 0.3 }}>
-			{t(props.title)}
+			{props.title}
 		</motion.li>
 	)
 }
