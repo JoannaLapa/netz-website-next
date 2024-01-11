@@ -1,5 +1,5 @@
 type WrapperProps = {
-    children: React.ReactNode;
-}
+  children: React.ReactNode;
+};
 
-export type { WrapperProps }
+export type { WrapperProps };

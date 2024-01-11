@@ -1,5 +1,5 @@
 type HeaderProps = {
-    lng: string;
-}
+  lng: string;
+};
 
-export type { HeaderProps}
+export type { HeaderProps };

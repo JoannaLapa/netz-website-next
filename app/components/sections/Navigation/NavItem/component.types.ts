@@ -1,5 +1,5 @@
 type NavItemProps = {
-    title: string;
-}
+  title: string;
+};
 
-export type { NavItemProps }
+export type { NavItemProps };

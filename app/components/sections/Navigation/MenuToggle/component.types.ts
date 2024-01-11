@@ -1,5 +1,5 @@
 type MenuToggleProps = {
-    handleNav: React.MouseEventHandler<HTMLButtonElement>
-}
+  handleNav: React.MouseEventHandler<HTMLButtonElement>;
+};
 
-export type { MenuToggleProps }
+export type { MenuToggleProps };

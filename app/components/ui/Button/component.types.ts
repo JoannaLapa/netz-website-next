@@ -1,5 +1,5 @@
 type ButtonProps = {
-    title: string;
-}
+  title: string;
+};
 
 export type { ButtonProps };

@@ -1,9 +1,7 @@
 import translation from '../app/i18n/locales/de/translation.json';
 
-
 const resources = {
   translation,
-  } as const;
+} as const;
 
-  
-  export default resources;
+export default resources;
