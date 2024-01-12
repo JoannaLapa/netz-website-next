@@ -13,11 +13,11 @@ export default async function Page({
   const { t } = await useTranslation(lng);
 
   return (
-    <Wrapper>
+    <>
       <Header lng={lng} />
       <main>
         <h1>{t('title')}</h1>
       </main>
-    </Wrapper>
+    </>
   );
 }
