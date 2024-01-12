@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "accept-language": "^3.0.18",
+    "class-variance-authority": "^0.7.0",
     "framer-motion": "^10.17.8",
     "i18next": "^23.7.13",
     "i18next-browser-languagedetector": "^7.2.0",
@@ -22,6 +23,7 @@
     "react-cookie": "6.1.1",
     "react-dom": "^18",
     "react-i18next": "^14.0.0",
+    "tailwind-merge": "^2.2.0",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
