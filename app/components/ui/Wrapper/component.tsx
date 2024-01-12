@@ -1,9 +1,9 @@
 import { WrapperProps } from './component.types';
+import { twMerge} from 'tailwind-merge'
 
 const Wrapper: React.FC<WrapperProps> = (props) => {
   return (
-    // eslint-disable-next-line react/jsx-filename-extension
-    <div className="m-5">{props.children}</div>
+    <props.element className={twMerge('relative m-5 px-6 lg:px-8 w-full', props.className)}>{props.children}</props.element>
   );
 };
 
