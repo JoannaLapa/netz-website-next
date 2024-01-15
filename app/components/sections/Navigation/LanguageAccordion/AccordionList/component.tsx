@@ -1,3 +1,4 @@
+/* eslint-disable tailwindcss/no-custom-classname */
 import { AccordionListProps } from './component.types';
 import Link from 'next/link';
 import { languages } from '../../../../../i18n/settings';
@@ -52,7 +53,10 @@ const AccordionList: React.FC<AccordionListProps> = (props) => {
             transition={{ duration: 0.3 }}
             className="p-1"
           >
-            <Link href={`/${l}`} className="md:text-md pl-8 text-base uppercase leading-6">
+            <Link
+              href={`/${l}`}
+              className="md:text-md pl-8 text-base uppercase leading-6"
+            >
               {l}
             </Link>
           </motion.li>

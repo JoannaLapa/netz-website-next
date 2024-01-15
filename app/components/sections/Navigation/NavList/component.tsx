@@ -17,21 +17,19 @@ const NavList: React.FC<NavListProps> = (props) => {
   const t = props.i18n.getFixedT(props.lng, 'translation');
   return (
     <>
-    {
-props.isOpen && (
-  <motion.ul
-        variants={variants}
-        initial="closed"
-      animate={props.isOpen ? 'open' : 'closed'}
-        className="absolute top-[100px] z-30 w-[230px] p-10 md:hidden"
-      >
-        {titles.map((title) => (
-          <NavItem key={title} title={t(title)} />
-        ))}
-        <LanguageAccordion lng={props.lng} />
-      </motion.ul>
-)
-    }
+      {props.isOpen && (
+        <motion.ul
+          variants={variants}
+          initial="closed"
+          animate={props.isOpen ? 'open' : 'closed'}
+          className="absolute top-[100px] z-30 w-[230px] p-10 md:hidden"
+        >
+          {titles.map((title) => (
+            <NavItem key={title} title={t(title)} />
+          ))}
+          <LanguageAccordion lng={props.lng} />
+        </motion.ul>
+      )}
 
       {/* Tablet and larger view */}
       <ul className="hidden gap-4 md:grid md:grid-cols-5 md:items-center md:justify-center">
