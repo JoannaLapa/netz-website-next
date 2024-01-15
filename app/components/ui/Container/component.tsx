@@ -3,7 +3,7 @@ import { StylesContainer } from './component.styles'
 
 const Container: React.FC<ContainerProps> = (props) => {
 return (
-    <div className={StylesContainer({ variant: props.variant})}>
+    <div className={StylesContainer({ variant: props.variant, className: props.className})}>
         {props.children}
     </div>
 )
