@@ -1,7 +1,7 @@
 import { languages, fallbackLng } from '../i18n/settings';
 import { useTranslation } from '../i18n';
 import Header from '../components/sections/Header/component';
-import Wrapper from '../components/ui/Wrapper';
+
 export default async function Page({
   params: { lng },
 }: {
