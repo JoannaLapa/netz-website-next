@@ -9,7 +9,6 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
       fontFamily: {
         sans: ['Roboto', ...defaultTheme.fontFamily.sans],
         robotoCondensed: ['Roboto Condensed', 'sans-serif'],
@@ -26,22 +25,15 @@ module.exports = {
         xl: '2rem', // 32px
         '2xl': '2.25rem', // 36px
       },
-
       colors: {
-        primary: {
-          '100': '#00EE4D', // green
-        },
-        danger: {
-          '100': '#e3170a', // red
-        },
-        neutral: {
-          '100': '#FFFFFF', // white
-          '200': '#D9D9D9', // grey for underline
-          '300': '#444444', // grey font
-          '400': '#0a100d', // black font
-        },
+        'primary-100': '#00EE4D', // green
+        'danger-100': '#e3170a', // red
+        'neutral-100': '#FFFFFF', // white
+        'neutral-200': '#D9D9D9', // grey for underline
+        'neutral-250': '#DDDDDD', // grey for dividers
+        'neutral-300': '#444444', // grey font
+        'neutral-400': '#0a100d', // black font
       },
     },
-  },
   plugins: [],
 };
