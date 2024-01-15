@@ -4,7 +4,7 @@ import { twMerge } from 'tailwind-merge'
 const Container = cva('', {
     variants: {
         variant:{
-            section: 'mx-auto w-full max-full md:max-w-[770px] xl:max-w-[1216px]',
+            section: 'mx-auto w-full max-w-full md:max-w-[770px] xl:max-w-[1216px]',
             sectionBig: 'mx-auto w-full max-w-full md:max-w-[976px] xl:max-w-[1520px]'
         }
     }

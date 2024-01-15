@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react/jsx-filename-extension */
 import * as React from 'react';
 import { SVGMotionProps, motion } from 'framer-motion';
 import { MenuToggleProps } from './component.types';
@@ -21,7 +19,8 @@ const Path = (
 const MenuToggle: React.FC<MenuToggleProps> = (props) => (
   <button
     onClick={props.handleNav}
-    className="absolute bottom-0 right-5 top-4 z-10 flex h-[44px] w-[44px] cursor-pointer items-center justify-center bg-transparent lg:hidden"
+    className="absolute inset-y-0 right-5
+     z-30 flex h-[44px] w-[44px] cursor-pointer items-center justify-center bg-transparent md:hidden"
   >
     <svg width="23" height="23" viewBox="0 0 23 23">
       <Path
