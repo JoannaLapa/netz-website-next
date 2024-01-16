@@ -1,4 +1,4 @@
-import { WrapperProps } from './component.types';
+import { WrapperProps } from './index';
 import { twMerge } from 'tailwind-merge';
 
 const Wrapper: React.FC<WrapperProps> = (props) => {

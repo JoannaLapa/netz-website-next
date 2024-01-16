@@ -1,5 +1,5 @@
 /* eslint-disable tailwindcss/no-custom-classname */
-import { ButtonProps } from './component.types';
+import { ButtonProps } from './index';
 import Link from 'next/link';
 
 const className =
