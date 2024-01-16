@@ -26,6 +26,7 @@ module.exports = {
       '2xl': '2.25rem', // 36px
     },
     colors: {
+      'primary-030': '#00EE4D4D',
       'primary-100': '#00EE4D', // green
       'danger-100': '#e3170a', // red
       'neutral-000': '#00000000', //transparent 
@@ -33,7 +34,7 @@ module.exports = {
       'neutral-200': '#D9D9D9', // grey for underline
       'neutral-250': '#DDDDDD', // grey for dividers
       'neutral-300': '#444444', // grey font
-      'neutral-400': '#0a100d', // black font
+      'neutral-400': '#161616', // black font
     },
   },
   plugins: [],
