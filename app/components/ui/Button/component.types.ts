@@ -9,7 +9,6 @@ type ButtonProps = {
 
 type LinkProps = {
   href: string | UrlObject;
-  ariaLabel?: string;
 };
 
 export type { ButtonProps };

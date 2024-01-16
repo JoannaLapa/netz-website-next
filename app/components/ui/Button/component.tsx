@@ -10,7 +10,6 @@ const Button: React.FC<ButtonProps> = (props) => {
       <Link
         href={props.link.href}
         className={className}
-        aria-label={props.link.ariaLabel}
       >
         {props.title}
       </Link>
