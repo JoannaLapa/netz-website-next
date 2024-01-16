@@ -1,9 +1,11 @@
-import 'i18next'
-import Resources from './resources'
+import 'i18next';
+import resources from './resources';
+import { fallbackNS, defaultNS } from '../app/i18n/settings';
 
 declare module 'i18next' {
   interface CustomTypeOptions {
-   // defaultNS: 'translation'
-    resources: Resources
+    defaultNS: typeof translation;
+    fallbackNS: typeof fallbackNS;
+    resources: typeof resources;
   }
 }

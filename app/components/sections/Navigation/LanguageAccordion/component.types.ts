@@ -1,0 +1,3 @@
+type LanguageAccordionProps = {
+  lng: string;
+};
