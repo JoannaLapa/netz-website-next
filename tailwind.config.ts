@@ -28,6 +28,7 @@ module.exports = {
     colors: {
       'primary-100': '#00EE4D', // green
       'danger-100': '#e3170a', // red
+      'neutral-000': '#00000000', //transparent 
       'neutral-100': '#FFFFFF', // white
       'neutral-200': '#D9D9D9', // grey for underline
       'neutral-250': '#DDDDDD', // grey for dividers

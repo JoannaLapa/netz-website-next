@@ -19,7 +19,7 @@ const Path = (
 const MenuToggle: React.FC<MenuToggleProps> = (props) => (
   <button
     onClick={props.handleNav}
-    className="absolute inset-y-0 right-5
+    className="absolute -top-1 right-5
      z-30 flex h-[44px] w-[44px] cursor-pointer items-center justify-center bg-transparent md:hidden"
   >
     <svg width="23" height="23" viewBox="0 0 23 23">

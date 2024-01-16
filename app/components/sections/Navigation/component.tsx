@@ -39,7 +39,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
         <NavList isOpen={isOpen} i18n={i18n} lng={props.lng} />
 
         <motion.div
-          className="absolute z-20 h-screen w-screen bg-white"
+          className="absolute z-20 h-screen w-screen bg-neutral-100"
           variants={sidebar}
         />
         <MenuToggle handleNav={() => toggleOpen()} />
