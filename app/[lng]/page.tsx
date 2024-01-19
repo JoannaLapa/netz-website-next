@@ -18,7 +18,7 @@ export default async function Page({
     <>
       <Header lng={lng} />
       <main className='mt-5 md:mt-[200px]'>
-        <HeroSlider headingTitle={t('title')} buttonTitle={t('askForQuote')} subtitle1={t('subtitle1')} subtitle2={t('subtitle2')} leftButtonLabel={t('sliderLeftButtonLabel')} rightButtonLabel={t('sliderRightButtonLabel')} skipLink={t('sliderSkipLink')}/>
+        <HeroSlider headingTitle={t('title')} buttonTitle={t('askForQuote')} subtitle1={t('subtitle1')} subtitle2={t('subtitle2')} skipLink={t('sliderSkipLink')}/>
       </main>
     </>
   );

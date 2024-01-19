@@ -11,16 +11,16 @@ import Link from 'next/link';
 const HeroSlider: React.FC<HeroSliderProps> = (props) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const prevSlide = () => {
-    const isFirstSlide = currentIndex === 0;
-    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
-    setCurrentIndex(newIndex);
-  };
-  const nextSlide = () => {
-    const isLastSlide = currentIndex === slides.length - 1;
-    const newIndex = isLastSlide ? 0 : currentIndex + 1;
-    setCurrentIndex(newIndex);
-  };
+  // const prevSlide = () => {
+  //   const isFirstSlide = currentIndex === 0;
+  //   const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+  //   setCurrentIndex(newIndex);
+  // };
+  // const nextSlide = () => {
+  //   const isLastSlide = currentIndex === slides.length - 1;
+  //   const newIndex = isLastSlide ? 0 : currentIndex + 1;
+  //   setCurrentIndex(newIndex);
+  // };
 
   const slides = [
     <Slide
@@ -36,7 +36,7 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
 
   return (
     <Wrapper element="div">
-      <Container variant="section" className="relative mt-[66px]">
+      <Container variant="section" className="relative mt-[4.125rem]">
         {/* todo: check if it works correctly when tab is used */}
         <Link
           href="#after-image-slider-controls"
@@ -44,19 +44,13 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
         >
           {props.skipLink}
         </Link>
+
         {slides[currentIndex]}
-        <button
-          className="absolute left-0 top-2/4 cursor-pointer rounded-full p-2  text-2xl text-neutral-400 group-hover:block"
-          aria-label={props.leftButtonLabel}
-        >
-          <BsChevronLeft size={30} onClick={prevSlide} aria-hidden />
-        </button>
-        <button
-          className="absolute right-0 top-2/4 cursor-pointer rounded-full p-2 text-2xl  text-neutral-400 group-hover:block"
-          aria-label={props.leftButtonLabel}
-        >
-          <BsChevronRight size={30} onClick={nextSlide} aria-hidden />
-        </button>
+        <div>
+        {slides.map((slide, index) => {
+         return <button key={index} onClick={() => setCurrentIndex(index)}>{index}</button>
+        })}
+        </div>
       </Container>
     </Wrapper>
   );
