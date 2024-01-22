@@ -30,7 +30,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
   const [isOpen, toggleOpen] = useCycle(false, true);
   const { i18n } = useTranslation(props.lng, 'translation');
   return (
-    <nav className="flex w-full gap-4 sm:w-fit">
+    <nav className="flex w-full gap-4 sm:w-fit sm:gap-1">
       <motion.div
         initial={false}
         animate={isOpen ? 'open' : 'closed'}
