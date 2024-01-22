@@ -1,3 +1,4 @@
+/* eslint-disable tailwindcss/no-custom-classname */
 'use client';
 
 import { useState } from 'react';
@@ -5,22 +6,11 @@ import Container from '../../ui/Container';
 import Wrapper from '../../ui/Wrapper';
 import Slide from './Slide/component';
 import { HeroSliderProps } from './index';
-import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
+import { BsCircleFill } from 'react-icons/bs';
 import Link from 'next/link';
 
 const HeroSlider: React.FC<HeroSliderProps> = (props) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  // const prevSlide = () => {
-  //   const isFirstSlide = currentIndex === 0;
-  //   const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
-  //   setCurrentIndex(newIndex);
-  // };
-  // const nextSlide = () => {
-  //   const isLastSlide = currentIndex === slides.length - 1;
-  //   const newIndex = isLastSlide ? 0 : currentIndex + 1;
-  //   setCurrentIndex(newIndex);
-  // };
 
   const slides = [
     <Slide
@@ -30,8 +20,12 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
       buttonTitle={props.buttonTitle}
       key="slide1"
     />,
-    <Slide tag="p" title={props.subtitle1} decorator="02" key="slide2" />,
-    <Slide tag="p" title={props.subtitle2} decorator="03" key="slide3" />,
+    <Slide tag="p" title={props.subtitle1} decorator="02" key="slide2" buttonTitle={props.buttonTitle}
+
+    />,
+    <Slide tag="p" title={props.subtitle2} decorator="03" key="slide3" buttonTitle={props.buttonTitle}
+
+    />,
   ];
 
   return (
@@ -46,10 +40,20 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
         </Link>
 
         {slides[currentIndex]}
-        <div>
-        {slides.map((slide, index) => {
-         return <button key={index} onClick={() => setCurrentIndex(index)}>{index}</button>
-        })}
+        <div className="absolute bottom-0 left-1/2 flex -translate-x-1/2 gap-4">
+          {slides.map((_, index) => {
+            return (
+              <button key={index} onClick={() => setCurrentIndex(index)}>
+                <BsCircleFill
+                  className={`h-3 w-3 ${
+                    currentIndex === index
+                      ? 'fill-primary-100 '
+                      : 'fill-neutral-200'
+                  }`}
+                />
+              </button>
+            );
+          })}
         </div>
       </Container>
     </Wrapper>
