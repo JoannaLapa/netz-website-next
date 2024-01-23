@@ -53,10 +53,11 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
                 <BsCircleFill
                   className={`h-3 w-3 transition duration-300 hover:scale-125 ${
                     currentIndex === index
-                      ? 'fill-primary-100 '
+                      ? 'fill-primary-100'
                       : 'fill-neutral-200'
                   }`}
                   aria-hidden="true"
+                  data-testid={`slide-${index + 1}`}
                 />
               </button>
             );
