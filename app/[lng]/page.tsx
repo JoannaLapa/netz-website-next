@@ -1,7 +1,9 @@
 import { languages, fallbackLng } from '../i18n/settings';
 import { useTranslation } from '../i18n';
-import Header from '../components/sections/Header/component';
-import Button from '../components/ui/Button';
+import Header from '../components/sections/Header/index';
+import HeroSlider from '../components/sections/HeroSlider/index';
+
+const slides = [0, 1, 2];
 
 export default async function Page({
   params: { lng },
@@ -16,9 +18,8 @@ export default async function Page({
   return (
     <>
       <Header lng={lng} />
-      <main>
-        <h1>{t('title')}</h1>
-        <Button title={t('askForQuote')} />
+      <main className="mt-5">
+        <HeroSlider slides={slides} skipLink={t('sliderSkipLink')} />
       </main>
     </>
   );

@@ -29,12 +29,12 @@ const LanguageAccordion: React.FC<LanguageAccordionProps> = (props) => {
 
   return (
     <>
-      <motion.li variants={variants} className="p-4 md:hidden">
+      <motion.li variants={variants} className="p-4 sm:hidden">
         <Button lng={props.lng} isOpen={isOpen} handleClick={handleClick} />
 
         {isOpen && <AccordionList lng={props.lng} isOpen={isOpen} />}
       </motion.li>
-      <li className="relative z-30 hidden p-4 md:block">
+      <li className="relative z-30 hidden p-4 sm:block">
         <Button lng={props.lng} isOpen={isOpen} handleClick={handleClick} />
 
         {isOpen && <AccordionList lng={props.lng} isOpen={isOpen} />}

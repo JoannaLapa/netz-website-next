@@ -5,6 +5,7 @@ type ButtonProps = {
   link?: LinkProps;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
   type?: 'submit' | 'button' | 'reset';
+  styles?: string,
 };
 
 type LinkProps = {

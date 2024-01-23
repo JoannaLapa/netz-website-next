@@ -37,7 +37,7 @@ const variants = {
 const AccordionList: React.FC<AccordionListProps> = (props) => {
   return (
     <motion.ul
-      className="flex flex-col gap-2 rounded-lg border-neutral-200 bg-white p-1 pt-4 shadow-sm sm:p-2 sm:pt-5 md:absolute md:top-[52px]"
+      className="flex flex-col gap-2 rounded-lg border-neutral-200 bg-white p-1 pt-4 shadow-sm sm:absolute sm:top-[62px] sm:p-2 sm:pt-5"
       variants={variantsUl}
       initial="closed"
       animate={props.isOpen ? 'open' : 'closed'}
@@ -55,7 +55,7 @@ const AccordionList: React.FC<AccordionListProps> = (props) => {
           >
             <Link
               href={`/${l}`}
-              className="md:text-md pl-8 text-base uppercase leading-6"
+              className="md:text-md pl-8 text-sm uppercase leading-6"
             >
               {l}
             </Link>
