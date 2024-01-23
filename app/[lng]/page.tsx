@@ -3,6 +3,8 @@ import { useTranslation } from '../i18n';
 import Header from '../components/sections/Header/index';
 import HeroSlider from '../components/sections/HeroSlider/index';
 
+const slides = [0, 1, 2];
+
 export default async function Page({
   params: { lng },
 }: {
@@ -16,8 +18,8 @@ export default async function Page({
   return (
     <>
       <Header lng={lng} />
-      <main className='mt-5'>
-        <HeroSlider headingTitle={t('title')} buttonTitle={t('askForQuote')} subtitle1={t('subtitle1')} subtitle2={t('subtitle2')} skipLink={t('sliderSkipLink')}/>
+      <main className="mt-5">
+        <HeroSlider slides={slides} skipLink={t('sliderSkipLink')} />
       </main>
     </>
   );
