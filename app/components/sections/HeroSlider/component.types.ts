@@ -1,9 +1,7 @@
+import { SlideProps } from "./Slide/component.types";
 type HeroSliderProps = {
   skipLink: string;
-  headingTitle: string;
-  subtitle1: string;
-  subtitle2: string;
-  buttonTitle: string;
+  slides: number[];
 };
 
 export type { HeroSliderProps };
