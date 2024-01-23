@@ -39,6 +39,9 @@ module.exports = {
         'neutral-300': '#444444', // grey font
         'neutral-400': '#161616', // black font
       },
+      animation: {
+        'change-opacity': 'changeOpacity 2s linear',
+      },
     },
   },
   plugins: [],

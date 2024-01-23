@@ -3,6 +3,7 @@ type SlideProps = {
   title: string;
   decorator: string;
   buttonTitle?: string;
+  visible: boolean;
 };
 
 export type { SlideProps };
