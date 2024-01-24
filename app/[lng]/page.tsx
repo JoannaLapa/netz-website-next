@@ -2,6 +2,7 @@ import { languages, fallbackLng } from '../i18n/settings';
 import { useTranslation } from '../i18n';
 import Header from '../components/sections/Header/index';
 import HeroSlider from '../components/sections/HeroSlider/index';
+import BoxImageSection from '../components/sections/BoxImageSection';
 
 const slides = [0, 1, 2];
 
@@ -18,8 +19,14 @@ export default async function Page({
   return (
     <>
       <Header lng={lng} />
-      <main className="mt-5">
+      <main className="pt-5 lg:pt-[174px]">
         <HeroSlider slides={slides} skipLink={t('sliderSkipLink')} />
+        <BoxImageSection
+          title={t('aboutUsTitle')}
+          accentText={t('aboutUsAccentText')}
+          description={t('aboutUsDescription')}
+          alt={t('aboutUsImageAlt')}
+        />
       </main>
     </>
   );
