@@ -15,7 +15,7 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
   const { t, i18n } = useTranslation();
   return (
     <Wrapper element="div">
-      <Container variant="section" className="relative lg:top-[11rem]">
+      <Container variant="section" className="relative">
         {/* todo: check if it works correctly when tab is used */}
         <Link
           href="#after-image-slider-controls"
