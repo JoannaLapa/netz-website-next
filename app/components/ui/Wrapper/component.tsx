@@ -5,7 +5,7 @@ const Wrapper: React.FC<WrapperProps> = (props) => {
   return (
     <props.element
       className={twMerge(
-        'relative m-5 h-full w-full px-[10%]',
+        'relative m-5 h-full w-full px-[10%] py-9',
         props.className,
       )}
     >
