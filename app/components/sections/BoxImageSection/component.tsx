@@ -8,6 +8,7 @@ const BoxImageSection: React.FC<BoxImageSectionProps> = (props) => {
   const formattedDescription = props.description.replace(/\n/g, '<br/><br/>');
 
   return (
+    <>
     <Wrapper element="section">
       <Container variant="section" className="mt-20">
         <div className="grid grid-cols-1 sm:mt-16 sm:grid-cols-2 sm:items-center sm:gap-16 md:justify-between">
@@ -15,7 +16,7 @@ const BoxImageSection: React.FC<BoxImageSectionProps> = (props) => {
             <Heading title={props.title} accentText={props.accentText} />
 
             <p
-              className="mt-9 max-w-[362px] text-base text-neutral-400 sm:mt-8 sm:max-w-full sm:text-base lg:max-w-[500px] lg:text-[21px]"
+              className="mt-9 max-w-[362px] text-base font-light text-neutral-400 sm:mt-8 sm:max-w-full sm:text-base lg:max-w-[500px] lg:text-[21px]"
               dangerouslySetInnerHTML={{ __html: formattedDescription }}
             />
           </div>
@@ -40,6 +41,8 @@ const BoxImageSection: React.FC<BoxImageSectionProps> = (props) => {
         </div>
       </Container>
     </Wrapper>
+   <Image src="/assets/ornament_1.svg" width={130} height={211} alt="" aria-hidden="true" className='hidden lg:block'/>
+    </>
   );
 };
 
