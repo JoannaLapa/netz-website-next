@@ -3,6 +3,7 @@ import { useTranslation } from '../i18n';
 import Header from '../components/sections/Header/index';
 import HeroSlider from '../components/sections/HeroSlider/index';
 import BoxImageSection from '../components/sections/BoxImageSection';
+import WhyUsSection from '../components/sections/WhyUsSection';
 
 const slides = [0, 1, 2];
 
@@ -27,6 +28,7 @@ export default async function Page({
           description={t('aboutUsDescription')}
           alt={t('aboutUsImageAlt')}
         />
+        <WhyUsSection title={t("whyUsTitle")} accentText={t('whyUsAccentText')} experienceSuffix={t('experienceSuffix')} />
       </main>
     </>
   );
