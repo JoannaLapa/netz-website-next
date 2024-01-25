@@ -16,5 +16,22 @@
   "aboutUsDescription": "Unser Ziel ist es, eine hohe Kundenzufriedenheit zu erreichen. Wir setzen auf den Aufbau langfristiger Beziehungen, die auf Zusammenarbeit und Vertrauen basieren. Qualität ist für uns wichtiger als die Anzahl der durchgeführten Transporte.  \n Mit uns kommt Ihre Fracht schnell und sicher an den Bestimmungsort. Den gesamten Prozess überwachen wir sorgfältig und informieren Sie fortlaufend über den Transportverlauf.  \n Wir stehen Ihnen 24 Stunden am Tag, 7 Tage die Woche, 365 Tage im Jahr zur Verfügung.  \n Vielen Dank für Ihr Vertrauen!",
   "aboutUsImageAlt": "Foto der Gründerin des Unternehmens, Anita Surma. Blondhaarige Frau mit Brille.",
   "metaTitle": "Weltweite Speditionsdienstleistungen | Zuverlässige Internationale Logistiklösungen",
-  "content": "Erkunden Sie unsere erstklassigen internationalen Speditionsdienstleistungen für nahtlose globale Logistiklösungen. Vertrauen Sie unserer Expertise im effizienten Transport von Frachtgütern und internationalem Versand. Kontaktieren Sie uns für zuverlässige Speditionsdienstleistungen weltweit."
+  "content": "Erkunden Sie unsere erstklassigen internationalen Speditionsdienstleistungen für nahtlose globale Logistiklösungen. Vertrauen Sie unserer Expertise im effizienten Transport von Frachtgütern und internationalem Versand. Kontaktieren Sie uns für zuverlässige Speditionsdienstleistungen weltweit.",
+  "whyUsTitle": "Warum suchst du ",
+  "whyUsAccentText": "ausgerechnet uns?",
+  "boxes": [
+    {
+      "title": "Erweiterte ",
+      "accentText": "Datenbank vertrauenswürdiger Spediteure"
+    },
+    {
+      "title": "Versicherung für jeden Transport bis zu ",
+      "accentText": "300.000 Euro"
+    },
+    {
+      "title": "Alle notwendigen ",
+      "accentText": "Genehmigungen und Lizenzen"
+    }
+  ],
+  "experienceSuffix": " Jahre Erfahrung"
 }
