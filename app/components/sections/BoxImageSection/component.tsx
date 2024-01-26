@@ -9,7 +9,7 @@ const BoxImageSection: React.FC<BoxImageSectionProps> = (props) => {
 
   return (
     <>
-    <Wrapper element="section">
+    <Wrapper element="section" className="py-9 lg:py-0 lg:pt-9">
       <Container variant="section" className="mt-20">
         <div className="grid grid-cols-1 sm:mt-16 sm:grid-cols-2 sm:items-center sm:gap-16 md:justify-between">
           <div>

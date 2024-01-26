@@ -8,7 +8,7 @@ import Container from '../../ui/Container';
 const Header: React.FC<HeaderProps> = (props) => {
   return (
     <header className="relative z-50 w-full lg:fixed lg:top-0 lg:min-h-[80px] lg:bg-white lg:pt-[60px]">
-      <Wrapper element="div">
+      <Wrapper element="div" className="mt-5">
         <Container
           variant="section"
           className="flex items-center justify-between"
