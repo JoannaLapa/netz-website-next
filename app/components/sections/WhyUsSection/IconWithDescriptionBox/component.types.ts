@@ -1,7 +1,5 @@
 type IconWithDescriptionBoxProps = {
-    width: number;
-    height: number;
-    src: string;
+    children: React.ReactNode;
     boxNr: number;
 };
 

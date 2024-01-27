@@ -5,6 +5,9 @@ import Heading from '../../ui/Heading';
 import Image from 'next/image';
 import { WhyUsSectionProps } from './index';
 import IconWithDescriptionBox from './IconWithDescriptionBox/component';
+import Truck from '../../icons/Truck/Truck';
+import Insurance from '../../icons/Truck/Insurance';
+import Licences from '../../icons/Truck/Licences';
 
 const currentYear = new Date().getFullYear();
 const startYear = 2015;
@@ -13,21 +16,15 @@ const experience = currentYear - startYear;
 const boxes = [
   {
     boxNr: 0,
-    src: '/assets/grid_01.svg',
-    width: 158,
-    height: 71,
+   children: <Truck />,
   },
   {
     boxNr: 1,
-    src: '/assets/grid_02.svg',
-    width: 61,
-    height: 63,
+    children: <Insurance />,
   },
   {
     boxNr: 2,
-    src: '/assets/grid_03.svg',
-    width: 72,
-    height: 71,
+    children: <Licences />,
   },
 ];
 
@@ -54,7 +51,7 @@ const WhyUsSection: React.FC<WhyUsSectionProps> = (props) => {
           </div>
           <div className='flex flex-col gap-8'>
             {boxes.map((box) => (
-              <IconWithDescriptionBox key={box.src} {...box} />
+              <IconWithDescriptionBox key={box.boxNr} {...box} />
             ))}
           </div>
         </div>
