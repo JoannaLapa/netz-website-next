@@ -41,6 +41,10 @@ module.exports = {
       },
       animation: {
         'change-opacity': 'changeOpacity 3s linear',
+        'fill-opacity': 'fillOpacity 9s 1s linear infinite',
+        'fill-opacity-2': 'fillOpacity 7s 3s linear infinite',
+        'fill-opacity-3': 'fillOpacity 5s 5s linear infinite',
+        'fill-opacity-4': 'fillOpacity 3s 7s linear infinite',
       },
     },
   },
