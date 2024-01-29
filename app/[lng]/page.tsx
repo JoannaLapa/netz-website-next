@@ -4,9 +4,13 @@ import Header from '../components/sections/Header/index';
 import HeroSlider from '../components/sections/HeroSlider/index';
 import BoxImageSection from '../components/sections/BoxImageSection';
 import WhyUsSection from '../components/sections/WhyUsSection';
+import NumberedSection from '../components/sections/NumberedSection/component';
 
-const slides = [0, 1, 2];
-const links = [{href: '#contactForm'}, {href: '#aboutUs'},{href: '#contact'}];
+const links = [
+  { href: '#contactForm' },
+  { href: '#aboutUs' },
+  { href: '#contact' },
+];
 
 export default async function Page({
   params: { lng },
@@ -22,15 +26,29 @@ export default async function Page({
     <>
       <Header lng={lng} />
       <main className="pt-5 lg:pt-[174px]">
-        <HeroSlider slides={slides} skipLink={t('sliderSkipLink')} links={links} />
+        <HeroSlider
+          slides={[1, 2, 3]}
+          skipLink={t('sliderSkipLink')}
+          links={links}
+        />
         <BoxImageSection
           title={t('aboutUsTitle')}
           accentText={t('aboutUsAccentText')}
           description={t('aboutUsDescription')}
           alt={t('aboutUsImageAlt')}
-          id='aboutUs'
+          id="aboutUs"
         />
-        <WhyUsSection title={t("whyUsTitle")} accentText={t('whyUsAccentText')} experienceSuffix={t('experienceSuffix')} />
+        <WhyUsSection
+          title={t('whyUsTitle')}
+          accentText={t('whyUsAccentText')}
+          experienceSuffix={t('experienceSuffix')}
+        />
+
+        <NumberedSection
+          title={t('offerTitle')}
+          accentText={t('offerAccentText')}
+          numberedBoxes={[1, 2, 3]}
+        />
       </main>
     </>
   );

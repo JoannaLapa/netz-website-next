@@ -6,6 +6,12 @@ import HeroSlider from './index';
 
 const slides = [1, 2, 3];
 
+const links = [
+  { href: '#contactForm' },
+  { href: '#aboutUs' },
+  { href: '#contact' },
+];
+
 //Translations mock
 i18n.use(initReactI18next).init({
     lng: 'en',
@@ -27,7 +33,7 @@ i18n.use(initReactI18next).init({
 
 test('renders correctly', () => {
  
-  const { getByLabelText } = render(<HeroSlider slides={slides} skipLink='Skip slider'/>);
+  const { getByLabelText } = render(<HeroSlider slides={slides} skipLink='Skip slider' links={links}/>);
 
   //check if all elements are rendered
   slides.forEach((slide, index) => {
@@ -36,7 +42,7 @@ test('renders correctly', () => {
 });
 
 test('changes slide on button click', () => {
-  const { getByLabelText, getByTestId } = render(<HeroSlider slides={slides} skipLink='Skip slider'/>);
+  const { getByLabelText, getByTestId } = render(<HeroSlider slides={slides} skipLink='Skip slider' links={links}/>);
 
   fireEvent.click(getByLabelText('Go to slide nr 2'));
 
