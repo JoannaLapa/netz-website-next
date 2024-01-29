@@ -20,6 +20,7 @@ const Slide: React.FC<SlideProps> = (props) => {
       {props.buttonTitle && (
         <Button
           title={props.buttonTitle}
+          link={props.link}
           styles="mb-[6.25rem] sm:mb-[6.75rem]"
         />
       )}

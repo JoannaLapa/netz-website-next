@@ -3,6 +3,7 @@ type WrapperProps = {
   element: 'div' | 'section';
   className?: string;
   padding?: boolean;
+  id?: string;
 };
 
 export type { WrapperProps };

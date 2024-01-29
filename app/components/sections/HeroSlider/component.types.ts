@@ -1,7 +1,8 @@
-import { SlideProps } from "./Slide/component.types";
+import { LinkProps } from "../../ui/Button/index";
 type HeroSliderProps = {
   skipLink: string;
   slides: number[];
+  links: LinkProps[];
 };
 
 export type { HeroSliderProps };

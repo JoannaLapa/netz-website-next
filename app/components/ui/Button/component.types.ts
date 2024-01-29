@@ -12,4 +12,4 @@ type LinkProps = {
   href: string | UrlObject;
 };
 
-export type { ButtonProps };
+export type { ButtonProps, LinkProps };

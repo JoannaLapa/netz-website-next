@@ -8,6 +8,7 @@ const Wrapper: React.FC<WrapperProps> = (props) => {
         `relative mx-5 h-full w-full px-[10%] ${props.padding && 'py-9'}`,
         props.className,
       )}
+      id={props.id}
     >
       {props.children}
     </props.element>

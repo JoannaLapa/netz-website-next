@@ -1,4 +1,4 @@
 import Button from './component';
-import { ButtonProps } from './component.types';
+import { ButtonProps, LinkProps } from './component.types';
 export default Button;
-export type { ButtonProps };
+export type { ButtonProps, LinkProps };

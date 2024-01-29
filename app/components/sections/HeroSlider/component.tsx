@@ -37,6 +37,7 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
                 decorator={`0${index + 1}`}
                 buttonTitle={t(`slideButtonTitle${index}`)}
                 visible={index === currentIndex}
+                link={props.links[index]}
               />
             </div>
           ))}
