@@ -1,9 +1,7 @@
-import { NumberedBoxProps } from './NumberedBox/component.types';
-
 type NumberedSectionProps = {
   title: string;
   accentText: string;
-  numberedboxes: number[];
+  numberedBoxes: number[];
 };
 
 export type { NumberedSectionProps };
