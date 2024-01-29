@@ -33,5 +33,21 @@
       "accentText": "Genehmigungen und Lizenzen"
     }
   ],
+  "offerTitle": "Entdecken Sie ",
+  "offerAccentText": "unsere Dienstleistungen ",
+  "numberedBoxes": [
+    {
+        "title": "Lokaler und europäischer Transport",
+        "description": "Verladung, Entladung und umfassende Frachtpflege"
+    },
+    {
+        "title": "Umfassende Fahrzeugausstattung",
+        "description": "Aufzüge, Gabelstapler usw."
+    },
+    {
+        "title": "Lagerhäuser",
+        "description": "Lagerung, Sicherung und Verpackung von Gütern"
+    }
+],
   "experienceSuffix": " Jahre Erfahrung"
 }

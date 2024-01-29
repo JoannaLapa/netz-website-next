@@ -33,5 +33,21 @@
       "accentText": "pozwolenia i licencje"
     }
   ],
+  "offerTitle": "Poznaj ",
+  "offerAccentText": "naszą ofertę",
+  "numberedBoxes": [
+{
+  "title": "Transport lokalny i na terenie całej Europy",
+  "description": "Załadunek i rozładunek oraz kompleksowa opieka spedycyjna"
+},
+{
+  "title": "Kompleksowe wyposażenie pojazdów",
+  "description": "Windy, wózki podnośnikowe itp."
+},
+{
+  "title": "Magazyny",
+  "description": "Przechowywanie,zabezpieczenie i pakowanie towaru"
+}
+  ],
   "experienceSuffix": " lat doświadczenia"
 }

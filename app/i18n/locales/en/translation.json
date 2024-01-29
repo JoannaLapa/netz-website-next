@@ -33,5 +33,21 @@
       "accentText": "permits and licenses"
     }
   ],
+  "offerTitle": "Explore ",
+  "offerAccentText": "our services",
+  "numberedBoxes": [
+    {
+        "title": "Local and European Transport",
+        "description": "Loading, unloading, and comprehensive freight care"
+    },
+    {
+        "title": "Comprehensive Vehicle Equipment",
+        "description": "Elevators, forklifts, etc."
+    },
+    {
+        "title": "Warehouses",
+        "description": "Storage, securing, and packaging of goods"
+    }
+],
   "experienceSuffix": " years of experience"
 }
