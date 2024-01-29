@@ -1,5 +1,5 @@
 import { NumberedSectionProps } from './component.types';
-import NumberedBox from './NumberedBox/component';
+import NumberedSection from './component';
 
 export type { NumberedSectionProps };
-export default NumberedBox;
+export default NumberedSection;
