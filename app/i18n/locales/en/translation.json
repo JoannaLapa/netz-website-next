@@ -6,7 +6,7 @@
   "openMenu": "Open menu",
   "slideTitle0": "PROFESSIONAL TRANSPORT AND FREIGHT SERVICES",
   "slideTitle1": "COOPERATION BASED ON RELATIONSHIPS AND TRUST",
-  "slideTitle2":  "CONTACT 24 HOURS A DAY.",
+  "slideTitle2": "CONTACT 24 HOURS A DAY.",
   "sliderSkipLink": "Skip the carousel and go to the Who We Are section",
   "slideButtonTitle0": "Ask For a Quote",
   "slideButtonTitle1": "Learn more",
@@ -16,5 +16,22 @@
   "aboutUsDescription": "Our goal is to achieve high customer satisfaction. We focus on building long-lasting relationships based on cooperation and trust. Quality matters to us more than the quantity of completed transports. \n With us, your goods arrive quickly and safely at their destination. We meticulously monitor the entire process and keep you informed about the progress of the transport. \n We are at your disposal 24 hours a day, 7 days a week, 365 days a year. \n Thank you for your trust!",
   "aboutUsImageAlt": "Photo of the founder of the company, Anita Surma. Blonde-haired woman wearing glasses.",
   "metaTitle": "Global Freight Forwarding Services | Reliable International Logistics Solutions",
-  "content": "Explore our top-notch international freight forwarding services for seamless global logistics solutions. Trust our expertise in efficient cargo transportation and international shipping. Contact us for reliable freight forwarding services worldwide."
+  "content": "Explore our top-notch international freight forwarding services for seamless global logistics solutions. Trust our expertise in efficient cargo transportation and international shipping. Contact us for reliable freight forwarding services worldwide.",
+  "whyUsTitle": "Why are you ",
+  "whyUsAccentText": "specifically looking for us",
+  "boxes": [
+    {
+      "title": "Expanded ",
+      "accentText": "database of trusted carriers"
+    },
+    {
+      "title": "Insurance for every transport up to ",
+      "accentText": "300,000 euros"
+    },
+    {
+      "title": "All necessary ",
+      "accentText": "permits and licenses"
+    }
+  ],
+  "experienceSuffix": " years of experience"
 }

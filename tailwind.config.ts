@@ -21,7 +21,7 @@ module.exports = {
         xs: '0.75rem', // 12px
         s: '0.875rem', // 14x
         base: '1rem', // 16px
-        md: '1.125rem', // 18px
+        md: '1.125rem', // 21px
         lg: '1.5rem', // 24px
         xl: '2rem', // 32px
         '2xl': '2.25rem', // 36px
@@ -41,6 +41,10 @@ module.exports = {
       },
       animation: {
         'change-opacity': 'changeOpacity 3s linear',
+        'fill-opacity': 'fillOpacity 9s 1s linear infinite',
+        'fill-opacity-2': 'fillOpacity 7s 3s linear infinite',
+        'fill-opacity-3': 'fillOpacity 5s 5s linear infinite',
+        'fill-opacity-4': 'fillOpacity 3s 7s linear infinite',
       },
     },
   },

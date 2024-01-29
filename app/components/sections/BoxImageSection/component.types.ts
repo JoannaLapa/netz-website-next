@@ -3,6 +3,7 @@ type BoxImageSectionProps = {
   accentText: string;
   alt: string;
   description: string;
+  id?: string;
 };
 
 export type { BoxImageSectionProps };
