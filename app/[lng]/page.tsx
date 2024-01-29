@@ -47,7 +47,7 @@ export default async function Page({
         <NumberedSection
           title={t('offerTitle')}
           accentText={t('offerAccentText')}
-          numberedboxes={[0, 1, 2]}
+          numberedBoxes={[1, 2, 3]}
         />
       </main>
     </>
