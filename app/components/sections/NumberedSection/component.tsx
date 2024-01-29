@@ -2,7 +2,8 @@ import Image from 'next/image';
 import Container from '../../ui/Container';
 import Heading from '../../ui/Heading';
 import Wrapper from '../../ui/Wrapper';
-import NumberedBox, { NumberedSectionProps } from './index';
+import NumberedBox from './NumberedBox/component';
+import { NumberedSectionProps } from './index';
 
 const NumberedSection: React.FC<NumberedSectionProps> = (props) => {
   return (
@@ -12,11 +13,11 @@ const NumberedSection: React.FC<NumberedSectionProps> = (props) => {
           <Heading title={props.title} accentText={props.accentText} />
 
           <div className="mt-9 flex flex-col gap-4 md:flex-row">
-            {props.numberedboxes.map((box, index) => {
+            {props.numberedBoxes.map((box, index) => {
               return (
                 <NumberedBox
-                  key={index}
-                  decorator={`0${index + 1}`}
+                  key={box}
+                  decorator={`0${box}`}
                   boxNr={index}
                 />
               );
