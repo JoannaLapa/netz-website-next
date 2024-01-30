@@ -19,6 +19,7 @@
   "content": "Explore our top-notch international freight forwarding services for seamless global logistics solutions. Trust our expertise in efficient cargo transportation and international shipping. Contact us for reliable freight forwarding services worldwide.",
   "whyUsTitle": "Why are you ",
   "whyUsAccentText": "specifically looking for us",
+  "experienceSuffix": " years of experience",
   "boxes": [
     {
       "title": "Expanded ",
@@ -37,17 +38,27 @@
   "offerAccentText": "our services",
   "numberedBoxes": [
     {
-        "title": "Local and European Transport",
-        "description": "Loading, unloading, and comprehensive freight care"
+      "title": "Local and European Transport",
+      "description": "Loading, unloading, and comprehensive freight care"
     },
     {
-        "title": "Comprehensive Vehicle Equipment",
-        "description": "Elevators, forklifts, etc."
+      "title": "Comprehensive Vehicle Equipment",
+      "description": "Elevators, forklifts, etc."
     },
     {
-        "title": "Warehouses",
-        "description": "Storage, securing, and packaging of goods"
+      "title": "Warehouses",
+      "description": "Storage, securing, and packaging of goods"
     }
-],
-  "experienceSuffix": " years of experience"
+  ],
+  "fleetTitle": "at our disposal",
+  "accentText": "Vehicles ",
+  "listTitle": "We have vehicles of various dimensions and permissible weight:",
+  "fleetList": [
+    "Up to 3.5 tons DMC curtain van: 10000 kg load capacity, 10 Euro pallets, loading space dimensions are 490x220x220 cm;",
+    "Up to 3.5 tons DMC box van: 1000 kg load capacity, 8 Euro pallets, loading space dimensions are 420x220x220 cm;",
+    "Up to 3.5 tons DMC van with a tail lift and transpallet: 1000 kg load capacity, 8 Euro pallets, loading space dimensions are 420x220x220 cm;",
+    "Up to 3.5 tons DMC frigo: 900 kg load capacity, 8 Euro pallets, loading space dimensions are 420x220x220 cm;",
+    "Up to 7.5 tons DMC : 3500 kg load capacity, 18 Euro pallets, loading space dimensions are 700x240x250 cm;",
+    "Up to 40 tons DMC: 24000 kg load capacity, 34 Euro pallets, loading space dimensions are 1360x245x300 cm;"
+  ]
 }
