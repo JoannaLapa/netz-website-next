@@ -32,7 +32,7 @@ const WhyUsSection: React.FC<WhyUsSectionProps> = (props) => {
   return (
     <Wrapper element="section">
       <Container variant="section" className='sm:mt-20 md:mt-0'>
-        <Heading title={props.title} accentText={props.accentText} />
+        <Heading title={props.title} accentText={props.accentText} accentPosition='right'/>
         <div className='mt-20 grid justify-center sm:grid-cols-2 sm:items-center'>
           <div className='relative flex h-fit max-w-[246px] justify-center'>
             <h3 className="font-robotoSlab p-8 text-[200px] leading-[52px] text-neutral-400 sm:text-[250px] md:text-[300px]">
