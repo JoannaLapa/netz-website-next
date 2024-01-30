@@ -30,8 +30,8 @@ const boxes = [
 
 const WhyUsSection: React.FC<WhyUsSectionProps> = (props) => {
   return (
-    <Wrapper element="section">
-      <Container variant="section" className='sm:mt-20 md:mt-0'>
+    <Wrapper element="section" className='py-9 md:py-0 md:pb-9'>
+      <Container variant="section">
         <Heading title={props.title} accentText={props.accentText} accentPosition='right'/>
         <div className='mt-20 grid justify-center sm:grid-cols-2 sm:items-center'>
           <div className='relative flex h-fit max-w-[246px] justify-center'>

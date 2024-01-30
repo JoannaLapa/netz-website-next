@@ -9,7 +9,7 @@ const NumberedSection: React.FC<NumberedSectionProps> = (props) => {
   return (
     <>
       <Wrapper element="section" padding>
-        <Container variant="section" className="mt-20">
+        <Container variant="section">
           <Heading title={props.title} accentText={props.accentText} accentPosition='right'/>
 
           <div className="mt-9 flex flex-col gap-4 md:flex-row">

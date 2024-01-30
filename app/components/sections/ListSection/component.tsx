@@ -1,5 +1,4 @@
 /* eslint-disable tailwindcss/no-custom-classname */
-'use client';
 
 import Container from '../../ui/Container';
 import Heading from '../../ui/Heading';
@@ -12,7 +11,7 @@ const ListSection: React.FC<ListSectionProps> = (props) => {
 
   return (
     <Wrapper element="section" padding>
-      <Container variant="section" className="mt-20 flex flex-col gap-9">
+      <Container variant="section" className="flex flex-col gap-9">
         <Heading
           title={props.title}
           accentText={props.accentText}
