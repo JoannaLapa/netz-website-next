@@ -13,7 +13,7 @@ const BoxImageSection: React.FC<BoxImageSectionProps> = (props) => {
         <Container variant="section" className="mt-20">
           <div className="grid grid-cols-1 sm:mt-16 sm:grid-cols-2 sm:items-center sm:gap-16 md:justify-between">
             <div>
-              <Heading title={props.title} accentText={props.accentText} />
+              <Heading title={props.title} accentText={props.accentText} accentPosition='right'/>
 
               <p
                 className="mt-9 max-w-[362px] text-base font-light text-neutral-300 sm:mt-8 sm:max-w-full sm:text-base lg:max-w-[500px] lg:text-[21px]"
