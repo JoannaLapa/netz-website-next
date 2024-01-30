@@ -54,11 +54,11 @@
   "accentText": "Vehicles ",
   "listTitle": "We have vehicles of various dimensions and permissible weight:",
   "fleetList": [
-    "Up to 3.5 tons DMC curtain van: 10000 kg load capacity, 10 Euro pallets, loading space dimensions are 490x220x220 cm;",
+    "Up to 3.5 tons DMC curtain van: 1000 kg load capacity, 10 Euro pallets, loading space dimensions are 490x220x220 cm;",
     "Up to 3.5 tons DMC box van: 1000 kg load capacity, 8 Euro pallets, loading space dimensions are 420x220x220 cm;",
     "Up to 3.5 tons DMC van with a tail lift and transpallet: 1000 kg load capacity, 8 Euro pallets, loading space dimensions are 420x220x220 cm;",
-    "Up to 3.5 tons DMC frigo: 900 kg load capacity, 8 Euro pallets, loading space dimensions are 420x220x220 cm;",
-    "Up to 7.5 tons DMC : 3500 kg load capacity, 18 Euro pallets, loading space dimensions are 700x240x250 cm;",
-    "Up to 40 tons DMC: 24000 kg load capacity, 34 Euro pallets, loading space dimensions are 1360x245x300 cm;"
+    "Up to 3.5 tons DMC refrigerated (frigo) van: 900 kg load capacity, 8 Euro pallets, loading space dimensions are 420x220x220 cm;",
+    "Up to 7.5 tons DMC curtain truck: 3500 kg load capacity, 18 Euro pallets, loading space dimensions are 700x240x250 cm;",
+    "Up to 40 tons DMC curtain semi-trailer: 24000 kg load capacity, 33 Euro pallets, loading space dimensions are 1360x245x300 cm;"
   ]
 }

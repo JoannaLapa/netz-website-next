@@ -54,11 +54,11 @@
   "accentText": "Fahrzeuge, ",
   "listTitle": "Wir verfügen über Fahrzeuge unterschiedlicher Abmessungen und zulässigem Gewicht:",
   "fleetList": [
-   "do 3.5 tony DMC plandeka: 10000 kg ładowności, 10 europalet, wymiary paki ładunkowej to 490x220x220 cm;",
- "do 3,5 tny DMC sztywna zabudowa: 1000 kg ładowności, 8 europlaet, wymiary paki ładunkowej to 420x220x220 cm;",
-"do 3,5 tony DMC z windą: 1000 kg ładowności, 8 europalet, wymiary paki ładunkowej to 420x220x220 cm;",
-"do 3,5 tony DMC chłodnia: 900 kg ładowności, 8 europalet, wymiary paki ładunkowej to 420x220x220 cm;",
-"do 7,5 tony DMC: 3500 kg ładowności, 18 europalet, wymiary paki ładunkowej to 700x240x250 cm;",
-"do 40 ton DMC: 24000 kg ładowności, 34 europalety, wymiary paki ładunkowej to 1360x245x300 cm;"
-  ]
+    "Bis zu 3,5 Tonnen DMC Planenbus: 1000 kg Ladekapazität, 10 Euro-Paletten, Laderaumabmessungen sind 490x220x220 cm;",
+    "Bis zu 3,5 Tonnen DMC Koffer-LKW: 1000 kg Ladekapazität, 8 Euro-Paletten, Laderaumabmessungen sind 420x220x220 cm;",
+    "Bis zu 3,5 Tonnen DMC Planenbus mit Hebebühne und Hubwagen: 1000 kg Ladekapazität, 8 Euro-Paletten, Laderaumabmessungen sind 420x220x220 cm;",
+    "Bis zu 3,5 Tonnen DMC Kühllastwagen: 900 kg Ladekapazität, 8 Euro-Paletten, Laderaumabmessungen sind 420x220x220 cm;",
+    "Bis zu 7,5 Tonnen DMC: 3500 kg Ladekapazität, 18 Euro-Paletten, Laderaumabmessungen sind 700x240x250 cm;",
+    "Bis zu 40 Tonnen DMC LKW: 24000 kg Ladekapazität, 33 Euro-Paletten, Laderaumabmessungen sind 1360x245x300 cm;"
+    ]
 }
