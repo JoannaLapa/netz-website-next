@@ -29,7 +29,8 @@ export default async function Page({
       <main className="pt-5 lg:pt-[174px]">
         <HeroSlider
           slides={[1, 2, 3]}
-          skipLink={t('sliderSkipLink')}
+          skipLinkContent={t('sliderSkipLink')}
+          skipLink="#aboutUs"
           links={links}
         />
         <BoxImageSection
@@ -53,7 +54,7 @@ export default async function Page({
         <ListSection
           title={t('fleetTitle')}
           accentText={t('accentText')}
-          content='fleetList'
+          content="fleetList"
           index={6}
           listTitle={t('listTitle')}
         />
