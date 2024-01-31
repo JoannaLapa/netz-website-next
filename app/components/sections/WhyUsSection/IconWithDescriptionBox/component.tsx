@@ -12,7 +12,7 @@ const IconWithDescriptionBox: React.FC<IconWithDescriptionBoxProps> = (
   return (
     <div className="flex flex-col items-center justify-center gap-5 text-center">
       {props.children}
-      <h4 className="text-md max-w-[180px] font-light text-neutral-400 sm:max-w-[220px] lg:text-lg">
+      <h4 className="max-w-[180px] text-md font-light text-neutral-400 sm:max-w-[220px] lg:text-lg">
         {t(`boxes.${props.boxNr}.title`)}
         <span className="font-medium">
           {t(`boxes.${props.boxNr}.accentText`)}

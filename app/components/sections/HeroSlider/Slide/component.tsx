@@ -11,7 +11,7 @@ const Slide: React.FC<SlideProps> = (props) => {
           {props.title}
         </props.tag>
         <span
-          className={`text-neutral-150 font-robotoSlab absolute right-5 top-0 text-end text-[15.625rem] font-medium leading-[15.625rem] ${
+          className={`text-neutral-150 absolute right-5 top-0 text-end font-robotoSlab text-[15.625rem] font-medium leading-[15.625rem] ${
             props.visible ? 'animate-change-opacity opacity-10' : 'opacity-0'
           } sm:text-[31.25rem] sm:leading-[23.75rem]`}
         >
