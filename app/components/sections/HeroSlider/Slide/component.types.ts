@@ -1,4 +1,4 @@
-import { LinkProps } from '../../../ui/Button/index'
+import { LinkProps } from '../../../ui/Button/index';
 
 type SlideProps = {
   tag: 'h1' | 'p';

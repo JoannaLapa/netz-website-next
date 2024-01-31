@@ -55,7 +55,7 @@ const AccordionList: React.FC<AccordionListProps> = (props) => {
           >
             <Link
               href={`/${l}`}
-              className="md:text-md pl-8 text-sm uppercase leading-6"
+              className="pl-8 text-sm uppercase leading-6 md:text-md"
             >
               {l}
             </Link>

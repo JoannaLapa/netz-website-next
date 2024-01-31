@@ -45,14 +45,14 @@ const BoxImageSection: React.FC<BoxImageSectionProps> = (props) => {
           </div>
         </Container>
       </Wrapper>
-        <Image
-          src="/assets/ornament_1.svg"
-          width={130}
-          height={211}
-          alt=""
-          aria-hidden="true"
-          className="hidden md:block"
-        />
+      <Image
+        src="/assets/ornament_1.svg"
+        width={130}
+        height={211}
+        alt=""
+        aria-hidden="true"
+        className="hidden md:block"
+      />
     </>
   );
 };

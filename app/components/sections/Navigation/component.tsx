@@ -4,7 +4,7 @@ import * as React from 'react';
 import { motion, useCycle } from 'framer-motion';
 import NavList from './NavList/component';
 import MenuToggle from './MenuToggle/component';
-import { NavigationProps } from './component.types';
+import { NavigationProps } from './index';
 import { useTranslation } from '../../../i18n/client';
 const sidebar = {
   open: {

@@ -16,7 +16,7 @@ const experience = currentYear - startYear;
 const boxes = [
   {
     boxNr: 0,
-   children: <Truck />,
+    children: <Truck />,
   },
   {
     boxNr: 1,
@@ -30,15 +30,21 @@ const boxes = [
 
 const WhyUsSection: React.FC<WhyUsSectionProps> = (props) => {
   return (
-    <Wrapper element="section" className='py-9 md:py-0 md:pb-9'>
+    <Wrapper element="section" className="py-9 md:py-0 md:pb-9">
       <Container variant="section">
-        <Heading title={props.title} accentText={props.accentText} accentPosition='right'/>
-        <div className='mt-20 grid justify-center sm:grid-cols-2 sm:items-center'>
-          <div className='relative flex h-fit max-w-[246px] justify-center'>
+        <Heading
+          title={props.title}
+          accentText={props.accentText}
+          accentPosition="right"
+        />
+        <div className="mt-20 grid justify-center sm:grid-cols-2 sm:items-center">
+          <div className="relative flex h-fit max-w-[246px] justify-center">
             <h3 className="font-robotoSlab p-8 text-[200px] leading-[52px] text-neutral-400 sm:text-[250px] md:text-[300px]">
-              {experience} 
-              <br /> 
-              <span className='text-md font-robotoCondensed lg:text-[24px]'>{props.experienceSuffix}</span>
+              {experience}
+              <br />
+              <span className="font-robotoCondensed text-md lg:text-[24px]">
+                {props.experienceSuffix}
+              </span>
             </h3>
             <Image
               src="/assets/grid_04.svg"
@@ -46,10 +52,10 @@ const WhyUsSection: React.FC<WhyUsSectionProps> = (props) => {
               height={120}
               alt=""
               aria-hidden="true"
-              className='absolute top-[22%] max-w-[90%] -rotate-12'
+              className="absolute top-[22%] max-w-[90%] -rotate-12"
             />
           </div>
-          <div className='flex flex-col gap-8'>
+          <div className="flex flex-col gap-8">
             {boxes.map((box) => (
               <IconWithDescriptionBox key={box.boxNr} {...box} />
             ))}
