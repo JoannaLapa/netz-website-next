@@ -17,12 +17,12 @@ const CTSsection: React.FC<CTAsectionProps> = (props) => {
           <p>{props.description}</p>
 
           <form>
-            <input type="text"/>
-            <input type="text"/>
-            <input type="email"/>
+            <input type="text" />
+            <input type="text" />
+            <input type="email" />
             <textarea />
-            <input type='checkbox' />
-            <Button type="submit" title={props.buttonTitle}/>
+            <input type="checkbox" />
+            <Button type="submit" title={props.buttonTitle} />
           </form>
         </div>
       </Container>

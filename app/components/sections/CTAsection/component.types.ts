@@ -3,7 +3,6 @@ type CTAsectionProps = {
   accentText: string;
   description: string;
   buttonTitle: string;
-  
 };
 
 export type { CTAsectionProps };

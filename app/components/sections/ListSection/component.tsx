@@ -15,7 +15,7 @@ const ListSection: React.FC<ListSectionProps> = (props) => {
           accentText={props.accentText}
           accentPosition="left"
         />
-        <ul className="text-md flex flex-col gap-2 font-bold text-neutral-400">
+        <ul className="flex flex-col gap-2 text-md font-bold text-neutral-400">
           {props.listTitle}
           {array.map((_, index) => (
             <ListItem key={index} content={props.content} index={index} />

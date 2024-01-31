@@ -13,7 +13,7 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const { t, i18n } = useTranslation();
   return (
-    <Wrapper element="div" variant="section" >
+    <Wrapper element="div" variant="section">
       <Container variant="section" className="relative">
         {/* todo: check if it works correctly when tab is used */}
         <Link
