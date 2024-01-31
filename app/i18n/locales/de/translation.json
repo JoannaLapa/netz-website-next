@@ -19,6 +19,7 @@
   "content": "Erkunden Sie unsere erstklassigen internationalen Speditionsdienstleistungen für nahtlose globale Logistiklösungen. Vertrauen Sie unserer Expertise im effizienten Transport von Frachtgütern und internationalem Versand. Kontaktieren Sie uns für zuverlässige Speditionsdienstleistungen weltweit.",
   "whyUsTitle": "Warum suchst du ",
   "whyUsAccentText": "ausgerechnet uns?",
+  "experienceSuffix": " Jahre Erfahrung",
   "boxes": [
     {
       "title": "Erweiterte ",
@@ -37,17 +38,27 @@
   "offerAccentText": "unsere Dienstleistungen ",
   "numberedBoxes": [
     {
-        "title": "Lokaler und europäischer Transport",
-        "description": "Verladung, Entladung und umfassende Frachtpflege"
+      "title": "Lokaler und europäischer Transport",
+      "description": "Verladung, Entladung und umfassende Frachtpflege"
     },
     {
-        "title": "Umfassende Fahrzeugausstattung",
-        "description": "Aufzüge, Gabelstapler usw."
+      "title": "Umfassende Fahrzeugausstattung",
+      "description": "Aufzüge, Gabelstapler usw."
     },
     {
-        "title": "Lagerhäuser",
-        "description": "Lagerung, Sicherung und Verpackung von Gütern"
+      "title": "Lagerhäuser",
+      "description": "Lagerung, Sicherung und Verpackung von Gütern"
     }
-],
-  "experienceSuffix": " Jahre Erfahrung"
+  ],
+  "fleetTitle": "über die wir verfügen",
+  "accentText": "Fahrzeuge, ",
+  "listTitle": "Wir verfügen über Fahrzeuge unterschiedlicher Abmessungen und zulässigem Gewicht:",
+  "fleetList": [
+    "Bis zu 3,5 Tonnen DMC Planenbus: 1000 kg Ladekapazität, 10 Euro-Paletten, Laderaumabmessungen sind 490x220x220 cm;",
+    "Bis zu 3,5 Tonnen DMC Koffer-LKW: 1000 kg Ladekapazität, 8 Euro-Paletten, Laderaumabmessungen sind 420x220x220 cm;",
+    "Bis zu 3,5 Tonnen DMC Planenbus mit Hebebühne und Hubwagen: 1000 kg Ladekapazität, 8 Euro-Paletten, Laderaumabmessungen sind 420x220x220 cm;",
+    "Bis zu 3,5 Tonnen DMC Kühllastwagen: 900 kg Ladekapazität, 8 Euro-Paletten, Laderaumabmessungen sind 420x220x220 cm;",
+    "Bis zu 7,5 Tonnen DMC: 3500 kg Ladekapazität, 18 Euro-Paletten, Laderaumabmessungen sind 700x240x250 cm;",
+    "Bis zu 40 Tonnen DMC LKW: 24000 kg Ladekapazität, 33 Euro-Paletten, Laderaumabmessungen sind 1360x245x300 cm;"
+  ]
 }

@@ -5,6 +5,7 @@ import HeroSlider from '../components/sections/HeroSlider/index';
 import BoxImageSection from '../components/sections/BoxImageSection';
 import WhyUsSection from '../components/sections/WhyUsSection';
 import NumberedSection from '../components/sections/NumberedSection/component';
+import ListSection from '../components/sections/ListSection';
 
 const links = [
   { href: '#contactForm' },
@@ -28,7 +29,8 @@ export default async function Page({
       <main className="pt-5 lg:pt-[174px]">
         <HeroSlider
           slides={[1, 2, 3]}
-          skipLink={t('sliderSkipLink')}
+          skipLinkContent={t('sliderSkipLink')}
+          skipLink="#aboutUs"
           links={links}
         />
         <BoxImageSection
@@ -48,6 +50,13 @@ export default async function Page({
           title={t('offerTitle')}
           accentText={t('offerAccentText')}
           numberedBoxes={[1, 2, 3]}
+        />
+        <ListSection
+          title={t('fleetTitle')}
+          accentText={t('accentText')}
+          content="fleetList"
+          index={6}
+          listTitle={t('listTitle')}
         />
       </main>
     </>

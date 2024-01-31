@@ -18,7 +18,11 @@ const Button: React.FC<ButtonProps> = (props) => {
   }
 
   return (
-    <button className={`${twMerge(className, props.styles)}`} onClick={props.onClick} type={props.type}>
+    <button
+      className={`${twMerge(className, props.styles)}`}
+      onClick={props.onClick}
+      type={props.type}
+    >
       {props.title}
     </button>
   );

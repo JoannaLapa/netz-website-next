@@ -19,6 +19,7 @@
   "content": "Odkryj nasze najwyższej jakości międzynarodowe usługi spedycji dla globalnych rozwiązań logistycznych. Zaufaj naszej ekspertyzie w efektywnym transporcie międzynarodowym towarów. Skontaktuj się z nami w celu uzyskania solidnych usług spedycyjnych na całym świecie.",
   "whyUsTitle": "Dlaczego szukasz ",
   "whyUsAccentText": "własnie nas?",
+  "experienceSuffix": " lat doświadczenia",
   "boxes": [
     {
       "title": "Rozbudowana ",
@@ -36,18 +37,28 @@
   "offerTitle": "Poznaj ",
   "offerAccentText": "naszą ofertę",
   "numberedBoxes": [
-{
-  "title": "Transport lokalny i na terenie całej Europy",
-  "description": "Załadunek i rozładunek oraz kompleksowa opieka spedycyjna"
-},
-{
-  "title": "Kompleksowe wyposażenie pojazdów",
-  "description": "Windy, wózki podnośnikowe itp."
-},
-{
-  "title": "Magazyny",
-  "description": "Przechowywanie,zabezpieczenie i pakowanie towaru"
-}
+    {
+      "title": "Transport lokalny i na terenie całej Europy",
+      "description": "Załadunek i rozładunek oraz kompleksowa opieka spedycyjna"
+    },
+    {
+      "title": "Kompleksowe wyposażenie pojazdów",
+      "description": "Windy, wózki podnośnikowe itp."
+    },
+    {
+      "title": "Magazyny",
+      "description": "Przechowywanie,zabezpieczenie i pakowanie towaru"
+    }
   ],
-  "experienceSuffix": " lat doświadczenia"
+  "fleetTitle": "jakimi dysponujemy",
+  "accentText": "Pojazdy ",
+  "listTitle": "Dysponujemy pojazdami o różnnych gabarytach oraz dopuszczalnej masie:",
+  "fleetList": [
+    "do 3.5 tony DMC plandeka: 1000 kg ładowności, 10 europalet, wymiary paki ładunkowej to 490x220x220 cm;",
+    "do 3,5 tny DMC sztywna zabudowa: 1000 kg ładowności, 8 europlaet, wymiary paki ładunkowej to 420x220x220 cm;",
+    "do 3,5 tony DMC bus plandeka z windą i paleciakiem: 1000 kg ładowności, 8 europalet, wymiary paki ładunkowej to 420x220x220 cm;",
+    "do 3,5 tony DMC chłodnia: 900 kg ładowności, 8 europalet, wymiary paki ładunkowej to 420x220x220 cm;",
+    "do 7,5 tony DMC: 3500 kg ładowności, 18 europalet, wymiary paki ładunkowej to 700x240x250 cm;",
+    "do 40 ton DMC: 24000 kg ładowności, 33 europalety, wymiary paki ładunkowej to 1360x245x300 cm;"
+  ]
 }

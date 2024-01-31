@@ -18,10 +18,10 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
       <Container variant="section" className="relative">
         {/* todo: check if it works correctly when tab is used */}
         <Link
-          href="#after-image-slider-controls"
+          href={props.skipLink}
           className="sr-only left-0 top-0 -z-50 border p-2 no-underline focus-visible:not-sr-only"
         >
-          {props.skipLink}
+          {props.skipLinkContent}
         </Link>
 
         <div className="flex w-full gap-3 overflow-hidden">

@@ -21,7 +21,7 @@ const MenuToggle: React.FC<MenuToggleProps> = (props) => (
     onClick={props.handleNav}
     className="absolute -top-1 right-5
      z-30 flex h-[44px] w-[44px] cursor-pointer items-center justify-center bg-transparent sm:hidden"
-     aria-label="Menu"
+    aria-label="Menu"
   >
     <svg width="23" height="23" viewBox="0 0 23 23" aria-hidden="true">
       <Path

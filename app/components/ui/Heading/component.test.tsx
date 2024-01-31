@@ -3,7 +3,7 @@ import Heading from './index';
 
 test('renders Heading', () => {
   const element = render(
-    <Heading title="tested title" accentText='tested accent text'/>
+    <Heading title="tested title" accentText="tested accent text" />,
   );
 
   expect(element).not.toBeNull();
