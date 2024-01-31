@@ -1,13 +1,14 @@
 import { WrapperProps } from './index';
-import { twMerge } from 'tailwind-merge';
+import { StylesWrapper } from './component.styles';
 
 const Wrapper: React.FC<WrapperProps> = (props) => {
   return (
     <props.element
-      className={twMerge(
-        `relative mx-5 h-full w-full px-[10%] ${props.padding && 'py-9'}`,
-        props.className,
-      )}
+      className={StylesWrapper({
+        variant: props.variant,
+        className: props.className,
+        padding: props.padding,
+      })}
       id={props.id}
     >
       {props.children}

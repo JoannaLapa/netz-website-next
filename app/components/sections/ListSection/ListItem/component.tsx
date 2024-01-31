@@ -1,4 +1,3 @@
-/* eslint-disable tailwindcss/no-custom-classname */
 'use client';
 
 import { useTranslation } from 'react-i18next';
@@ -9,9 +8,9 @@ const ListItem: React.FC<ListItemProps> = (props) => {
   const { t } = useTranslation();
   console.log(props.index);
   return (
-    <li className="flex gap-2 text-base font-light text-neutral-300 first:mt-4 sm:text-md">
+    <li className="sm:text-md flex gap-2 text-base font-light text-neutral-300 first:mt-4">
       {' '}
-      <BsCheck2 className="h-8 w-8 fill-primary-100" />
+      <BsCheck2 className="fill-primary-100 h-8 w-8" />
       {t(`${props.content}.${props.index}`)}
     </li>
   );

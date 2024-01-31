@@ -1,4 +1,3 @@
-/* eslint-disable tailwindcss/no-custom-classname */
 import * as React from 'react';
 import { motion } from 'framer-motion';
 import { NavItemProps } from './component.types';

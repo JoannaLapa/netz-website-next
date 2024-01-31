@@ -1,4 +1,3 @@
-/* eslint-disable tailwindcss/no-custom-classname */
 import { BoxImageSectionProps } from './index';
 import Wrapper from '../../ui/Wrapper';
 import Container from '../../ui/Container';
@@ -9,7 +8,7 @@ const BoxImageSection: React.FC<BoxImageSectionProps> = (props) => {
 
   return (
     <>
-      <Wrapper element="section" className="py-9 md:py-0 md:pt-9" id={props.id}>
+      <Wrapper element="section" className="py-9 md:py-0 md:pt-9" id={props.id} variant="section">
         <Container variant="section">
           <div className="grid grid-cols-1 sm:mt-16 sm:grid-cols-2 sm:items-center sm:gap-16 md:justify-between">
             <div>
@@ -27,7 +26,7 @@ const BoxImageSection: React.FC<BoxImageSectionProps> = (props) => {
 
             <div className="relative mt-16 flex h-fit w-fit shrink-0 grow-0 flex-col gap-1 sm:mt-0 sm:items-start">
               <div className="mr-[12%] flex justify-end sm:mt-7">
-                <div className="relative max-w-[340px] before:absolute before:right-[-12%] before:top-[-12%] before:h-full before:w-full before:border-[3px] before:border-primary-100 sm:max-w-[440px]">
+                <div className="before:border-primary-100 relative max-w-[340px] before:absolute before:right-[-12%] before:top-[-12%] before:h-full before:w-full before:border-[3px] sm:max-w-[440px]">
                   <Image
                     src="/assets/images/about-us.jpg"
                     width={880}

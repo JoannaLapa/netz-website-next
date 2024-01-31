@@ -1,4 +1,3 @@
-/* eslint-disable tailwindcss/no-custom-classname */
 'use client';
 import { useTranslation } from 'react-i18next';
 

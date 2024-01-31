@@ -1,4 +1,3 @@
-/* eslint-disable tailwindcss/no-custom-classname */
 import { motion, useCycle } from 'framer-motion';
 import Button from './Button/component';
 import AccordionList from './AccordionList/component';
