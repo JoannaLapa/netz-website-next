@@ -16,7 +16,7 @@ const NumberedSection: React.FC<NumberedSectionProps> = (props) => {
             accentPosition="right"
           />
 
-          <div className="mt-9 flex flex-col gap-4 md:flex-row">
+          <div className="flex flex-col gap-4 md:flex-row">
             {props.numberedBoxes.map((box, index) => {
               return (
                 <NumberedBox key={box} decorator={`0${box}`} boxNr={index} />

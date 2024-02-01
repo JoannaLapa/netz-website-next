@@ -9,7 +9,7 @@ const ListSection: React.FC<ListSectionProps> = (props) => {
 
   return (
     <Wrapper element="section" padding variant="section">
-      <Container variant="section" className="flex flex-col gap-9">
+      <Container variant="section" className="flex flex-col">
         <Heading
           title={props.title}
           accentText={props.accentText}
