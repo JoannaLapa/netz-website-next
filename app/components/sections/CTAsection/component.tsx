@@ -7,7 +7,13 @@ import { CTAsectionProps } from './index';
 
 const CTAsection: React.FC<CTAsectionProps> = (props) => {
   return (
-    <Wrapper element="div" padding variant="sectionBig" className="lg:px-[10%]" id="contactForm">
+    <Wrapper
+      element="div"
+      padding
+      variant="sectionBig"
+      className="lg:px-[10%]"
+      id="contactForm"
+    >
       <Container
         variant="sectionBig"
         className="border-[5px] border-primary-100 p-9"
@@ -30,22 +36,16 @@ const CTAsection: React.FC<CTAsectionProps> = (props) => {
                   <input type="text" id="name" />
                 </div>
                 <div>
-                  <label htmlFor="company">
-                    {props.companyPlaceholder}
-                  </label>
+                  <label htmlFor="company">{props.companyPlaceholder}</label>
                   <input type="text" id="company" />
                 </div>
                 <div>
-                  <label htmlFor="email">
-                    {props.emailPlaceholder}
-                  </label>
+                  <label htmlFor="email">{props.emailPlaceholder}</label>
                   <input type="email" id="email" />
                 </div>
               </div>
-              <div className='flex flex-col'>
-                <label htmlFor="message">
-                  {props.namePlaceholder}
-                </label>
+              <div className="flex flex-col">
+                <label htmlFor="message">{props.namePlaceholder}</label>
                 <textarea
                   id="message"
                   maxLength={500}
@@ -53,11 +53,7 @@ const CTAsection: React.FC<CTAsectionProps> = (props) => {
                 />
               </div>
               <div className="flex">
-                <input
-                  type="checkbox"
-                  id="privacyPolicy"
-                  className="sr-only"
-                />
+                <input type="checkbox" id="privacyPolicy" className="sr-only" />
                 <label
                   htmlFor="privacyPolicy"
                   className="relative mr-4 inline-block cursor-pointer pl-6 text-xs before:absolute before:-left-0 before:top-1 before:inline-block before:h-3 before:w-3 before:border before:border-neutral-400 before:bg-transparent"

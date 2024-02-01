@@ -12,6 +12,6 @@ type CTAsectionProps = {
     href: string;
     title: string;
   };
-  }
+};
 
 export type { CTAsectionProps };
