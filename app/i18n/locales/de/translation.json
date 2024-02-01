@@ -11,9 +11,9 @@
   "slideButtonTitle0": "Um eine Schätzung bitten",
   "slideButtonTitle1": "Erfahren Sie mehr",
   "slideButtonTitle2": "Kontaktiere uns",
-  "aboutUsTitle": "Über ",
-  "aboutUsAccentText": "Uns",
-  "aboutUsDescription": "Unser Ziel ist es, eine hohe Kundenzufriedenheit zu erreichen. Wir setzen auf den Aufbau langfristiger Beziehungen, die auf Zusammenarbeit und Vertrauen basieren. Qualität ist für uns wichtiger als die Anzahl der durchgeführten Transporte.  \n Mit uns kommt Ihre Fracht schnell und sicher an den Bestimmungsort. Den gesamten Prozess überwachen wir sorgfältig und informieren Sie fortlaufend über den Transportverlauf.  \n Wir stehen Ihnen 24 Stunden am Tag, 7 Tage die Woche, 365 Tage im Jahr zur Verfügung.  \n Vielen Dank für Ihr Vertrauen!",
+  "aboutUsTitle": "Kundenzufriedenheit an erster Stelle",
+  "aboutUsAccentText": "Unsere Mission: ",
+  "aboutUsDescription": "Bei Netz steht die Zufriedenheit der Kunden an erster Stelle. Wir setzen auf den Aufbau dauerhafter Beziehungen, die auf Zusammenarbeit und Vertrauen basieren, wobei die Qualität der durchgeführten Transporte im Vordergrund steht.  \n Unser Ziel ist es, eine schnelle und sichere Lieferung der Waren zu gewährleisten. Der gesamte Prozess wird sorgfältig überwacht, und unsere Kunden werden über den Fortschritt des Transports informiert.  \n Wir sind rund um die Uhr, 7 Tage die Woche, 365 Tage im Jahr erreichbar.  \n Vielen Dank für Ihr Vertrauen!",
   "aboutUsImageAlt": "Foto der Gründerin des Unternehmens, Anita Surma. Blondhaarige Frau mit Brille.",
   "metaTitle": "Weltweite Speditionsdienstleistungen | Zuverlässige Internationale Logistiklösungen",
   "content": "Erkunden Sie unsere erstklassigen internationalen Speditionsdienstleistungen für nahtlose globale Logistiklösungen. Vertrauen Sie unserer Expertise im effizienten Transport von Frachtgütern und internationalem Versand. Kontaktieren Sie uns für zuverlässige Speditionsdienstleistungen weltweit.",
@@ -60,5 +60,15 @@
     "Bis zu 3,5 Tonnen DMC Kühllastwagen: 900 kg Ladekapazität, 8 Euro-Paletten, Laderaumabmessungen sind 420x220x220 cm;",
     "Bis zu 7,5 Tonnen DMC: 3500 kg Ladekapazität, 18 Euro-Paletten, Laderaumabmessungen sind 700x240x250 cm;",
     "Bis zu 40 Tonnen DMC LKW: 24000 kg Ladekapazität, 33 Euro-Paletten, Laderaumabmessungen sind 1360x245x300 cm;"
-  ]
+  ],
+  "CTAtitle": "und fordern Sie ein Angebot an",
+  "CTAaccentText": "Kontaktiere uns ",
+  "CTAdescription": "Wir beantworten gerne alle deine Fragen! Möchtest du mit uns arbeiten? Erhalte ein KOSTENLOSES Angebot!",
+  "buttonTitle": "Senden",
+  "namePlaceholder": "Vor- und Nachname",
+  "companyPlaceholder": "Firmenname",
+  "emailPlaceholder": "E-Mail-Adresse",
+  "messagePlaceholder": "Nachrichteninhalt",
+  "privacyPolicy": "Ich erkläre, dass ich die Datenschutzerklärung gelesen habe und der Verarbeitung meiner personenbezogenen Daten im Kontaktformular zustimme. ",
+  "privacyPolicyLink": "Erfahre mehr"
 }

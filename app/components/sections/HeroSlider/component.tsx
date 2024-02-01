@@ -1,4 +1,3 @@
-/* eslint-disable tailwindcss/no-custom-classname */
 'use client';
 
 import { useState } from 'react';
@@ -14,7 +13,7 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const { t, i18n } = useTranslation();
   return (
-    <Wrapper element="div">
+    <Wrapper element="div" variant="section">
       <Container variant="section" className="relative">
         {/* todo: check if it works correctly when tab is used */}
         <Link

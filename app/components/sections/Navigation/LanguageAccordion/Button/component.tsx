@@ -1,4 +1,3 @@
-/* eslint-disable tailwindcss/no-custom-classname */
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ButtonProps } from './component.types';

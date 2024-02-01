@@ -1,4 +1,3 @@
-/* eslint-disable tailwindcss/no-custom-classname */
 import { ButtonProps } from './index';
 import Link from 'next/link';
 import { twMerge } from 'tailwind-merge';
