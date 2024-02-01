@@ -11,9 +11,9 @@
   "slideButtonTitle0": "Ask For a Quote",
   "slideButtonTitle1": "Learn more",
   "slideButtonTitle2": "Contact us",
-  "aboutUsTitle": "About ",
-  "aboutUsAccentText": "Us",
-  "aboutUsDescription": "Our goal is to achieve high customer satisfaction. We focus on building long-lasting relationships based on cooperation and trust. Quality matters to us more than the quantity of completed transports. \n With us, your goods arrive quickly and safely at their destination. We meticulously monitor the entire process and keep you informed about the progress of the transport. \n We are at your disposal 24 hours a day, 7 days a week, 365 days a year. \n Thank you for your trust!",
+  "aboutUsTitle": "Customer Satisfaction First",
+  "aboutUsAccentText": "Our Mission: ",
+  "aboutUsDescription": "At Netz, customer satisfaction is our priority. We focus on building lasting relationships based on collaboration and trust, emphasizing quality over quantity of completed transports.  \n Our goal is to ensure fast and secure delivery of goods. The entire process is meticulously monitored, and our clients are kept informed of the progress of the transport.  \n We are available 24/7, 365 days a year.  \n Thank you for your trust!",
   "aboutUsImageAlt": "Photo of the founder of the company, Anita Surma. Blonde-haired woman wearing glasses.",
   "metaTitle": "Global Freight Forwarding Services | Reliable International Logistics Solutions",
   "content": "Explore our top-notch international freight forwarding services for seamless global logistics solutions. Trust our expertise in efficient cargo transportation and international shipping. Contact us for reliable freight forwarding services worldwide.",
@@ -60,5 +60,15 @@
     "Up to 3.5 tons DMC refrigerated (frigo) van: 900 kg load capacity, 8 Euro pallets, loading space dimensions are 420x220x220 cm;",
     "Up to 7.5 tons DMC curtain truck: 3500 kg load capacity, 18 Euro pallets, loading space dimensions are 700x240x250 cm;",
     "Up to 40 tons DMC curtain semi-trailer: 24000 kg load capacity, 33 Euro pallets, loading space dimensions are 1360x245x300 cm;"
-  ]
+  ],
+  "CTAtitle": "and request a quote",
+  "CTAaccentText": "Contact us ",
+  "CTAdescription": "We'll be happy to answer all your questions! Want to work with us? Get a FREE quote!",
+  "buttonTitle": "Send",
+  "namePlaceholder": "Full Name",
+  "companyPlaceholder": "Company Name",
+  "emailPlaceholder": "Email Address",
+  "messagePlaceholder": "Message Content",
+  "privacyPolicy": "I declare that I have read the Privacy Policy and consent to the processing of my personal data provided in the contact form. ",
+  "privacyPolicyLink": "Learn more"
 }

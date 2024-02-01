@@ -6,6 +6,7 @@ import BoxImageSection from '../components/sections/BoxImageSection';
 import WhyUsSection from '../components/sections/WhyUsSection';
 import NumberedSection from '../components/sections/NumberedSection/component';
 import ListSection from '../components/sections/ListSection';
+import CTAsection from '../components/sections/CTAsection';
 
 const links = [
   { href: '#contactForm' },
@@ -57,6 +58,18 @@ export default async function Page({
           content="fleetList"
           index={6}
           listTitle={t('listTitle')}
+        />
+        <CTAsection
+          title={t('CTAtitle')}
+          accentText={t('CTAaccentText')}
+          description={t('CTAdescription')}
+          buttonTitle={t('buttonTitle')}
+          namePlaceholder={t('namePlaceholder')}
+          companyPlaceholder={t('companyPlaceholder')}
+          emailPlaceholder={t('emailPlaceholder')}
+          messagePlaceholder={t('messagePlaceholder')}
+          privacyPolicyText={t('privacyPolicy')}
+          privacyPolicyLink={{ href: '#', title: t('privacyPolicyLink') }}
         />
       </main>
     </>
