@@ -14,7 +14,7 @@ const Truck = () => (
     <circle
       cx={33.466}
       cy={55.5}
-      r={1}
+      r={3}
       fill="#00EE4D"
       stroke="#00EE4D"
       className="animate-fill-opacity"
@@ -30,7 +30,7 @@ const Truck = () => (
     <circle
       cx={13.466}
       cy={55.5}
-      r={1}
+      r={2}
       fill="#00EE4D"
       stroke="#00EE4D"
       className="animate-fill-opacity-2"
@@ -42,7 +42,7 @@ const Truck = () => (
     <circle
       cx={3.466}
       cy={50.5}
-      r={2}
+      r={3}
       fill="#00EE4D"
       stroke="#00EE4D"
       className="animate-fill-opacity-4"

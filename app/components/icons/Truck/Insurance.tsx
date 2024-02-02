@@ -10,21 +10,21 @@ const Insurance = () => (
     <circle
       cx={45.5}
       cy={19.359}
-      r={2}
+      r={3}
       fill="#00EE4D"
       className="animate-fill-opacity-3"
     />
     <circle
       cx={33.5}
       cy={22.359}
-      r={2}
+      r={3}
       fill="#00EE4D"
       className="animate-fill-opacity-3"
     />
     <circle
       cx={45.5}
       cy={29.359}
-      r={2}
+      r={3}
       fill="#00EE4D"
       className="animate-fill-opacity-2"
     />
