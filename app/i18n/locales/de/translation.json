@@ -70,5 +70,7 @@
   "emailPlaceholder": "E-Mail-Adresse",
   "messagePlaceholder": "Nachrichteninhalt",
   "privacyPolicy": "Ich erkläre, dass ich die Datenschutzerklärung gelesen habe und der Verarbeitung meiner personenbezogenen Daten im Kontaktformular zustimme. ",
-  "privacyPolicyLink": "Erfahre mehr"
+  "privacyPolicyLink": "Erfahre mehr",
+  "privacyInfo": "Diese Website verwendet Cookies, damit unser Service besser funktionieren kann.",
+  "realisation": "Projekt und Umsetzung der Website:"
 }

@@ -7,6 +7,7 @@ import WhyUsSection from '../components/sections/WhyUsSection';
 import NumberedSection from '../components/sections/NumberedSection/component';
 import ListSection from '../components/sections/ListSection';
 import CTAsection from '../components/sections/CTAsection';
+import Footer from '../components/sections/footer';
 
 const links = [
   { href: '#contactForm' },
@@ -72,6 +73,12 @@ export default async function Page({
           privacyPolicyLink={{ href: '#', title: t('privacyPolicyLink') }}
         />
       </main>
+      <Footer
+        alt={t('logoAlt')}
+        privacyInfo={t('privacyInfo')}
+        realisation={t('realisation')}
+        learnMore={t('privacyPolicyLink')}
+      />
     </>
   );
 }

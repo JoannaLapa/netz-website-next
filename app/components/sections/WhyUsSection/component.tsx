@@ -55,7 +55,8 @@ const WhyUsSection: React.FC<WhyUsSectionProps> = (props) => {
               height={120}
               alt=""
               aria-hidden="true"
-              className="absolute top-[22%] max-w-[90%] -rotate-12"
+  
+              className="animate-rotate absolute top-[22%] max-w-[90%] -rotate-12"
             />
           </div>
           <div className="flex flex-col gap-8">

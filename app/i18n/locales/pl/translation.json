@@ -17,6 +17,7 @@
   "aboutUsImageAlt": "Zdjęcie załoycielki firmy Anity Surma. Blond włosa kobieta w okularach.",
   "metaTitle": "Globalne Usługi Spedycji | Solidne Międzynarodowe Rozwiązania Logistyczne",
   "content": "Odkryj nasze najwyższej jakości międzynarodowe usługi spedycji dla globalnych rozwiązań logistycznych. Zaufaj naszej ekspertyzie w efektywnym transporcie międzynarodowym towarów. Skontaktuj się z nami w celu uzyskania solidnych usług spedycyjnych na całym świecie.",
+  "logoAlt": "Logo firmy Netz zielony globus z siecią połączeń napisem Netz",
   "whyUsTitle": "Dlaczego szukasz ",
   "whyUsAccentText": "własnie nas?",
   "experienceSuffix": " lat doświadczenia",
@@ -70,5 +71,7 @@
   "emailPlaceholder": "Adres e-mail",
   "messagePlaceholder": "Treść wiadomości",
   "privacyPolicy": "Oświadczam, że zapoznałem się  z Polityką Prywatności i wyrażam zgodę na przetwarzanie moich danych osobowych podanych w formularzu kontaktowym. ",
-  "privacyPolicyLink": "Dowiedz się więcej"
+  "privacyPolicyLink": "Dowiedz się więcej",
+  "privacyInfo": "Ta strona używa ciasteczek (cookies), dzięki którym nasz serwis może działać lepiej. ",
+  "realisation": "Projekt i realizacja strony:"
 }
