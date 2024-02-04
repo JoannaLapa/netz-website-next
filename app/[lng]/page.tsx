@@ -7,7 +7,7 @@ import WhyUsSection from '../components/sections/WhyUsSection';
 import NumberedSection from '../components/sections/NumberedSection/component';
 import ListSection from '../components/sections/ListSection';
 import CTAsection from '../components/sections/CTAsection';
-import Footer from '../components/sections/footer';
+import Footer from '../components/sections/Footer';
 
 const links = [
   { href: '#contactForm' },
@@ -28,7 +28,7 @@ export default async function Page({
   return (
     <>
       <Header lng={lng} />
-      <main className="pt-5 lg:pt-[174px]">
+      <main className="pt-5 lg:pt-[120px]">
         <HeroSlider
           slides={[1, 2, 3]}
           skipLinkContent={t('sliderSkipLink')}

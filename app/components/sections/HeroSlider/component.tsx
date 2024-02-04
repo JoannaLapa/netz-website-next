@@ -13,7 +13,7 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const { t, i18n } = useTranslation();
   return (
-    <Wrapper element="div" variant="section">
+    <Wrapper element="div" variant="section" className='h-lvh'>
       <Container variant="section" className="relative">
         {/* todo: check if it works correctly when tab is used */}
         <Link
@@ -42,7 +42,7 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
           ))}
         </div>
 
-        <div className="absolute bottom-0 left-1/2 flex -translate-x-1/2 gap-4">
+        <div className="absolute bottom-5 left-1/2 flex -translate-x-1/2 gap-4">
           {props.slides.map((slide, index) => {
             return (
               <button
