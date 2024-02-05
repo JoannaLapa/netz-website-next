@@ -7,7 +7,8 @@ const Slide: React.FC<SlideProps> = (props) => {
   return (
     <div className="relative flex h-full min-h-[26.25rem] w-full flex-col gap-8 transition duration-500">
       <div className="relative mt-4 min-h-[15rem] max-w-[22.625rem] sm:min-h-[28.75rem] sm:max-w-[56.25rem] 2xl:max-w-full">
-        <props.tag className="word-break mt-16 max-w-[16rem] whitespace-pre-line text-lg min-[390px]:text-xl sm:mt-7 sm:max-w-[32.5rem] sm:text-[3.5rem] md:text-3xl">
+        <props.tag className={`word-break mt-16 max-w-[16rem] whitespace-pre-line text-lg min-[390px]:text-xl sm:mt-7 sm:max-w-[32.5rem] sm:text-[3.5rem] md:text-3xl  ${props.visible ? 'animate-change-scale' : 'scale-0.95'
+          }`}>
           {props.title}
         </props.tag>
         <span
