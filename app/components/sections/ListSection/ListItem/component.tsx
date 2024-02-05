@@ -6,7 +6,7 @@ import { BsCheck2 } from 'react-icons/bs';
 
 const ListItem: React.FC<ListItemProps> = (props) => {
   const { t } = useTranslation();
-  console.log(props.index);
+
   return (
     <li className="flex gap-2 text-base font-light text-neutral-300 first:mt-4 sm:text-md">
       {' '}
