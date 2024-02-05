@@ -31,11 +31,11 @@ const BoxImageSection: React.FC<BoxImageSectionProps> = (props) => {
               <div className="mr-[12%] flex justify-end sm:mt-7">
                 <div className="relative max-w-[340px] before:absolute before:right-[-12%] before:top-[-12%] before:h-full before:w-full before:border-[3px] before:border-primary-100 sm:max-w-[440px]">
                   <Image
-                    src="/assets/images/about-us.jpg"
-                    width={880}
-                    height={880}
+                    src="/assets/images/ceo_photox2.jpg"
+                    width={680}
+                    height={680}
                     alt={props.alt}
-                    className="relative z-20 border border-neutral-400 object-cover"
+                    className="relative z-20 object-cover"
                   />
                 </div>
               </div>

@@ -8,6 +8,7 @@ import NumberedSection from '../components/sections/NumberedSection/component';
 import ListSection from '../components/sections/ListSection';
 import CTAsection from '../components/sections/CTAsection';
 import Footer from '../components/sections/Footer';
+import ContentImageSection from '../components/sections/ContentImageSection';
 
 const links = [
   { href: '#contactForm' },
@@ -59,6 +60,15 @@ export default async function Page({
           content="fleetList"
           index={6}
           listTitle={t('listTitle')}
+        />
+        <ContentImageSection
+          title={t('fleetTitle')}
+          accentText={t('accentText')}
+          content="fleetList"
+          index={6}
+          listTitle={t('listTitle')}
+          alt={t('fleetImageAlt')}
+          id="fleet"
         />
         <CTAsection
           title={t('CTAtitle')}
