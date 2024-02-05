@@ -25,7 +25,7 @@ const NavList: React.FC<NavListProps> = (props) => {
           className="absolute top-[100px] z-30 w-[230px] p-10 sm:hidden"
         >
           {titles.map((title) => (
-            <NavItem key={title} title={t(title)} />
+            <NavItem key={title} title={t(title)} href={`#${title}`} />
           ))}
           <LanguageAccordion lng={props.lng} />
         </motion.ul>
@@ -34,7 +34,7 @@ const NavList: React.FC<NavListProps> = (props) => {
       {/* Tablet and larger view */}
       <ul className="hidden gap-4 sm:grid sm:grid-cols-5 sm:items-center sm:justify-center">
         {titles.map((title) => (
-          <NavItem key={title} title={t(title)} />
+          <NavItem key={title} title={t(title)}  href={`#${title}`} />
         ))}
         <LanguageAccordion lng={props.lng} />
       </ul>
