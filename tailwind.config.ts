@@ -40,7 +40,8 @@ module.exports = {
         'neutral-400': '#161616', // black font
       },
       animation: {
-        'change-opacity': 'changeOpacity 3s linear',
+        'change-opacity': 'changeOpacity 1s linear',
+        'change-scale': "changeScale 1s linear",
         'fill-opacity': 'fillOpacity 3s 1s linear infinite',
         'fill-opacity-2': 'fillOpacity 3s 2s linear infinite',
         'fill-opacity-3': 'fillOpacity 3s 3s linear infinite',
