@@ -8,7 +8,7 @@ import { NumberedSectionProps } from './index';
 const NumberedSection: React.FC<NumberedSectionProps> = (props) => {
   return (
     <>
-      <Wrapper element="section" padding variant="section">
+      <Wrapper element="section" padding variant="section" id="offer">
         <Container variant="section">
           <Heading
             title={props.title}
