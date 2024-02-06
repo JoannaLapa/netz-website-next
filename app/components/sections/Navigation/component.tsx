@@ -29,6 +29,7 @@ const sidebar = {
 const Navigation: React.FC<NavigationProps> = (props) => {
   const [isOpen, toggleOpen] = useCycle(false, true);
   const { i18n } = useTranslation(props.lng, 'translation');
+
   return (
     <nav className="flex w-full gap-4 sm:w-fit sm:gap-1">
       <motion.div
@@ -36,7 +37,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
         animate={isOpen ? 'open' : 'closed'}
         className="absolute inset-y-0 right-0 z-20 w-full sm:static"
       >
-        <NavList isOpen={isOpen} i18n={i18n} lng={props.lng} />
+        <NavList isOpen={isOpen} i18n={i18n} lng={props.lng} handleNav={() => toggleOpen()}/>
 
         <motion.div
           className="absolute z-20 h-screen w-screen bg-neutral-100"
