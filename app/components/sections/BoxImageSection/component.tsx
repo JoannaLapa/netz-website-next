@@ -15,7 +15,7 @@ const BoxImageSection: React.FC<BoxImageSectionProps> = (props) => {
         variant="section"
       >
         <Container variant="section">
-          <div className="grid grid-cols-1 sm:mt-16 sm:grid-cols-2 sm:items-center sm:gap-x-12 md:justify-between">
+          <div className="grid grid-cols-1 sm:grid-cols-2 sm:items-center sm:gap-x-12 md:justify-between">
             <Heading
               title={props.title}
               accentText={props.accentText}

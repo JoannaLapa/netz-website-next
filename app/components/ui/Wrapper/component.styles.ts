@@ -8,7 +8,7 @@ const Wrapper = cva('relative h-full w-full', {
       sectionBig: '',
     },
     padding: {
-      true: 'py-9 md:py-[80px]',
+      true: 'py-9 md:py-[94px]',
       false: '',
     },
   },

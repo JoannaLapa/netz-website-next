@@ -7,13 +7,13 @@ import Container from '../../ui/Container';
 
 const Header: React.FC<HeaderProps> = (props) => {
   return (
-    <header className="relative z-50 w-full lg:fixed lg:top-0 lg:min-h-[80px] lg:bg-white">
-      <Wrapper element="div" className="mt-5" variant="section">
+    <header className="relative z-50 w-full lg:fixed lg:top-0 lg:min-h-[5rem] lg:bg-white">
+      <Wrapper element="div" className="pt-5" variant="section">
         <Container
           variant="section"
           className="flex items-center justify-between"
         >
-          <div className="max-w-[98px] xl:max-w-[176px]">
+          <div className="max-w-[6.125rem] xl:max-w-[11rem]">
             <Image
               alt="Company logo Netz with green net"
               src="/assets/images/netz_x2.jpg"

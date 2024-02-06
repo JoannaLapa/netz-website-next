@@ -13,8 +13,8 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const { t, i18n } = useTranslation();
   return (
-    <Wrapper element="div" variant="section" className='h-lvh'>
-      <Container variant="section" className="relative">
+    <Wrapper element="div" variant="section" className='relative'>
+      <Container variant="section" className="h-screen flex flex-col items-center">
         {/* todo: check if it works correctly when tab is used */}
         <Link
           href={props.skipLink}
@@ -26,7 +26,7 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
         <div className="flex w-full gap-3 overflow-hidden">
           {props.slides.map((_, index) => (
             <div
-              className="w-full min-w-full transition-transform duration-500 ease-in-out"
+              className="w-full min-w-full h-full transition-transform duration-500 ease-in-out"
               style={{ transform: `translateX(-${currentIndex * 100}%)` }}
               key={index}
             >
@@ -42,7 +42,7 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
           ))}
         </div>
 
-        <div className="absolute bottom-5 left-1/2 flex -translate-x-1/2 gap-4">
+        <div className="flex gap-4 left-1/2 -translate-x-1/2 absolute bottom-36 h-[64px]">
           {props.slides.map((slide, index) => {
             return (
               <button

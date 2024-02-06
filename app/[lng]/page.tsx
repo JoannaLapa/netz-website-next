@@ -9,6 +9,7 @@ import ListSection from '../components/sections/ListSection';
 import CTAsection from '../components/sections/CTAsection';
 import Footer from '../components/sections/Footer';
 import ContentImageSection from '../components/sections/ContentImageSection';
+import QuoteImageSection from '../components/sections/QuoteImageSection';
 
 const links = [
   { href: '#contactForm' },
@@ -36,6 +37,12 @@ export default async function Page({
           skipLink="#aboutUs"
           links={links}
         />
+        <QuoteImageSection  title={t('aboutUsTitle')}
+          accentText={t('aboutUsAccentText')}
+          description={t('aboutUsDescription')}
+          alt={t('aboutUsImageAlt')}
+          id="aboutUs" />
+
         <BoxImageSection
           title={t('aboutUsTitle')}
           accentText={t('aboutUsAccentText')}

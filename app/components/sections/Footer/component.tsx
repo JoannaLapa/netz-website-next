@@ -9,7 +9,7 @@ const year = data.getFullYear();
 
 const Footer: React.FC<FooterProps> = (props) => {
   return (
-    <Wrapper element="footer" variant="sectionBig" className="pt-[80px" id="contact">
+    <Wrapper element="footer" variant="sectionBig" className="pt-[94px]" >
       <Wrapper element="div" variant="section">
         <Container variant="section">
           <Image
@@ -19,7 +19,7 @@ const Footer: React.FC<FooterProps> = (props) => {
             height={174}
             className="mb-9 max-w-[120px] sm:max-w-[273px]"
           />
-          <address className="grid gap-4 text-base sm:grid-cols-2">
+          <address className="grid gap-4 text-base sm:grid-cols-2" id="contact">
             <div>
               <p>Anita Surma und Michael Szczerbak Netz GbR</p>
               <p>Im Weimer 8</p>
