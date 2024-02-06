@@ -19,7 +19,7 @@ const Path = (
 const MenuToggle: React.FC<MenuToggleProps> = (props) => (
   <button
     onClick={props.handleNav}
-    className="absolute -top-1 right-5
+    className="fixed top-5 right-[10%]
      z-30 flex h-[44px] w-[44px] cursor-pointer items-center justify-center bg-transparent sm:hidden"
     aria-label="Menu"
   >

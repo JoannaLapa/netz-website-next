@@ -16,13 +16,13 @@ const variants = {
 const NavList: React.FC<NavListProps> = (props) => {
   const t = props.i18n.getFixedT(props.lng, 'translation');
   return (
-    <>
+<>
       {props.isOpen && (
         <motion.ul
           variants={variants}
           initial="closed"
           animate={props.isOpen ? 'open' : 'closed'}
-          className="absolute top-[100px] z-30 w-[230px] p-10 sm:hidden"
+          className="fixed top-[100px] z-30 w-[230px] p-10 sm:hidden"
         >
           {titles.map((title) => (
             <NavItem key={title} title={t(title)} href={`#${title}`} handleNav={props.handleNav}/>
