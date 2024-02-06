@@ -14,7 +14,7 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
   const { t, i18n } = useTranslation();
   return (
     <Wrapper element="div" variant="section" className='relative'>
-      <Container variant="section" className="h-screen flex flex-col items-center">
+      <Container variant="section" className="flex h-screen min-h-svh flex-col items-center">
         {/* todo: check if it works correctly when tab is used */}
         <Link
           href={props.skipLink}
