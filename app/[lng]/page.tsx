@@ -42,7 +42,7 @@ export default async function Page({
           description={t('aboutUsDescription')}
           alt={t('aboutUsImageAlt')}
           id="aboutUs" />
-          
+
         <BoxImageSection
           title={t('aboutUsTitle')}
           accentText={t('aboutUsAccentText')}

@@ -19,36 +19,36 @@ const QuoteImageSection: React.FC<QuoteImageSectionProps> = (props) => {
         variant="section"
       >
         <Container variant="section">
-          <div className="grid grid-cols-1 items-center">
+          <div className="grid grid-cols-1 items-center sm:grid-cols-2">
             <motion.div
               initial={{ opacity: 0, y: 100 }}
               transition={{ duration: 1 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
+              className="sm:col-span-2"
             >
               <Heading
                 title={props.title}
                 accentText={props.accentText}
                 accentPosition="left"
-                className="sm:col-span-2"
               />
             </motion.div>
             <p
-              className="w-full text-center text-base font-light text-neutral-300 sm:text-base lg:text-[21px]"
+              className="text-base font-light text-neutral-300 sm:col-start-1 sm:text-base lg:text-[21px]"
               dangerouslySetInnerHTML={{ __html: formattedDescription }}
             />
-            <div className="row-start-3 mt-9 flex h-fit w-fit shrink-0 grow-0 flex-col items-center justify-center gap-8 justify-self-center">
+            <div className="mt-9 flex h-fit w-fit shrink-0 grow-0 flex-col items-center justify-center gap-8 justify-self-center sm:mt-0">
               <motion.div
-                className="max-w-[166px]"
                 initial={{ opacity: 0, y: 100 }}
                 transition={{ duration: 1 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.5 }}
+                className="max-w-[340px]"
               >
                 <Image
-                  src="/assets/images/ceo-photo_x2.jpg"
-                  width={326}
-                  height={314}
+                  src="/assets/images/ceo_photo_x2.jpg"
+                  width={680}
+                  height={680}
                   alt={props.alt}
                   className="rounded-full object-cover"
                 />
