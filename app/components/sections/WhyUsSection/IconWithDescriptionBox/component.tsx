@@ -17,7 +17,7 @@ const IconWithDescriptionBox: React.FC<IconWithDescriptionBoxProps> = (
       viewport={{ once: true, amount: 0.5 }}
     >
       {props.children}
-      <h4 className="max-w-[180px] text-md font-light text-neutral-400 sm:max-w-[220px] lg:text-lg">
+      <h4 className="max-w-[180px] text-md font-light text-neutral-400 sm:max-w-[220px] lg:text-lg md:max-w-[340px] lext-left">
         {t(`boxes.${props.boxNr}.title`)}
         <span className="font-medium">
           {t(`boxes.${props.boxNr}.accentText`)}

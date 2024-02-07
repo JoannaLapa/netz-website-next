@@ -7,6 +7,7 @@ import IconWithDescriptionBox from './IconWithDescriptionBox/component';
 import Truck from '../../icons/Truck/Truck';
 import Insurance from '../../icons/Truck/Insurance';
 import Licences from '../../icons/Truck/Licences';
+import Counter from './Counter/component';
 
 const currentYear = new Date().getFullYear();
 const startYear = 2015;
@@ -42,13 +43,7 @@ const WhyUsSection: React.FC<WhyUsSectionProps> = (props) => {
         />
         <div className="grid justify-center sm:grid-cols-2 sm:items-center">
           <div className="relative flex h-fit max-w-[246px] justify-center">
-            <h3 className="p-10 text-center font-robotoSlab text-[200px] leading-[52px] text-neutral-400 sm:text-[250px] md:text-[300px]">
-              {experience}
-              <br />
-              <span className="whitespace-nowrap font-robotoCondensed text-md leading-7 lg:text-[24px]">
-                {props.experienceSuffix}
-              </span>
-            </h3>
+            <Counter experienceSuffix={props.experienceSuffix} />
             <Image
               src="/assets/grid_04.svg"
               width={483}
