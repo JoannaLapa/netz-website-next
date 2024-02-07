@@ -1,19 +1,14 @@
 'use client';
+
 import { useTranslation } from 'react-i18next';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 
 import { NumberedBoxProps } from './component.types';
 const NumberedBox: React.FC<NumberedBoxProps> = (props) => {
   const { t } = useTranslation();
 
   return (
-    <motion.div
-      className="relative min-h-[144px] scale-100 xl:flex xl:gap-2"
-      initial={{ opacity: 0, y: 100 }}
-      transition={{ duration: 1 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.5 }}
-    >
+    <div className="relative min-h-[144px] scale-100 xl:flex xl:gap-2">
       <span className="absolute left-0 top-0 -z-10 font-robotoCondensed text-3xl font-bold text-neutral-200 opacity-80 xl:static xl:leading-normal">
         {props.decorator}
       </span>
@@ -25,7 +20,7 @@ const NumberedBox: React.FC<NumberedBoxProps> = (props) => {
           {t(`numberedBoxes.${props.boxNr}.description`)}
         </p>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
