@@ -31,7 +31,7 @@
 @keyframes changeOpacity {
   0% {
     opacity: 0.08;
-    scale: 0.95
+    scale: 0.95;
   }
   100% {
     opacity: 0.1;
@@ -41,7 +41,7 @@
 
 @keyframes changeScale {
   0% {
-    scale: 0.95
+    scale: 0.95;
   }
   100% {
     scale: 1;

@@ -37,7 +37,12 @@ const Navigation: React.FC<NavigationProps> = (props) => {
         animate={isOpen ? 'open' : 'closed'}
         className="absolute inset-y-0 right-0 z-20 w-full sm:static"
       >
-        <NavList isOpen={isOpen} i18n={i18n} lng={props.lng} handleNav={() => toggleOpen()}/>
+        <NavList
+          isOpen={isOpen}
+          i18n={i18n}
+          lng={props.lng}
+          handleNav={() => toggleOpen()}
+        />
 
         <motion.div
           className="fixed z-20 h-screen w-screen bg-neutral-100 p-10"

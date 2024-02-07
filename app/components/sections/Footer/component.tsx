@@ -9,7 +9,7 @@ const year = data.getFullYear();
 
 const Footer: React.FC<FooterProps> = (props) => {
   return (
-    <Wrapper element="footer" variant="sectionBig" className="pt-[94px]" >
+    <Wrapper element="footer" variant="sectionBig" className="pt-[94px]">
       <Wrapper element="div" variant="section">
         <Container variant="section">
           <Image
@@ -47,7 +47,7 @@ const Footer: React.FC<FooterProps> = (props) => {
       <Wrapper element="div" variant="section">
         <Container
           variant="section"
-          className="items center mt-10 flex w-full flex-col justify-center gap-1 py-2 text-center text-s"
+          className="mt-10 flex w-full flex-col items-center justify-center gap-1 py-2 text-center text-sm"
         >
           <p className="text-center">
             {props.privacyInfo}

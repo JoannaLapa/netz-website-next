@@ -29,22 +29,22 @@ const CTAsection: React.FC<CTAsectionProps> = (props) => {
               {props.description}
             </p>
 
-            <form className="grid max-w-[700px] gap-3 w-full">
-              <div className="grid gap-3 md:grid-cols-3 w-full">
-                <div className='w-full'>
+            <form className="grid w-full max-w-[700px] gap-3">
+              <div className="grid w-full gap-3 md:grid-cols-3">
+                <div className="w-full">
                   <label htmlFor="name">{props.namePlaceholder}</label>
                   <input type="text" id="name" />
                 </div>
-                <div className='w-full'>
+                <div className="w-full">
                   <label htmlFor="company">{props.companyPlaceholder}</label>
                   <input type="text" id="company" />
                 </div>
-                <div className='w-full'>
+                <div className="w-full">
                   <label htmlFor="email">{props.emailPlaceholder}</label>
                   <input type="email" id="email" />
                 </div>
               </div>
-              <div className="flex flex-col w-full">
+              <div className="flex w-full flex-col">
                 <label htmlFor="message">{props.namePlaceholder}</label>
                 <textarea
                   id="message"

@@ -30,11 +30,13 @@ const NavItem: React.FC<NavItemProps> = (props) => {
         whileTap={{ scale: 0.95 }}
         transition={{ duration: 0.3 }}
       >
-         <Link href={props.href} onClick={props.handleNav}>{props.title} </Link>
+        <Link href={props.href} onClick={props.handleNav}>
+          {props.title}{' '}
+        </Link>
       </motion.li>
 
-      <li className="m-0 mb-5 hidden cursor-pointer items-center border-r border-neutral-250 px-4 sm:mb-0 sm:flex sm:text-sm sm:transition sm:duration-300 sm:hover:text-primary-100 md:text-md">    
-          <Link href={props.href}>{props.title} </Link>
+      <li className="m-0 mb-5 hidden cursor-pointer items-center border-r border-neutral-250 px-4 sm:mb-0 sm:flex sm:text-sm sm:transition sm:duration-300 sm:hover:text-primary-100 md:text-md">
+        <Link href={props.href}>{props.title} </Link>
       </li>
     </>
   );

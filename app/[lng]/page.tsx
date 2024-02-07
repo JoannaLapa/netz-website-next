@@ -37,11 +37,13 @@ export default async function Page({
           skipLink="#aboutUs"
           links={links}
         />
-        <QuoteImageSection  title={t('aboutUsTitle')}
+        <QuoteImageSection
+          title={t('aboutUsTitle')}
           accentText={t('aboutUsAccentText')}
           description={t('aboutUsDescription')}
           alt={t('aboutUsImageAlt')}
-          id="aboutUs" />
+          id="aboutUs"
+        />
 
         <BoxImageSection
           title={t('aboutUsTitle')}

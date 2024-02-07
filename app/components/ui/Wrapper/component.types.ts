@@ -1,6 +1,6 @@
 type WrapperProps = {
   children: React.ReactNode;
-  element: 'div' | 'section' | "footer";
+  element: 'div' | 'section' | 'footer';
   variant: 'section' | 'sectionBig';
   className?: string;
   padding?: boolean;
