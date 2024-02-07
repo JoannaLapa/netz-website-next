@@ -28,7 +28,7 @@ const ContentImageSection: React.FC<ContentImageSectionProps> = (props) => {
             />
 
             <motion.ul
-              className="mb-9 flex flex-col gap-2 text-md font-bold text-neutral-400 sm:mt-0 lg:max-w-full lg:text-lg"
+              className="mb-9 flex flex-col gap-2 text-md font-bold text-neutral-400 sm:mt-0 lg:max-w-full lg:text-lg overflow-hidden"
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -41,7 +41,7 @@ const ContentImageSection: React.FC<ContentImageSectionProps> = (props) => {
             </motion.ul>
 
             <motion.div
-              className="md:col-start-2"
+              className="overflow-hidden md:col-start-2"
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
               whileInView={{ opacity: 1, x: 0 }}
