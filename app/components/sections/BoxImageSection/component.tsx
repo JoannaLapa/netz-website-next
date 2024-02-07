@@ -29,9 +29,9 @@ const BoxImageSection: React.FC<BoxImageSectionProps> = (props) => {
             />
             <div className="relative mt-16 flex h-fit w-fit shrink-0 grow-0 flex-col gap-1 sm:col-start-2 sm:mt-0 sm:items-start">
               <div className="mr-[12%] flex justify-end sm:mt-7">
-                <div className="relative max-w-[340px] before:absolute before:right-[-12%] before:top-[-12%] before:h-full before:w-full before:border-[3px] before:border-primary-100 sm:max-w-[440px]">
+                <div className="relative max-w-[340px] before:absolute before:right-[-12%] before:top-[-12%] before:h-full before:w-full before:border-[3px] before:border-primary-100 sm:max-w-[440px] border border-neutral-400">
                   <Image
-                    src="/assets/images/ceo_photox2.jpg"
+                    src="/assets/images/about-us.jpg"
                     width={680}
                     height={680}
                     alt={props.alt}
