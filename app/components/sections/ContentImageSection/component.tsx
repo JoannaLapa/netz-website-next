@@ -40,10 +40,13 @@ const ContentImageSection: React.FC<ContentImageSectionProps> = (props) => {
               ))}
             </motion.ul>
 
-            <motion.div className="md:col-start-2"   initial={{ opacity: 0, x: 100 }}
+            <motion.div
+              className="md:col-start-2"
+              initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, amount: 0.5 }}>
+              viewport={{ once: true, amount: 0.5 }}
+            >
               <Image
                 src="/assets/images/fleetx2.jpg"
                 width={800}
