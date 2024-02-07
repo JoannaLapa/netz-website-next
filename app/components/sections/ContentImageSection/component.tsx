@@ -16,31 +16,30 @@ const ContentImageSection: React.FC<ContentImageSectionProps> = (props) => {
         variant="section"
       >
         <Container variant="section">
-          <div className="min-w-full grid grid-cols-1 md:grid-cols-2 md:items-center md:gap-x-8 md:justify-between">
-          
-              <Heading
-                title={props.title}
-                accentText={props.accentText}
-                accentPosition="left"
-                className='md:col-span-2 justify-self-start'
+          <div className="grid min-w-full grid-cols-1 md:grid-cols-2 md:items-center md:justify-between md:gap-x-8">
+            <Heading
+              title={props.title}
+              accentText={props.accentText}
+              accentPosition="left"
+              className="justify-self-start md:col-span-2"
+            />
+
+            <ul className="mb-9 flex flex-col gap-2 text-md font-bold text-neutral-400 sm:mt-0 lg:max-w-full lg:text-lg">
+              {props.listTitle}
+              {array.map((_, index) => (
+                <ListItem key={index} content={props.content} index={index} />
+              ))}
+            </ul>
+
+            <div className="md:col-start-2">
+              <Image
+                src="/assets/images/fleetx2.jpg"
+                width={800}
+                height={801}
+                alt={props.alt}
+                className="object-cover"
               />
-
-            <ul className="flex flex-col gap-2 text-md font-bold text-neutral-400 sm:mt-0 lg:max-w-full mb-9 lg:text-lg">
-                {props.listTitle}
-                {array.map((_, index) => (
-                  <ListItem key={index} content={props.content} index={index} />
-                ))}
-              </ul>
-
-              <div className="md:col-start-2">
-                <Image
-                  src="/assets/images/fleetx2.jpg"
-                  width={800}
-                  height={801}
-                  alt={props.alt}
-                  className="object-cover"
-                />
-              </div>
+            </div>
           </div>
         </Container>
       </Wrapper>

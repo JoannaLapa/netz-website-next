@@ -1,6 +1,6 @@
 type NavItemProps = {
   title: string;
-  href: string
+  href: string;
   handleNav: React.MouseEventHandler<HTMLElement>;
 };
 

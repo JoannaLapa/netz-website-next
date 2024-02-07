@@ -38,13 +38,7 @@ const QuoteImageSection: React.FC<QuoteImageSectionProps> = (props) => {
               dangerouslySetInnerHTML={{ __html: formattedDescription }}
             />
             <div className="mt-9 flex h-fit w-fit shrink-0 grow-0 flex-col items-center justify-center gap-8 justify-self-center sm:mt-0">
-              <motion.div
-                initial={{ opacity: 0, y: 100 }}
-                transition={{ duration: 1 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, amount: 0.5 }}
-                className="max-w-[340px]"
-              >
+              <div className="max-w-[340px]">
                 <Image
                   src="/assets/images/ceo_photo_x2.jpg"
                   width={680}
@@ -52,7 +46,7 @@ const QuoteImageSection: React.FC<QuoteImageSectionProps> = (props) => {
                   alt={props.alt}
                   className="rounded-full object-cover"
                 />
-              </motion.div>
+              </div>
 
               <p className="font-bold text-neutral-400">
                 Anita Surma <span className="font-normal">CEO</span>
