@@ -19,7 +19,7 @@ const ContentImageSection: React.FC<ContentImageSectionProps> = (props) => {
         variant="section"
       >
         <Container variant="section">
-          <div className="grid min-w-full grid-cols-1 md:grid-cols-2 md:items-center md:justify-between md:gap-x-8">
+          <div className="grid min-w-full grid-cols-1 overflow-hidden md:grid-cols-2 md:items-center md:justify-between md:gap-x-8">
             <Heading
               title={props.title}
               accentText={props.accentText}
@@ -28,7 +28,7 @@ const ContentImageSection: React.FC<ContentImageSectionProps> = (props) => {
             />
 
             <motion.ul
-              className="mb-9 flex flex-col gap-2 text-md font-bold text-neutral-400 sm:mt-0 lg:max-w-full lg:text-lg overflow-hidden"
+              className="mb-9 flex flex-col gap-2 text-md font-bold text-neutral-400 sm:mt-0 lg:max-w-full lg:text-lg"
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -41,7 +41,7 @@ const ContentImageSection: React.FC<ContentImageSectionProps> = (props) => {
             </motion.ul>
 
             <motion.div
-              className="overflow-hidden md:col-start-2"
+              className="md:col-start-2"
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
               whileInView={{ opacity: 1, x: 0 }}
