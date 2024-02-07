@@ -1,5 +1,5 @@
 type CounterProps = {
-    experienceSuffix: string;
-}
+  experienceSuffix: string;
+};
 
-export type { CounterProps}
+export type { CounterProps };
