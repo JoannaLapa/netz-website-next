@@ -19,7 +19,7 @@ const ContentImageSection: React.FC<ContentImageSectionProps> = (props) => {
         variant="section"
       >
         <Container variant="section">
-          <div className="grid min-w-full grid-cols-1 md:grid-cols-2 md:items-center md:justify-between md:gap-x-8">
+          <div className="grid min-w-full grid-cols-1 overflow-hidden md:grid-cols-2 md:items-center md:justify-between md:gap-x-8">
             <Heading
               title={props.title}
               accentText={props.accentText}
