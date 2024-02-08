@@ -6,7 +6,7 @@ const Button: React.FC<ButtonProps> = (props) => {
   return (
     <button
       onClick={props.handleClick}
-      className="mt-1 flex w-full items-center justify-between gap-2 rounded-sm border border-neutral-000 p-1 text-lg uppercase leading-6 focus:border-primary-100 sm:p-2 sm:text-sm font-normal md:gap-6 md:text-md"
+      className="mt-1 flex w-full items-center justify-between gap-2 rounded-sm border border-neutral-000 p-1 text-lg font-normal uppercase leading-6 focus:border-primary-100 sm:p-2 sm:text-sm md:gap-6 md:text-md"
     >
       <span>{props.lng}</span>
       <motion.span
