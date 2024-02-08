@@ -24,7 +24,7 @@ const NavItem: React.FC<NavItemProps> = (props) => {
   return (
     <>
       <motion.li
-        className="m-0 mb-5 flex cursor-pointer items-center p-4 text-base leading-6 sm:hidden"
+        className="m-0 flex cursor-pointer items-center p-4 text-lg font-normal leading-normal sm:hidden"
         variants={variants}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
@@ -35,7 +35,7 @@ const NavItem: React.FC<NavItemProps> = (props) => {
         </Link>
       </motion.li>
 
-      <li className="m-0 mb-5 hidden cursor-pointer items-center border-r border-neutral-250 px-4 sm:mb-0 sm:flex sm:text-sm sm:transition sm:duration-300 sm:hover:text-primary-100 md:text-md">
+      <li className="m-0 hidden cursor-pointer items-center border-r border-neutral-250 px-2 sm:mb-0 sm:flex sm:text-sm sm:transition sm:duration-300 sm:hover:text-primary-100 md:text-md">
         <Link href={props.href}>{props.title} </Link>
       </li>
     </>

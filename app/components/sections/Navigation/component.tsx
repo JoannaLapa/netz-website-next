@@ -8,7 +8,7 @@ import { NavigationProps } from './index';
 import { useTranslation } from '../../../i18n/client';
 const sidebar = {
   open: {
-    clipPath: `circle(180% at 90% 44px)`,
+    clipPath: `circle(180% at 100% 0)`,
     transition: {
       type: 'spring',
       stiffness: 20,
@@ -16,7 +16,7 @@ const sidebar = {
     },
   },
   closed: {
-    clipPath: 'circle(3% at 90% 44px)',
+    clipPath: 'circle(3% at 100% 0)',
     transition: {
       delay: 0.5,
       type: 'spring',
@@ -43,12 +43,14 @@ const Navigation: React.FC<NavigationProps> = (props) => {
           lng={props.lng}
           handleNav={() => toggleOpen()}
         />
-
-        <motion.div
-          className="fixed z-20 h-screen w-screen bg-neutral-100 p-10"
-          variants={sidebar}
-        />
-        <MenuToggle handleNav={() => toggleOpen()} />
+        <div className="fixed right-0 top-0 h-screen w-screen overflow-visible">
+          <motion.div
+            className="
+            absolute right-0 top-0 z-20 h-full w-full overflow-hidden bg-neutral-100 p-10"
+            variants={sidebar}
+          />
+          <MenuToggle handleNav={() => toggleOpen()} />
+        </div>
       </motion.div>
     </nav>
   );
