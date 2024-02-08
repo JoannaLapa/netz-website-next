@@ -19,11 +19,11 @@ const Path = (
 const MenuToggle: React.FC<MenuToggleProps> = (props) => (
   <button
     onClick={props.handleNav}
-    className="fixed right-[10%] top-5
-     z-30 flex h-[44px] w-[44px] cursor-pointer items-center justify-center bg-transparent sm:hidden"
+    className="absolute right-[10%] top-5
+     z-30 flex h-[44px] w-[44px] cursor-pointer items-center justify-center rounded-full bg-neutral-100 pt-1 sm:hidden"
     aria-label="Menu"
   >
-    <svg width="23" height="23" viewBox="0 0 23 23" aria-hidden="true">
+    <svg width="22" height="22" viewBox="0 0 23 23" aria-hidden="true">
       <Path
         variants={{
           closed: { d: 'M 2 2.5 L 20 2.5' },

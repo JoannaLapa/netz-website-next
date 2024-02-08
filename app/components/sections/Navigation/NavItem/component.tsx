@@ -24,7 +24,7 @@ const NavItem: React.FC<NavItemProps> = (props) => {
   return (
     <>
       <motion.li
-        className="m-0 mb-5 flex cursor-pointer items-center p-4 text-base leading-6 sm:hidden"
+        className="m-0 flex cursor-pointer items-center p-4 text-lg font-light leading-normal sm:hidden"
         variants={variants}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}

@@ -22,7 +22,7 @@ const NavList: React.FC<NavListProps> = (props) => {
           variants={variants}
           initial="closed"
           animate={props.isOpen ? 'open' : 'closed'}
-          className="fixed top-[100px] z-30 w-[230px] p-10 sm:hidden"
+          className="fixed top-[50px] z-30 w-[230px] p-10 sm:hidden"
         >
           {titles.map((title) => (
             <NavItem
