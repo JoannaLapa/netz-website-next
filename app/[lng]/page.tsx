@@ -30,7 +30,7 @@ export default async function Page({
   return (
     <>
       <Header lng={lng} />
-      <main className="pt-5 lg:pt-[120px]">
+      <main className="lg:pt-[120px]">
         <HeroSlider
           slides={[1, 2, 3]}
           skipLinkContent={t('sliderSkipLink')}
