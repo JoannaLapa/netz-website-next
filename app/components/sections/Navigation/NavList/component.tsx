@@ -37,7 +37,7 @@ const NavList: React.FC<NavListProps> = (props) => {
       )}
 
       {/* Tablet and larger view */}
-      <ul className="hidden gap-4 sm:grid sm:grid-cols-5 sm:items-center sm:justify-center">
+      <ul className="ml-2 hidden gap-4 sm:grid sm:grid-cols-5 sm:items-center sm:justify-center">
         {titles.map((title) => (
           <NavItem
             key={title}
