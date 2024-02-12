@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+import { render, act } from '@testing-library/react';
 import NumberedSection from './index';
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
@@ -29,19 +29,21 @@ i18n.use(initReactI18next).init({
   },
 });
 
-test('render NumberedSection with title, accentText and numberedboxes', () => {
-  const element = render(
-    <NumberedSection
-      title="Test title"
-      accentText="Test accent text"
-      numberedBoxes={[1, 2, 3]}
-      lng="en"
-    />,
-  );
+test('render NumberedSection with title, accentText and numberedboxes', async () => {
+ const element = render(
+   <NumberedSection
+     title="Test title"
+     accentText="Test accent text"
+     numberedBoxes={[1, 2, 3]}
+     lng="en" />
+ );
 
-  expect(element.getByText('Test title')).not.toBeNull();
-  expect(element.getByText('Test accent text')).not.toBeNull();
-  expect(element.getByText('01')).not.toBeNull();
-  expect(element.getByText('02')).not.toBeNull();
-  expect(element.getByText('03')).not.toBeNull();
+
+  if (element) {
+    expect(element.getByText('Test title')).not.toBeNull();
+    expect(element.getByText('Test accent text')).toBeInTheDocument();
+    expect(element.getByText('01')).toBeInTheDocument();
+    expect(element.getByText('02')).toBeInTheDocument();
+    expect(element.getByText('03')).toBeInTheDocument();
+  }
 });

@@ -1,6 +1,7 @@
 type IconWithDescriptionBoxProps = {
   children: React.ReactNode;
-  boxNr: number;
+  title: string;
+  accentText: string;
 };
 
 export type { IconWithDescriptionBoxProps };

@@ -8,27 +8,29 @@ import Truck from '../../icons/Truck/Truck';
 import Insurance from '../../icons/Truck/Insurance';
 import Licences from '../../icons/Truck/Licences';
 import Counter from './Counter/component';
+import { useTranslation } from '../../../../i18n';
 
-const currentYear = new Date().getFullYear();
-const startYear = 2015;
-const experience = currentYear - startYear;
-
-const boxes = [
+export const boxes = [
   {
-    boxNr: 0,
     children: <Truck />,
+    title: 'boxes.0.title' as const,
+    accentText: 'boxes.0.accentText' as const,
   },
   {
-    boxNr: 1,
     children: <Insurance />,
+    title: 'boxes.0.title' as const,
+    accentText: 'boxes.0.accentText' as const,
   },
   {
-    boxNr: 2,
     children: <Licences />,
+    title: 'boxes.0.title' as const,
+    accentText: 'boxes.0.accentText' as const,
   },
 ];
 
-const WhyUsSection: React.FC<WhyUsSectionProps> = (props) => {
+const WhyUsSection: React.FC<WhyUsSectionProps> = async (props) => {
+  const { t } = await useTranslation(props.lng);
+
   return (
     <Wrapper
       element="section"
@@ -55,7 +57,12 @@ const WhyUsSection: React.FC<WhyUsSectionProps> = (props) => {
           </div>
           <div className="flex flex-col gap-8">
             {boxes.map((box) => (
-              <IconWithDescriptionBox key={box.boxNr} {...box} />
+              <IconWithDescriptionBox
+                key={box.title}
+                {...box}
+                title={t(box.title)}
+                accentText={t(box.accentText)}
+              />
             ))}
           </div>
         </div>

@@ -7,11 +7,17 @@ import Slide from './Slide/component';
 import { HeroSliderProps } from './index';
 import { BsCircleFill } from 'react-icons/bs';
 import Link from 'next/link';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from '../../../../i18n/client';
+
+const slides = [
+  ['slideTitle0', 'slideButtonTitle0'],
+  ['slideTitle1', 'slideButtonTitle1'],
+  ['slideTitle2', 'slideButtonTitle2'],
+] as const;
 
 const HeroSlider: React.FC<HeroSliderProps> = (props) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation(props.lng);
   return (
     <Wrapper element="div" variant="section" className="relative">
       <Container
@@ -27,7 +33,7 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
         </Link>
 
         <div className="flex w-full gap-3 overflow-hidden">
-          {props.slides.map((_, index) => (
+          {slides.map((slide, index) => (
             <div
               className="h-full w-full min-w-full transition-transform duration-500 ease-in-out"
               style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -35,21 +41,22 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
             >
               <Slide
                 tag={index === 0 ? 'h1' : 'p'}
-                title={t(`slideTitle${index}`)}
+                title={t(slide[0])}
                 decorator={`0${index + 1}`}
-                buttonTitle={t(`slideButtonTitle${index}`)}
+                buttonTitle={t(slide[1])}
                 visible={index === currentIndex}
                 link={props.links[index]}
+                lng={props.lng}
               />
             </div>
           ))}
         </div>
 
         <div className="absolute bottom-28 left-1/2 flex h-[64px] -translate-x-1/2 gap-4 md:bottom-28">
-          {props.slides.map((slide, index) => {
+          {slides.map((slide, index) => {
             return (
               <button
-                key={slide}
+                key={slide[0]}
                 onClick={() => setCurrentIndex(index)}
                 aria-label={`Go to slide nr ${index + 1}`}
               >

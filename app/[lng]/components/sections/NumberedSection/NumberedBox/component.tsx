@@ -1,4 +1,4 @@
-import { useTranslation } from '../../../../i18n';
+import { useTranslation } from '../../../../../i18n';
 // import { motion } from 'framer-motion';
 
 import { NumberedBoxProps } from './component.types';
