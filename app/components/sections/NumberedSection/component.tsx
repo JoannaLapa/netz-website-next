@@ -19,7 +19,7 @@ const NumberedSection: React.FC<NumberedSectionProps> = (props) => {
           <div className="flex flex-col gap-4 md:flex-row">
             {props.numberedBoxes.map((box, index) => {
               return (
-                <NumberedBox key={box} decorator={`0${box}`} boxNr={index} />
+                <NumberedBox key={box} decorator={`0${box}`} boxNr={index} lng={props.lng}/>
               );
             })}
           </div>

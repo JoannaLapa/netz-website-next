@@ -1,11 +1,9 @@
-'use client';
-
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from '../../../../i18n';
 // import { motion } from 'framer-motion';
 
 import { NumberedBoxProps } from './component.types';
-const NumberedBox: React.FC<NumberedBoxProps> = (props) => {
-  const { t } = useTranslation();
+const NumberedBox: React.FC<NumberedBoxProps> = async (props) => {
+  const { t } = await useTranslation(props.lng);
 
   return (
     <div className="relative min-h-[144px] scale-100 xl:flex xl:gap-2">

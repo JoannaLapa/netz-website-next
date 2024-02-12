@@ -62,6 +62,7 @@ export default async function Page({
           title={t('offerTitle')}
           accentText={t('offerAccentText')}
           numberedBoxes={[1, 2, 3]}
+          lng={lng}
         />
         <ListSection
           title={t('fleetTitle')}

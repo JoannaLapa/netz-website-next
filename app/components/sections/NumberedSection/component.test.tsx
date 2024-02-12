@@ -35,6 +35,7 @@ test('render NumberedSection with title, accentText and numberedboxes', () => {
       title="Test title"
       accentText="Test accent text"
       numberedBoxes={[1, 2, 3]}
+      lng="en"
     />,
   );
 
