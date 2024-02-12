@@ -1,8 +1,5 @@
-import { useTranslation } from '../../../../../i18n';
-
 import { NumberedBoxProps } from './component.types';
-const NumberedBox: React.FC<NumberedBoxProps> = async (props) => {
-  const { t } = await useTranslation(props.lng);
+const NumberedBox: React.FC<NumberedBoxProps> = (props) => {
 
   return (
     <div className="relative min-h-[144px] scale-100 xl:flex xl:gap-2">
@@ -11,10 +8,10 @@ const NumberedBox: React.FC<NumberedBoxProps> = async (props) => {
       </span>
       <div className="ml-[38px] mt-[42px] xl:ml-0 xl:mt-0">
         <h3 className=" font-robotoCondensed text-md font-bold text-neutral-400 lg:text-lg">
-          {t(`numberedBoxes.${props.boxNr}.title`)}
+          {props.title}
         </h3>
         <p className="text-base font-light text-neutral-300 lg:text-md">
-          {t(`numberedBoxes.${props.boxNr}.description`)}
+          {props.description}
         </p>
       </div>
     </div>

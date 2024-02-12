@@ -25,7 +25,7 @@ export default async function Page({
   };
 }) {
   if (languages.indexOf(lng) < 0) lng = fallbackLng;
-  const { t } = await useTranslation(lng);
+  const { t, i18n } = await useTranslation(lng);
 
   return (
     <>
@@ -57,13 +57,14 @@ export default async function Page({
           accentText={t('whyUsAccentText')}
           experienceSuffix={t('experienceSuffix')}
           lng={lng}
+          i18n={i18n}
         />
 
         <NumberedSection
           title={t('offerTitle')}
           accentText={t('offerAccentText')}
-          numberedBoxes={[1, 2, 3]}
           lng={lng}
+          i18n={i18n}
         />
         <ListSection
           title={t('fleetTitle')}

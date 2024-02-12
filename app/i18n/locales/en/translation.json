@@ -20,36 +20,20 @@
   "whyUsTitle": "Why are you ",
   "whyUsAccentText": "specifically looking for us",
   "experienceSuffix": "years of experience",
-  "boxes": [
-    {
-      "title": "Expanded ",
-      "accentText": "database of trusted carriers"
-    },
-    {
-      "title": "Insurance for every transport up to ",
-      "accentText": "300,000 euros"
-    },
-    {
-      "title": "All necessary ",
-      "accentText": "permits and licenses"
-    }
-  ],
+  "box1Title": "Expanded ",
+  "box1AccentText": "database of trusted carriers",
+  "box2Title": "Insurance for every transport up to ",
+  "box2AccentText": "300,000 euros",
+  "box3Title": "All necessary ",
+  "box3AccentText": "permits and licenses",
   "offerTitle": "Explore ",
   "offerAccentText": "our services",
-  "numberedBoxes": [
-    {
-      "title": "Local and European Transport",
-      "description": "Loading, unloading, and comprehensive freight care"
-    },
-    {
-      "title": "Comprehensive Vehicle Equipment",
-      "description": "Elevators, forklifts, etc."
-    },
-    {
-      "title": "Warehouses",
-      "description": "Storage, securing, and packaging of goods"
-    }
-  ],
+  "numberedBox1Title": "Local and European Transport",
+  "numberedBox1Description": "Loading, unloading, and comprehensive freight care",
+  "numberedBox2Title": "Comprehensive Vehicle Equipment",
+  "numberedBox2Description": "Taillifts, forklifts, etc.",
+  "numberedBox3Title": "Warehouses",
+  "numberedBox3Description": "Storage, securing, and packaging of goods",
   "fleetTitle": "at our disposal",
   "accentText": "Vehicles ",
   "listTitle": "We have vehicles of various dimensions and permissible weight:",

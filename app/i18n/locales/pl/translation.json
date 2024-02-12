@@ -21,36 +21,20 @@
   "whyUsTitle": "Dlaczego szukasz ",
   "whyUsAccentText": "własnie nas?",
   "experienceSuffix": " lat doświadczenia",
-  "boxes": [
-    {
-      "title": "Rozbudowana ",
-      "accentText": "baza zaufanych przewoźników"
-    },
-    {
-      "title": "Ubezpieczenie każdego transport do ",
-      "accentText": "300 000 euro"
-    },
-    {
-      "title": "Wszystkie niezbędne ",
-      "accentText": "pozwolenia i licencje"
-    }
-  ],
+  "box1Title": "Rozbudowana ",
+  "box1AccentText": "baza zaufanych przewoźników",
+  "box2Title": "Ubezpieczenie każdego transport do ",
+  "box2AccentText": "300 000 euro",
+  "box3Title": "Wszystkie niezbędne ",
+  "box3AccentText": "pozwolenia i licencje",
   "offerTitle": "Poznaj ",
   "offerAccentText": "naszą ofertę",
-  "numberedBoxes": [
-    {
-      "title": "Transport lokalny i na terenie całej Europy",
-      "description": "Załadunek i rozładunek oraz kompleksowa opieka spedycyjna"
-    },
-    {
-      "title": "Kompleksowe wyposażenie pojazdów",
-      "description": "Windy, wózki podnośnikowe itp."
-    },
-    {
-      "title": "Magazyny",
-      "description": "Przechowywanie,zabezpieczenie i pakowanie towaru"
-    }
-  ],
+  "numberedBox1Title": "Transport lokalny i na terenie całej Europy",
+  "numberedBox1Description": "Załadunek i rozładunek oraz kompleksowa opieka spedycyjna",
+  "numberedBox2Title": "Kompleksowe wyposażenie pojazdów",
+  "numberedBox2Description": "Windy, wózki podnośnikowe itp.",
+  "numberedBox3Title": "Magazyny",
+  "numberedBox3Description": "Przechowywanie,zabezpieczenie i pakowanie towaru",
   "fleetTitle": "jakimi dysponujemy",
   "accentText": "Pojazdy ",
   "listTitle": "Dysponujemy pojazdami o różnnych gabarytach oraz dopuszczalnej masie:",

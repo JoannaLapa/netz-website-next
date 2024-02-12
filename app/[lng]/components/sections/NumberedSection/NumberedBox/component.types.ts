@@ -1,7 +1,8 @@
 type NumberedBoxProps = {
   decorator: string;
   boxNr: number;
-  lng: string;
+  title: string;
+  description: string;
 };
 
 export type { NumberedBoxProps };

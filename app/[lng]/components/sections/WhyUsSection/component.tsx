@@ -8,29 +8,27 @@ import Truck from '../../icons/Truck/Truck';
 import Insurance from '../../icons/Truck/Insurance';
 import Licences from '../../icons/Truck/Licences';
 import Counter from './Counter/component';
-import { useTranslation } from '../../../../i18n';
 
 export const boxes = [
   {
     children: <Truck />,
-    title: 'boxes.0.title' as const,
-    accentText: 'boxes.0.accentText' as const,
+    title: 'box1Title' as const,
+    accentText: 'box1AccentText' as const,
   },
   {
     children: <Insurance />,
-    title: 'boxes.0.title' as const,
-    accentText: 'boxes.0.accentText' as const,
+    title: 'box2Title' as const,
+    accentText: 'box2AccentText' as const,
   },
   {
     children: <Licences />,
-    title: 'boxes.0.title' as const,
-    accentText: 'boxes.0.accentText' as const,
+    title: 'box3Title' as const,
+    accentText: 'box3AccentText' as const,
   },
 ];
 
-const WhyUsSection: React.FC<WhyUsSectionProps> = async (props) => {
-  const { t } = await useTranslation(props.lng);
-
+const WhyUsSection: React.FC<WhyUsSectionProps> =(props) => {
+  const t = props.i18n.getFixedT(props.lng, 'translation');
   return (
     <Wrapper
       element="section"
