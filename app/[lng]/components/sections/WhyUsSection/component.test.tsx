@@ -10,20 +10,12 @@ i18n.use(initReactI18next).init({
   resources: {
     en: {
       translation: {
-        boxes: [
-          {
-            title: 'Expanded ',
-            accentText: 'database of trusted carriers',
-          },
-          {
-            title: 'Insurance for every transport up to ',
-            accentText: '300,000 euros',
-          },
-          {
-            title: 'All necessary ',
-            accentText: 'permits and licenses',
-          },
-        ],
+        box1Title: 'Expanded ',
+        box1AccentText: 'database of trusted carriers',
+        box2Title: 'Insurance for every transport up to ',
+        box2AccentText: '300,000 euros',
+        box3Title: 'All necessary ',
+        box3AccentText: 'permits and licenses',
       },
     },
   },
@@ -35,6 +27,8 @@ test('render WhyUsSection with title, accentText and experienceSuffix', () => {
       title="Test title"
       accentText="Test accent text"
       experienceSuffix="Test experience suffix"
+      lng="en"
+      i18n={i18n}
     />,
   );
 

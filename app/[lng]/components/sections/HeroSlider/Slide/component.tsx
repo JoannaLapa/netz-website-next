@@ -1,9 +1,8 @@
-/* eslint-disable tailwindcss/enforces-negative-arbitrary-values */
-/* eslint-disable tailwindcss/no-custom-classname */
-import Button from '@/app/components/ui/Button';
+import Button from '@/app/[lng]/components/ui/Button';
 import { SlideProps } from './component.types';
 
 const Slide: React.FC<SlideProps> = (props) => {
+
   return (
     <div className="relative flex h-full min-h-svh w-full flex-col gap-16 transition duration-500 md:gap-8">
       <div className="relative mt-[10vh] min-h-[15rem] max-w-[22.625rem] sm:min-h-[400px] sm:max-w-[56.25rem] 2xl:max-w-full">

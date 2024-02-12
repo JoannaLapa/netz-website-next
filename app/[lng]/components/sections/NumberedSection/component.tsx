@@ -5,7 +5,10 @@ import Wrapper from '../../ui/Wrapper';
 import NumberedBox from './NumberedBox/component';
 import { NumberedSectionProps } from './index';
 
+const numberedBoxes = [1, 2, 3] as const
+
 const NumberedSection: React.FC<NumberedSectionProps> = (props) => {
+  const t = props.i18n.getFixedT(props.lng, 'translation');
   return (
     <>
       <Wrapper element="section" padding variant="section" id="offer">
@@ -17,9 +20,15 @@ const NumberedSection: React.FC<NumberedSectionProps> = (props) => {
           />
 
           <div className="flex flex-col gap-4 md:flex-row">
-            {props.numberedBoxes.map((box, index) => {
+            {numberedBoxes.map((box, index) => {
               return (
-                <NumberedBox key={box} decorator={`0${box}`} boxNr={index} />
+                <NumberedBox
+                  key={index}
+                  decorator={`0${index + 1}`}
+                  boxNr={index}
+                  title={t(`numberedBox${box}Title`)}
+                  description={t(`numberedBox${box}Title`)}
+                />
               );
             })}
           </div>

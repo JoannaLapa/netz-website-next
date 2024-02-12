@@ -5,25 +5,19 @@ import { initReactI18next } from 'react-i18next';
 
 //Translations mock
 i18n.use(initReactI18next).init({
-  lng: 'en',
-  fallbackLng: 'en',
+  lng: 'de',
+  fallbackLng: 'de',
   resources: {
-    en: {
+    de: {
       translation: {
-        numberedBoxes: [
-          {
-            title: 'Local and European Transport',
-            description: 'Loading, unloading, and comprehensive freight care',
-          },
-          {
-            title: 'Comprehensive Vehicle Equipment',
-            description: 'Elevators, forklifts, etc.',
-          },
-          {
-            title: 'Warehouses',
-            description: 'Storage, securing, and packaging of goods',
-          },
-        ],
+        numberedBox1Title: 'Lokaler und europäischer Transport',
+        numberedBox1Description:
+          'Verladung, Entladung und umfassende Frachtpflege',
+        numberedBox2Title: 'Umfassende Fahrzeugausstattung',
+        numberedBox2Description: 'Aufzüge, Gabelstapler usw.',
+        numberedBox3Title: 'Lagerhäuser',
+        numberedBox3Description:
+          'Lagerung, Sicherung und Verpackung von Gütern',
       },
     },
   },
@@ -34,7 +28,8 @@ test('render NumberedSection with title, accentText and numberedboxes', () => {
     <NumberedSection
       title="Test title"
       accentText="Test accent text"
-      numberedBoxes={[1, 2, 3]}
+      lng='de'
+      i18n={i18n}
     />,
   );
 

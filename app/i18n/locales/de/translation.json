@@ -20,36 +20,20 @@
   "whyUsTitle": "Warum suchst du ",
   "whyUsAccentText": "ausgerechnet uns?",
   "experienceSuffix": " Jahre Erfahrung",
-  "boxes": [
-    {
-      "title": "Erweiterte ",
-      "accentText": "Datenbank vertrauenswürdiger Spediteure"
-    },
-    {
-      "title": "Versicherung für jeden Transport bis zu ",
-      "accentText": "300.000 Euro"
-    },
-    {
-      "title": "Alle notwendigen ",
-      "accentText": "Genehmigungen und Lizenzen"
-    }
-  ],
+  "box1Title": "Erweiterte ",
+  "box1AccentText": "Datenbank vertrauenswürdiger Spediteure",
+  "box2Title": "Versicherung für jeden Transport bis zu ",
+  "box2AccentText": "300.000 Euro",
+  "box3Title": "Alle notwendigen ",
+  "box3AccentText": "Genehmigungen und Lizenzen",
   "offerTitle": "Entdecken Sie ",
   "offerAccentText": "unsere Dienstleistungen ",
-  "numberedBoxes": [
-    {
-      "title": "Lokaler und europäischer Transport",
-      "description": "Verladung, Entladung und umfassende Frachtpflege"
-    },
-    {
-      "title": "Umfassende Fahrzeugausstattung",
-      "description": "Aufzüge, Gabelstapler usw."
-    },
-    {
-      "title": "Lagerhäuser",
-      "description": "Lagerung, Sicherung und Verpackung von Gütern"
-    }
-  ],
+  "numberedBox1Title": "Lokaler und europäischer Transport",
+  "numberedBox1Description": "Verladung, Entladung und umfassende Frachtpflege",
+  "numberedBox2Title": "Umfassende Fahrzeugausstattung",
+  "numberedBox2Description": "Aufzüge, Gabelstapler usw.",
+  "numberedBox3Title": "Lagerhäuser",
+  "numberedBox3Description": "Lagerung, Sicherung und Verpackung von Gütern",
   "fleetTitle": "über die wir verfügen",
   "accentText": "Fahrzeuge, ",
   "listTitle": "Wir verfügen über Fahrzeuge unterschiedlicher Abmessungen und zulässigem Gewicht:",

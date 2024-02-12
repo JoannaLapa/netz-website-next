@@ -1,13 +1,12 @@
 'use client';
 
 import { IconWithDescriptionBoxProps } from './component.types';
-import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 
 const IconWithDescriptionBox: React.FC<IconWithDescriptionBoxProps> = (
   props,
 ) => {
-  const { t } = useTranslation();
+
   return (
     <motion.div
       className="flex flex-col items-center justify-center gap-5 text-center"
@@ -18,9 +17,9 @@ const IconWithDescriptionBox: React.FC<IconWithDescriptionBoxProps> = (
     >
       {props.children}
       <h4 className="max-w-[180px] text-md font-light text-neutral-400 sm:max-w-[220px] md:max-w-[340px] lg:text-lg">
-        {t(`boxes.${props.boxNr}.title`)}
+        {props.title}
         <span className="font-medium">
-          {t(`boxes.${props.boxNr}.accentText`)}
+          {props.accentText}
         </span>
       </h4>
     </motion.div>

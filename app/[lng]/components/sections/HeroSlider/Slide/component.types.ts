@@ -7,6 +7,7 @@ type SlideProps = {
   buttonTitle?: string;
   visible: boolean;
   link?: LinkProps;
+  lng: string;
 };
 
 export type { SlideProps };

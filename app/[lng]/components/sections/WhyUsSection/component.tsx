@@ -9,26 +9,26 @@ import Insurance from '../../icons/Truck/Insurance';
 import Licences from '../../icons/Truck/Licences';
 import Counter from './Counter/component';
 
-const currentYear = new Date().getFullYear();
-const startYear = 2015;
-const experience = currentYear - startYear;
-
-const boxes = [
+export const boxes = [
   {
-    boxNr: 0,
     children: <Truck />,
+    title: 'box1Title' as const,
+    accentText: 'box1AccentText' as const,
   },
   {
-    boxNr: 1,
     children: <Insurance />,
+    title: 'box2Title' as const,
+    accentText: 'box2AccentText' as const,
   },
   {
-    boxNr: 2,
     children: <Licences />,
+    title: 'box3Title' as const,
+    accentText: 'box3AccentText' as const,
   },
 ];
 
-const WhyUsSection: React.FC<WhyUsSectionProps> = (props) => {
+const WhyUsSection: React.FC<WhyUsSectionProps> =(props) => {
+  const t = props.i18n.getFixedT(props.lng, 'translation');
   return (
     <Wrapper
       element="section"
@@ -55,7 +55,12 @@ const WhyUsSection: React.FC<WhyUsSectionProps> = (props) => {
           </div>
           <div className="flex flex-col gap-8">
             {boxes.map((box) => (
-              <IconWithDescriptionBox key={box.boxNr} {...box} />
+              <IconWithDescriptionBox
+                key={box.title}
+                {...box}
+                title={t(box.title)}
+                accentText={t(box.accentText)}
+              />
             ))}
           </div>
         </div>

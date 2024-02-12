@@ -1,6 +1,6 @@
 import { AccordionListProps } from './component.types';
 import Link from 'next/link';
-import { languages } from '../../../../../i18n/settings';
+import { languages } from '../../../../../../i18n/settings';
 import { motion } from 'framer-motion';
 
 const variantsUl = {

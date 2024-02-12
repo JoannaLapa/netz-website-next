@@ -33,10 +33,10 @@ i18n.use(initReactI18next).init({
 test('renders correctly', () => {
   const { getByLabelText } = render(
     <HeroSlider
-      slides={slides}
       skipLinkContent="Skip slider"
       links={links}
       skipLink="#test"
+      lng='en'
     />,
   );
 
@@ -49,10 +49,10 @@ test('renders correctly', () => {
 test('changes slide on button click', () => {
   const { getByLabelText, getByTestId } = render(
     <HeroSlider
-      slides={slides}
       skipLinkContent="Skip slider"
       links={links}
       skipLink="#test"
+      lng="en"
     />,
   );
 
