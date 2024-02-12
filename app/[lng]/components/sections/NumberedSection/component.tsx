@@ -5,7 +5,7 @@ import Wrapper from '../../ui/Wrapper';
 import NumberedBox from './NumberedBox/component';
 import { NumberedSectionProps } from './index';
 
-const numberedBoxes = [1, 2, 3] as const
+const numberedBoxes = [1, 2, 3] as const;
 
 const NumberedSection: React.FC<NumberedSectionProps> = (props) => {
   const t = props.i18n.getFixedT(props.lng, 'translation');

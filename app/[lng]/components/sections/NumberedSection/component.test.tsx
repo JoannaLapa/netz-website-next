@@ -28,7 +28,7 @@ test('render NumberedSection with title, accentText and numberedboxes', () => {
     <NumberedSection
       title="Test title"
       accentText="Test accent text"
-      lng='de'
+      lng="de"
       i18n={i18n}
     />,
   );

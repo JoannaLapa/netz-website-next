@@ -1,6 +1,5 @@
 import { NumberedBoxProps } from './component.types';
 const NumberedBox: React.FC<NumberedBoxProps> = (props) => {
-
   return (
     <div className="relative min-h-[144px] scale-100 xl:flex xl:gap-2">
       <span className="absolute left-0 top-0 -z-10 font-robotoCondensed text-3xl font-bold text-neutral-200 opacity-80 xl:static xl:leading-normal">

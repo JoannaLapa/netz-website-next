@@ -1,5 +1,4 @@
-import { i18n } from 'i18next'
-
+import { i18n } from 'i18next';
 
 type NumberedSectionProps = {
   title: string;

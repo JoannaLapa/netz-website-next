@@ -8,7 +8,11 @@ const ListSection: React.FC<ListSectionProps> = (props) => {
   const array = new Array(props.index).fill(0);
 
   return (
-    <Wrapper element="section" className='py-9 md:py-0 md:pt-[94px]' variant="section">
+    <Wrapper
+      element="section"
+      className="py-9 md:py-0 md:pt-[94px]"
+      variant="section"
+    >
       <Container variant="section" className="flex flex-col">
         <Heading
           title={props.title}

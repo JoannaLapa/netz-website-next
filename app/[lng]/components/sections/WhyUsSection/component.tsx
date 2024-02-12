@@ -27,7 +27,7 @@ export const boxes = [
   },
 ];
 
-const WhyUsSection: React.FC<WhyUsSectionProps> =(props) => {
+const WhyUsSection: React.FC<WhyUsSectionProps> = (props) => {
   const t = props.i18n.getFixedT(props.lng, 'translation');
   return (
     <Wrapper

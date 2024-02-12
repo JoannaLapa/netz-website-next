@@ -36,7 +36,7 @@ test('renders correctly', () => {
       skipLinkContent="Skip slider"
       links={links}
       skipLink="#test"
-      lng='en'
+      lng="en"
     />,
   );
 
