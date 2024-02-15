@@ -3,9 +3,6 @@
 import Link from 'next/link';
 import { FormProps } from './component.types';
 import Button from '../../../ui/Button';
-import { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
-import getErrorMessage from '@/app/lib/utlis/getErrorMessage';
 import useHandleForm from './hooks/useHandleForm';
 
 const Form: React.FC<FormProps> = (props) => {
