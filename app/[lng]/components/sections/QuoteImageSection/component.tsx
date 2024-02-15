@@ -14,7 +14,7 @@ const QuoteImageSection: React.FC<QuoteImageSectionProps> = (props) => {
     <>
       <Wrapper
         element="section"
-        className="pb-9 md:pb-0 scroll-mt-28"
+        className="scroll-mt-28 pb-9 md:pb-0"
         id={props.id}
         variant="section"
       >

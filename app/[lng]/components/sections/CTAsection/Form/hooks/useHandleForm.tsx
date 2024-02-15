@@ -39,8 +39,7 @@ const useHandleForm = (successMessage: string, errorMessage: string) => {
     }
   };
 
-  const messageState = (
-  ) => {
+  const messageState = () => {
     console.log('message w messageState', message);
     if (message === 'success') {
       return <p className="text-primary-100">{successMessage}</p>;
@@ -50,7 +49,7 @@ const useHandleForm = (successMessage: string, errorMessage: string) => {
       return null;
     }
   };
-  return {form, sendEmail, messageState}
+  return { form, sendEmail, messageState };
 };
 
 export default useHandleForm;
