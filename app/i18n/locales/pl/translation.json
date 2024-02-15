@@ -55,6 +55,8 @@
   "emailPlaceholder": "Adres e-mail",
   "messagePlaceholder": "Treść wiadomości",
   "privacyPolicy": "Oświadczam, że zapoznałem się  z Polityką Prywatności i wyrażam zgodę na przetwarzanie moich danych osobowych podanych w formularzu kontaktowym. ",
+  "successMessage": "Wiadomość została poprawnie wysłana, dziękujemy!",
+  "errorMessage": "Wystąpił błąd podczasy wysyłania wiadomości.",
   "privacyPolicyLink": "Dowiedz się więcej",
   "privacyInfo": "Ta strona używa ciasteczek (cookies), dzięki którym nasz serwis może działać lepiej. ",
   "realisation": "Projekt i realizacja strony:"

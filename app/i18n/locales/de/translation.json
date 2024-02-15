@@ -53,6 +53,8 @@
   "companyPlaceholder": "Firmenname",
   "emailPlaceholder": "E-Mail-Adresse",
   "messagePlaceholder": "Nachrichteninhalt",
+  "successMessage": "Nachricht erfolgreich gesendet, danke!",
+  "errorMessage": "Beim Senden der Nachricht ist ein Fehler aufgetreten.",
   "privacyPolicy": "Ich erkläre, dass ich die Datenschutzerklärung gelesen habe und der Verarbeitung meiner personenbezogenen Daten im Kontaktformular zustimme. ",
   "privacyPolicyLink": "Erfahre mehr",
   "privacyInfo": "Diese Website verwendet Cookies, damit unser Service besser funktionieren kann.",
