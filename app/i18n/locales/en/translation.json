@@ -53,6 +53,8 @@
   "companyPlaceholder": "Company Name",
   "emailPlaceholder": "Email Address",
   "messagePlaceholder": "Message Content",
+  "successMessage": "Message sent successfully, thank you!",
+  "errorMessage": "An error occurred while sending the message.",
   "privacyPolicy": "I declare that I have read the Privacy Policy and consent to the processing of my personal data provided in the contact form. ",
   "privacyPolicyLink": "Learn more",
   "privacyInfo": "This website uses cookies, which help our site to work better.",

@@ -3,15 +3,17 @@ type CTAsectionProps = {
   accentText: string;
   description: string;
   buttonTitle: string;
-  namePlaceholder: string;
-  companyPlaceholder: string;
-  emailPlaceholder: string;
-  messagePlaceholder: string;
+  name: string;
+  company: string;
+  email: string;
+  message: string;
   privacyPolicyText: string;
   privacyPolicyLink: {
     href: string;
     title: string;
   };
+  errorMessage: string;
+  successMessage: string;
 };
 
 export type { CTAsectionProps };
