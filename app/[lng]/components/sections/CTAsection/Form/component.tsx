@@ -6,51 +6,13 @@ import Button from '../../../ui/Button';
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import getErrorMessage from '@/app/lib/utlis/getErrorMessage';
+import useHandleForm from './hooks/useHandleForm';
 
 const Form: React.FC<FormProps> = (props) => {
-  const form = useRef<HTMLFormElement>(null);
-  const [message, setMessage] = useState('');
-
-  const sendEmail = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (form.current) {
-      try {
-        await emailjs.sendForm(
-          process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID as string,
-          process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID as string,
-          form.current,
-          {
-            publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY as string,
-          },
-        );
-        setMessage('success');
-        setTimeout(() => {
-          if (form.current) {
-            form.current.reset();
-          }
-          setMessage('');
-        }, 3000);
-      } catch (error: unknown) {
-        setMessage('error');
-        setTimeout(() => {
-          setMessage('');
-        }, 3000);
-        return {
-          error: getErrorMessage(error),
-        };
-      }
-    }
-  };
-
-  const messageState = (state: string) => {
-    if (state === 'success') {
-      return <p className="text-primary-100">{props.successMessage}</p>;
-    } else if (state === 'error') {
-      return <p className="text-danger-100">{props.errorMessage}</p>;
-    } else {
-      return null;
-    }
-  };
+  const { form, sendEmail, messageState } = useHandleForm(
+    props.successMessage,
+    props.errorMessage,
+  );
 
   return (
     <form
@@ -102,7 +64,7 @@ const Form: React.FC<FormProps> = (props) => {
           </Link>
         </label>
       </div>
-      <div className="h-3">{messageState(message)}</div>
+      <div className="h-3">{messageState()}</div>
       <Button type="submit" title={props.buttonTitle} styles="self-end mt-1" />
     </form>
   );
