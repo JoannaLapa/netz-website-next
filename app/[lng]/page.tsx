@@ -87,12 +87,14 @@ export default async function Page({
           accentText={t('CTAaccentText')}
           description={t('CTAdescription')}
           buttonTitle={t('buttonTitle')}
-          namePlaceholder={t('namePlaceholder')}
-          companyPlaceholder={t('companyPlaceholder')}
-          emailPlaceholder={t('emailPlaceholder')}
-          messagePlaceholder={t('messagePlaceholder')}
+          name={t('namePlaceholder')}
+          company={t('companyPlaceholder')}
+          email={t('emailPlaceholder')}
+          message={t('messagePlaceholder')}
           privacyPolicyText={t('privacyPolicy')}
           privacyPolicyLink={{ href: '#', title: t('privacyPolicyLink') }}
+          successMessage={t('successMessage')}
+          errorMessage={t('errorMessage')}
         />
       </main>
       <Footer
