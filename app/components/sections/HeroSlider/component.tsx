@@ -7,7 +7,7 @@ import Slide from './Slide/component';
 import { HeroSliderProps } from './index';
 import { BsCircleFill } from 'react-icons/bs';
 import Link from 'next/link';
-import { useTranslation } from '../../../../i18n/client';
+import { useTranslation } from '../../../i18n/client';
 
 const slides = [
   ['slideTitle0', 'slideButtonTitle0'],

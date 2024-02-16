@@ -1,15 +1,15 @@
 import { languages, fallbackLng } from '../i18n/settings';
 import { useTranslation } from '../i18n';
-import Header from './components/sections/Header/index';
-import HeroSlider from './components/sections/HeroSlider/index';
-import BoxImageSection from './components/sections/BoxImageSection';
-import WhyUsSection from './components/sections/WhyUsSection';
-import NumberedSection from './components/sections/NumberedSection/component';
-import ListSection from './components/sections/ListSection';
-import CTAsection from './components/sections/CTAsection';
-import Footer from './components/sections/Footer';
-import ContentImageSection from './components/sections/ContentImageSection';
-import QuoteImageSection from './components/sections/QuoteImageSection';
+import Header from '../components/sections/Header/index';
+import HeroSlider from '../components/sections/HeroSlider/index';
+import BoxImageSection from '../components/sections/BoxImageSection';
+import WhyUsSection from '../components/sections/WhyUsSection';
+import NumberedSection from '../components/sections/NumberedSection/component';
+import ListSection from '../components/sections/ListSection';
+import CTAsection from '../components/sections/CTAsection';
+import Footer from '../components/sections/Footer';
+import ContentImageSection from '../components/sections/ContentImageSection';
+import QuoteImageSection from '../components/sections/QuoteImageSection';
 
 const links = [
   { href: '#contactForm' },
