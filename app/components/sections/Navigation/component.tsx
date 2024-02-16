@@ -5,7 +5,7 @@ import { motion, useCycle } from 'framer-motion';
 import NavList from './NavList/component';
 import MenuToggle from './MenuToggle/component';
 import { NavigationProps } from './index';
-import { useTranslation } from '../../../../i18n/client';
+import { useTranslation } from '../../../i18n/client';
 const sidebar = {
   open: {
     clipPath: `circle(180% at 100% 0)`,

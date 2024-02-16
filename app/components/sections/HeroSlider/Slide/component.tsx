@@ -1,4 +1,4 @@
-import Button from '@/app/[lng]/components/ui/Button';
+import Button from '@/app/components/ui/Button';
 import { SlideProps } from './component.types';
 
 const Slide: React.FC<SlideProps> = (props) => {
