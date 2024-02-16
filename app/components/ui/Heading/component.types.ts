@@ -1,7 +1,7 @@
 type HeadingProps = {
   title: string;
-  accentText: string;
-  accentPosition: 'left' | 'right';
+  accentText?: string;
+  accentPosition?: 'left' | 'right';
   className?: string;
 };
 
