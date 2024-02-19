@@ -29,7 +29,7 @@ export default async function Page({
 
   return (
     <>
-      <Header lng={lng} />
+      <Header lng={lng} nav homeLink={t('homeLink')}/>
       <main className="lg:pt-[120px]">
         <HeroSlider
           skipLinkContent={t('sliderSkipLink')}
@@ -92,7 +92,7 @@ export default async function Page({
           email={t('emailPlaceholder')}
           message={t('messagePlaceholder')}
           privacyPolicyText={t('privacyPolicy')}
-          privacyPolicyLink={{ href: '#', title: t('privacyPolicyLink') }}
+          privacyPolicyLink={{ href: `/${lng}/privacy-policy`, title: t('privacyPolicyLink') }}
           successMessage={t('successMessage')}
           errorMessage={t('errorMessage')}
         />
