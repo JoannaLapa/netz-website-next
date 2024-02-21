@@ -15,7 +15,7 @@ const Header: React.FC<HeaderProps> = (props) => {
           className="flex items-center justify-between"
         >
           <div className="max-w-[6.125rem] xl:max-w-[11rem]">
-            <Link href="/">
+            <Link href={props.href}>
               <Image
                 alt="Company logo Netz with green net"
                 src="/assets/images/netz_x2.jpg"
