@@ -5,7 +5,5 @@ interface PrivacyPolicyLayoutProps {
 export default function PrivacyPolicyLayout({
   children,
 }: PrivacyPolicyLayoutProps) {
-  return (
-      <>{children}</>
-  );
+  return <>{children}</>;
 }
