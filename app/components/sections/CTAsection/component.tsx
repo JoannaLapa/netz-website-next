@@ -15,7 +15,7 @@ const CTAsection: React.FC<CTAsectionProps> = (props) => {
       padding
       variant="sectionBig"
       className="lg:px-[10%]"
-      id="contact"
+      id="contactForm"
     >
       <Container
         variant="sectionBig"
