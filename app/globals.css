@@ -6,6 +6,15 @@
   body {
     @apply bg-neutral-100;
   }
+
+  p,
+  li {
+    @apply text-base font-light text-neutral-300 sm:text-md;
+  }
+
+  strong {
+    @apply text-base text-neutral-300 sm:text-md;
+  }
 }
 
 @layer components {
