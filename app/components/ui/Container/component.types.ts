@@ -1,6 +1,6 @@
 type ContainerProps = {
   children: React.ReactNode;
-  variant: 'section' | 'sectionBig';
+  variant: 'section' | 'sectionBig' | 'sectionSmall';
   className?: string;
 };
 

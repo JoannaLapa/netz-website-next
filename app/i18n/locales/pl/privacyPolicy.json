@@ -1,3 +1,192 @@
 {
-    "homeLink": "Przejdź do strony głównej"
+  "homeLink": "Przejdź do strony głównej",
+  "privacyHeading": "Polityka Prywatności",
+  "updateDateInfo": "Ostatnia akutalizacja 16.02.2024",
+  "privacyPolicyUsageContentIntroduction": " Niniejsze zawiadomienie o ochronie prywatności dla firmy Anita Surma i Michael Szczerbak Netz GbR opisuje, w jaki sposób i dlaczego możemy gromadzić, przechowywać, używać i/lub udostępniać ('przetwarzać') Twoje informacje, gdy korzystasz z naszych usług 'Usługi', takich jak gdy:",
+  "privacyPolicyUsageContent": [
+    "lub dowolną naszą stronę internetową, która odnosi się do niniejszej noty dotyczącej prywatności",
+    "Współpracujesz z nami w innych powiązanych obszarach - w tym sprzedażą, marketingiem lub wydarzeniami"
+  ],
+  "privacyPolicyUsageLinkText": "Odwiedzasz naszą stronę internetową",
+  "questionsOrConcerns": {
+    "title": "Masz pytania lub obawy?",
+    "content": "Przeczytanie informacji o ochronie prywatności pomoże Ci zrozumieć Twoje prawa i wybory dotyczące prywatności. Jeśli nie zgadzasz się z naszymi zasadami i praktykami, prosimy nie korzystaj z naszych usług. Jeśli nadal masz jakiekolwiek pytania lub wątpliwości, skontaktuj się z nami pod adresem anita.surma@direkt-netz.de."
+  },
+  "summaryTitle": "PODSUMOWANIE NAJWAŻNIEJSZYCH PUNKTÓW",
+  "summaryStrong": "To podsumowanie zawiera kluczowe punkty naszej polityki prywatności.",
+  "summaryContent": [
+    {
+      "strong": "Jakie dane osobowe przetwarzamy?",
+      "content": "Podczas korzystania z naszych Usług możemy przetwarzać dane osobowe w zależności od sposobu interakcji z nami i Usługami, dokonywanych wyborów oraz używanych produktów i funkcji. Dowiedz się więcej o danych osobowych, które ujawniasz nam."
+    },
+    {
+      "strong": "Czy przetwarzamy jakiekolwiek wrażliwe dane osobowe?",
+      "content": "Nie przetwarzamy wrażliwych danych osobowych."
+    },
+    {
+      "strong": "Czy otrzymujemy jakiekolwiek informacje od stron trzecich?",
+      "content": "Nie otrzymujemy żadnych informacji od stron trzecich."
+    },
+    {
+      "strong": "Jak przetwarzamy Twoje informacje?",
+      "content": "Przetwarzamy Twoje informacje w celu świadczenia, ulepszania i zarządzania naszymi Usługami, komunikacji z Tobą, zapewnienia bezpieczeństwa i zapobiegania oszustwom oraz w celu przestrzegania prawa. Możemy również przetwarzać Twoje informacje w innych celach za Twoją zgodą. Przetwarzamy Twoje informacje tylko wtedy, gdy mamy ważny prawny powód do tego. W jakich sytuacjach i z jakimi stronami dzielimy się danymi osobowymi? Możemy udostępniać informacje w określonych sytuacjach i konkretnym stronom trzecim. Kiedy i z kim dzielimy Twoje dane osobowe? Jak dbamy o bezpieczeństwo Twoich informacji? Mamy ustalone procesy i procedury organizacyjne i techniczne, które mają na celu ochronę Twoich danych osobowych. Jednakże żadna elektroniczna transmisja przez Internet ani technologia przechowywania informacji nie może być gwarantowana na 100% jako bezpieczna, więc nie możemy obiecać ani zagwarantować, że hakerzy, cyberprzestępcy lub inne nieautoryzowane trzecie strony nie będą w stanie pokonać naszego zabezpieczenia i nieprawidłowo zbierać, uzyskiwać dostęp do, kraść lub modyfikować Twoich informacji."
+    },
+    {
+      "strong": "Jakie są Twoje prawa?",
+      "content": "W zależności od Twojego geograficznego położenia odpowiednie prawo prywatności może oznaczać, że masz pewne prawa dotyczące Twoich danych osobowych. Jak możesz wykorzystać swoje prawa? Najłatwiejszym sposobem korzystania z Twoich praw jest złożenie wniosku o dostęp do danych osobowych lub kontakt z nami. Rozpatrzymy i podejmiemy działania w odpowiedzi na każde żądanie zgodnie z obowiązującymi przepisami o ochronie danych. Chcesz dowiedzieć się więcej o tym, co robimy z zebranymi informacjami?"
+    },
+    {
+      "strong": "Jak możesz wykorzystać swoje prawa?",
+      "content": "Najłatwiejszym sposobem korzystania z Twoich praw jest kontakt z nami. Rozpatrzymy i podejmiemy działania w odpowiedzi na każde żądanie zgodnie z obowiązującymi przepisami o ochronie danych. Chcesz dowiedzieć się więcej o tym, co robimy z zebranymi informacjami? Zapoznaj się z pełną polistyką prywatności."
+    }
+  ],
+  "privacyPolicyPoint1": {
+    "heading": "1. JAKIE INFORMACJE ZBIERAMY?",
+    "subheading": "Twoje dane osobowe, które nam udostępniasz",
+    "inShort": "W skrócie: Zbieramy dane osobowe, które nam udostępniasz.",
+    "content": "Zbieramy dane osobowe, które nam udostępniasz. Zbieramy dane osobowe, które dobrowolnie nam przekazujesz, gdy wyrażasz zainteresowanie uzyskaniem informacji o nas lub naszych produktach i usługach, gdy uczestniczysz w działaniach na naszych usługach, lub w inny sposób, gdy się z nami skontaktujesz."
+  },
+  "personalInformationBold1": {
+    "importantNotice": "Dane osobowe dostarczone przez Ciebie.",
+    "content": "Dane osobowe, które zbieramy, zależą od kontekstu Twoich interakcji z nami i naszymi usługami, podejmowanych przez Ciebie decyzji oraz używanych przez Ciebie produktów i funkcji. Zbierane przez nas dane osobowe mogą obejmować następujące informacje:"
+  },
+  "personalInformationListItems": [
+    "imię i nazwisko",
+    "adresy e-mail",
+    "nazwy użytkowników",
+    "dane kontaktowe lub uwierzytelniające",
+    "preferencje kontaktu",
+    "tytuły zawodowe",
+    "adresy do korespondencji",
+    "nazwę firmy"
+  ],
+  "personalInformationBold2": {
+    "importantNotice": "Informacje wrażliwe.",
+    "content": "Nie przetwarzamy informacji wrażliwych. \n Wszystkie dane osobowe, które nam udostępniasz, powinny być prawdziwe, kompletne i dokładne. Powiadom nas o wszelkich zmianach w takich danych osobowych."
+  },
+  "privacyPolicyPoint2": {
+    "heading": "2. JAK PRZETWARZAMY TWOJE INFORMACJE?",
+    "inShort": "W skrócie: Przetwarzamy Twoje informacje, aby świadczyć, ulepszać i zarządzać naszymi usługami, komunikować się z Tobą, w celu zapobiegania zagrożeniom bezpieczeństwa i oszustwom oraz w celu przestrzegania prawa. Możemy również przetwarzać Twoje informacje w innych celach za Twoją zgodą.",
+    "content": "Przetwarzamy Twoje dane osobowe z różnych powodów, w zależności od tego, w jaki sposób korzystasz z naszych usług, w tym:"
+  },
+  "privacyPolicyPoint2ListItems": [
+    {
+      "importantNotice": "Aby dostarczać użytkownikowi usługi i ułatwiać dostarczanie usług.",
+      "content": "Możemy przetwarzać Twoje informacje, aby zapewnić Ci żądaną usługę."
+    },
+    {
+      "importantNotice": "Aby odpowiadać na zapytania użytkowników/oferować wsparcie użytkownikom.",
+      "content": "Możemy przetwarzać Twoje informacje, aby odpowiedzieć na Twoje zapytania i rozwiązać ewentualne problemy, jakie możesz mieć z żądaną usługą."
+    },
+    {
+      "importantNotice": "Aby przesyłać Ci informacje administracyjne.",
+      "content": "Możemy przetwarzać Twoje informacje, aby przesyłać Ci szczegóły dotyczące naszych produktów i usług, zmian w naszych warunkach i zasadach oraz inne podobne informacje."
+    },
+    {
+      "importantNotice": "Aby spełniać i zarządzać Twoimi zamówieniami.",
+      "content": "Możemy przetwarzać Twoje informacje, aby spełniać i zarządzać Twoimi zamówieniami, płatnościami, zwrotami i wymianami dokonywanymi za pośrednictwem usług."
+    },
+    {
+      "importantNotice": "Aby umożliwić komunikację między użytkownikami.",
+      "content": "Możemy przetwarzać Twoje informacje, jeśli wybierzesz korzystanie z jednej z naszych ofert, które umożliwiają komunikację z innym użytkownikiem."
+    },
+    {
+      "importantNotice": "Aby zachować lub chronić życie lub interesy osobiste.",
+      "content": "Możemy przetwarzać Twoje informacje, gdy jest to konieczne do zachowania lub ochrony życia lub interesów osobistych danej osoby, na przykład w celu zapobieżenia szkodom."
+    }
+  ],
+  "privacyPolicyPoint3": {
+    "heading": "3. NA JAKICH PODSTAWACH PRAWNYCH POLEGAJĄ NASZE DZIAŁANIA W ZAKRESIE PRZETWARZANIA TWOICH INFORMACJI?",
+    "inShort": "W skrócie: Przetwarzamy Twoje dane osobowe tylko wtedy, gdy uważamy, że jest to konieczne i mamy ważny prawny powód (tj. podstawę prawną) do tego zgodnie z obowiązującym prawem, np. na podstawie Twojej zgody, w celu przestrzegania przepisów prawa, świadczenia Ci usług, wchodzenia w życie lub realizacji naszych zobowiązań umownych, ochrony Twoich praw lub realizacji naszych uzasadnionych interesów biznesowych.",
+    "content": "Rozporządzenie ogólne o ochronie danych (RODO) i brytyjskie RODO wymagają, abyśmy wyjaśnili ważne podstawy prawne, na których polegamy przy przetwarzaniu Twoich danych osobowych. W związku z tym możemy polegać na następujących podstawach prawnych do przetwarzania Twoich danych osobowych:"
+  },
+  "privacyPolicyPoint3ListItems": [
+    {
+      "importantNotice": "Zgoda.",
+      "content": "Możemy przetwarzać Twoje informacje, jeśli udzieliłeś nam zgody (tj. zgody) na wykorzystanie Twoich danych osobowych w określonym celu. Możesz w dowolnym momencie wycofać swoją zgodę."
+    },
+    {
+      "importantNotice": "Wykonanie umowy",
+      "content": "Możemy przetwarzać Twoje dane osobowe, gdy uważamy, że jest to konieczne do spełnienia naszych zobowiązań umownych wobec Ciebie, w tym do świadczenia naszych usług lub na Twoje życzenie przed zawarciem umowy z Tobą."
+    },
+    {
+      "importantNotice": "Obowiązki prawne.",
+      "content": "Możemy przetwarzać Twoje informacje, jeśli uważamy, że jest to konieczne do spełnienia naszych obowiązków prawnych, takich jak współpraca z organem ścigania lub organem regulacyjnym, wykonywanie lub obrona naszych praw prawnych lub ujawnienie Twoich informacji jako dowodu w postępowaniach sądowych, w których uczestniczymy."
+    },
+    {
+      "importantNotice": "Interesy życiowe.",
+      "content": "Możemy przetwarzać Twoje informacje, jeśli uważamy, że jest to konieczne do ochrony Twoich interesów życiowych lub interesów życiowych osoby trzeciej, takich jak sytuacje dotyczące potencjalnych zagrożeń dla bezpieczeństwa jakiejkolwiek osoby."
+    }
+  ],
+  "privacyPolicyPoint4": {
+    "heading": "4. KIEDY I Z KIM DZIELIMY TWOJE DANE OSOBOWE?",
+    "inShort": "W skrócie: Możemy udostępniać informacje w określonych sytuacjach opisanych w tym dziale i/lub z następującymi podmiotami trzecimi."
+  },
+  "privacyPolicyPoint4BoldedContent": {
+    "importantNotice": "Dostawcy, konsultanci i inni dostawcy usług zewnętrznych.",
+    "content": "Możemy udostępniać Twoje dane osobowe podmiotom trzecim, dostawcom usług, wykonawcom lub agentom ('trzecie strony'), którzy świadczą usługi dla nas lub w naszym imieniu i wymagają dostępu do takich informacji, aby wykonać tę pracę. Mamy zawarte umowy z naszymi podmiotami trzecimi, które mają na celu ochronę Twoich danych osobowych. Oznacza to, że nie mogą one nic robić z Twoimi danymi osobowymi, chyba że zlecimy im to zrobić. Nie będą również udostępniać Twoich danych osobowych żadnej organizacji poza nami. Zobowiązują się również do ochrony danych, które przechowują w naszym imieniu, oraz do zachowania ich przez okres, który nam zlecimy. Trzecie strony, z którymi możemy udostępniać dane osobowe, to:"
+  },
+  "privacyPolicyPoint4BoldedContentList1": [
+    {
+      "importantNotice": "Komunikacja i czatowanie z użytkownikami:",
+      "content": "EmailJS Pte. Ltd."
+    },
+    {
+      "importantNotice": "Hosting strony internetowej:",
+      "content": "cyber_Folks S.A."
+    }
+  ],
+  "privacyPolicyPoint4Content": "Musimy również udostępniać Twoje dane osobowe w następujących sytuacjach:",
+  "privacyPolicyPoint4BoldedContentList2": {
+    "importantNotice": "Transakcje biznesowe.",
+    "content": "Możemy udostępniać lub przekazywać Twoje informacje w związku z lub w trakcie negocjacji dotyczących połączenia, sprzedaży majątku firmy, finansowania lub przejęcia całego lub części naszego biznesu przez inną firmę."
+  },
+  "privacyPolicyPoint5": {
+    "heading": "5. CZY UŻYWAMY PLIKÓW COOKIES I INNYCH TECHNOLOGII ŚLEDZĄCYCH?",
+    "inShort": "W skrócie: Możemy używać plików cookies i innych technologii śledzących do zbierania i przechowywania Twoich informacji.",
+    "content": "Możemy używać plików cookies i podobnych technologii śledzących (takich jak znaczniki internetowe i piksele), aby uzyskiwać dostęp do informacji lub przechowywać je. Szczegółowe informacje na temat tego, jak korzystamy z takich technologii i jak możesz odmówić akceptacji określonych plików cookies, znajdują się w naszym Zawiadomieniu o plikach cookies."
+  },
+  "privacyPolicyPoint6": {
+    "heading": "6. CZY TWOJE INFORMACJE SĄ PRZENOSZONE MIĘDZYNARODOWO?",
+    "inShort": "W skrócie: Możemy przesyłać, przechowywać i przetwarzać Twoje informacje w krajach innych niż Twój własny.",
+    "content": "Nasze serwery znajdują się Jeśli korzystasz z naszych Usług spoza, prosimy mieć świadomość, że Twoje informacje mogą być przesyłane do, przechowywane i przetwarzane przez nas w naszych placówkach oraz przez te osoby trzecie, z którymi możemy udostępniać Twoje dane osobowe, w Stanach Zjednoczonych i innych krajach. \nJeśli jesteś mieszkańcem Europejskiego Obszaru Gospodarczego (EOG), Zjednoczonego Królestwa (UK) lub Szwajcarii, to te kraje mogą niekoniecznie posiadać prawa ochrony danych ani inne podobne prawa tak wszechstronne jak te w Twoim kraju. Niemniej jednak podejmiemy wszystkie niezbędne środki w celu ochrony Twoich danych osobowych zgodnie z niniejszym zawiadomieniem o ochronie prywatności oraz obowiązującym prawem. \n Standardowe klauzule umowne Komisji Europejskiej: \n Wdrożyliśmy środki w celu ochrony Twoich danych osobowych, w tym poprzez stosowanie standardowych klauzul umownych Komisji Europejskiej dotyczących przekazywania danych osobowych między naszymi spółkami grupowymi oraz między nami a naszymi dostawcami usług trzeciego stopnia. Klauzule te wymagają, aby wszyscy odbiorcy chronili wszystkie dane osobowe, które przetwarzają, pochodzące z EOG lub UK, zgodnie z europejskimi przepisami i przepisami o ochronie danych. Nasze standardowe klauzule umowne mogą zostać udostępnione na życzenie. Wdrożyliśmy podobne odpowiednie zabezpieczenia wraz z naszymi dostawcami usług trzeciego stopnia i partnerami, a dodatkowe szczegóły mogą być udostępnione na życzenie."
+  },
+  "privacyPolicyPoint7": {
+    "heading": "7. JAK DŁUGO PRZECHOWUJEMY TWOJE INFORMACJE?",
+    "inShort": "W skrócie: Przechowujemy Twoje informacje tak długo, jak to konieczne do realizacji celów określonych w tym zawiadomieniu o ochronie prywatności, chyba że wymaga tego prawo.",
+    "content": "Będziemy przechowywać Twoje dane osobowe tylko tak długo, jak jest to konieczne do celów określonych w tym zawiadomieniu o ochronie prywatności, chyba że dłuższy okres retencji jest wymagany lub dozwolony przez prawo (takie jak rozliczenia podatkowe lub inne wymagania prawne). Gdy nie mamy dalszej uzasadnionej potrzeby przetwarzania Twoich danych osobowych, usuniemy lub zanonimizujemy takie informacje, lub jeśli to niemożliwe (na przykład, gdy Twoje dane osobowe są przechowywane w archiwach kopii zapasowych), to będziemy bezpiecznie przechowywać Twoje dane osobowe i izolować je od dalszego przetwarzania do momentu, gdy będzie możliwe ich usunięcie."
+  },
+  "privacyPolicyPoint8": {
+    "heading": "8. JAK ZACHOWUJEMY BEZPIECZEŃSTWO TWOICH INFORMACJI?",
+    "inShort": "W skrócie: Staramy się chronić Twoje dane osobowe poprzez system organizacyjnych i technicznych środków bezpieczeństwa.",
+    "content": "Wdrożyliśmy odpowiednie i rozsądne techniczne i organizacyjne środki bezpieczeństwa, które mają na celu ochronę bezpieczeństwa wszelkich danych osobowych, które przetwarzamy. Niemniej jednak, pomimo naszych zabezpieczeń i wysiłków w celu zabezpieczenia Twoich informacji, żadna transmisja elektroniczna przez Internet ani technologia przechowywania informacji nie może być gwarantowana jako w 100% bezpieczna, więc nie możemy obiecać ani zagwarantować, że hakerzy, cyberprzestępcy ani inni nieuprawnieni trzeci nie będą w stanie pokonać naszego zabezpieczenia i nieprawidłowo zbierać, uzyskiwać dostęp, kraść lub modyfikować Twoich informacji. Chociaż będziemy robić wszystko, co w naszej mocy, aby chronić Twoje dane osobowe, przekazywanie danych osobowych do i z naszych Usług odbywa się na własne ryzyko. Powinieneś dostęp do Usług uzyskiwać tylko w bezpiecznym środowisku."
+  },
+  "privacyPolicyPoint9": {
+    "heading": "9. CZY ZBIERAMY INFORMACJE OD NIELETNICH?",
+    "inShort": "W skrócie: Nie zbieramy świadomie danych od osób poniżej 18. roku życia ani nie prowadzimy na nie marketingu.",
+    "content": "Świadomie nie zbieramy danych od osób poniżej 18. roku życia ani nie prowadzimy na nie marketingu. Korzystając z Usług, oświadczasz, że masz co najmniej 18 lat lub jesteś rodzicem lub opiekunem takiego nieletniego i wyrażasz zgodę na korzystanie z Usług przez takiego zależnego nieletniego. Jeśli dowiemy się, że zebrano dane osobowe od użytkowników w wieku poniżej 18 lat, dezaktywujemy konto i podejmiemy rozsądne środki, aby jak najszybciej usunąć takie dane z naszych zapisów. Jeśli dowiesz się, że mogliśmy zbierać dane od dzieci poniżej 18 lat, skontaktuj się z nami pod adresem anita.surma@direkt-netz.de."
+  },
+  "privacyPolicyPoint10": {
+    "heading": "10. JAKIE SĄ TWOJE PRAWA PRYWATNOŚCI?",
+    "inShort": "W skrócie: W niektórych regionach, takich jak Europejski Obszar Gospodarczy (EOG), Wielka Brytania (WB) i Szwajcaria, masz prawo uzyskać większy dostęp i kontrolę nad swoimi danymi osobowymi. Możesz w dowolnym momencie przejrzeć, zmienić lub zakończyć swoje konto.",
+    "content": "W niektórych regionach (takich jak EOG, WB i Szwajcaria) masz określone prawa na mocy obowiązujących przepisów o ochronie danych. Mogą one obejmować prawo (i) do żądania dostępu i uzyskania kopii swoich danych osobowych, (ii) do żądania sprostowania lub usunięcia; (iii) do ograniczenia przetwarzania swoich danych osobowych; (iv) w odpowiednich przypadkach do przenoszenia danych; oraz (v) do niepodlegania zautomatyzowanym decyzjom. W określonych okolicznościach możesz również mieć prawo sprzeciwu wobec przetwarzania swoich danych osobowych. Możesz złożyć takie żądanie, kontaktując się z nami za pomocą podanych poniżej danych kontaktowych. \n Rozpatrzymy i podejmiemy działania w odpowiedzi na każde żądanie zgodnie z obowiązującymi przepisami o ochronie danych. \n Jeśli znajdujesz się w EOG lub WB i uważasz, że nielegalnie przetwarzamy Twoje dane osobowe, masz również prawo skargi do organu nadzoru ochrony danych w Twoim kraju członkowskim lub do organu nadzoru ochrony danych WB. \n Jeśli znajdujesz się w Szwajcarii, możesz skontaktować się z Federalnym Komisarzem Ochrony Danych i Informacji. \n Wycofanie zgody: Jeśli polegamy na Twojej zgodzie na przetwarzanie Twoich danych osobowych, masz prawo wycofania tej zgody w dowolnym momencie. Możesz wycofać swoją zgodę w dowolnym momencie, kontaktując się z nami za pomocą podanych poniżej danych kontaktowych. \n Należy jednak pamiętać, że wycofanie zgody nie wpłynie na zgodność z prawem przetwarzania przed jej wycofaniem, ani nie wpłynie na przetwarzanie Twoich danych osobowych prowadzone na podstawie innych przepisów o przetwarzaniu. \n Ciasteczka i podobne technologie: Większość przeglądarek internetowych jest domyślnie ustawiona na akceptowanie plików cookie. Jeśli chcesz, zazwyczaj możesz zmienić ustawienia swojej przeglądarki, aby usunąć pliki cookie lub odrzucić pliki cookie. Jeśli zdecydujesz się usunąć pliki cookie lub odrzucić pliki cookie, może to wpłynąć na niektóre funkcje lub usługi naszych usług. \n Aby uzyskać więcej informacji, zapoznaj się z naszą Polityką plików cookie. Jeśli masz pytania lub uwagi dotyczące swoich praw prywatności, możesz wysłać do nas e-mail na adres anita.surma@direkt-netz.de."
+  },
+  "privacyPolicyPoint11": {
+    "heading": "11. KONTROLE DLA FUNKCJI NIE ŚLEDZ (DO-NOT-TRACK)",
+    "content": "Większość przeglądarek internetowych oraz niektóre systemy operacyjne mobilne i aplikacje mobilne obejmują funkcję lub ustawienie Do-Not-Track (DNT), którą można aktywować, aby wyrazić preferencję prywatności i uniemożliwić monitorowanie i zbieranie danych dotyczących twoich działań przeglądania online. W tej chwili nie został jeszcze ustalony jednolity standard technologiczny rozpoznawania i wdrażania sygnałów DNT. Dlatego też obecnie nie reagujemy na sygnały przeglądarki DNT ani na żaden inny mechanizm automatycznie komunikujący twoje wybory dotyczące nieśledzenia online. Jeśli zostanie przyjęty standard śledzenia online, który będziemy musieli przestrzegać w przyszłości, poinformujemy cię o tej praktyce w nowej wersji niniejszego oświadczenia o prywatności."
+  },
+  "privacyPolicyPoint12": {
+    "heading": "12. CZY AKTUALIZUJEMY NASZĄ POLITYKĘ PRYWATNOŚCI?",
+    "inShort": "W skrócie: Tak, będziemy aktualizować to zawiadomienie w miarę potrzeb, aby pozostać zgodnym z odpowiednimi przepisami prawa.",
+    "content": "Możemy aktualizować to zawiadomienie o ochronie prywatności od czasu do czasu. Zaktualizowana wersja będzie oznaczona zaktualizowaną datą 'Zrewidowano', a zaktualizowana wersja będzie obowiązywać od momentu, gdy będzie dostępna. Jeśli dokonamy istotnych zmian w tym zawiadomieniu o ochronie prywatności, możemy poinformować cię o nich albo wyraźnie umieszczając zawiadomienie o takich zmianach, albo bezpośrednio wysyłając ci powiadomienie. Zachęcamy do regularnego przeglądania tego zawiadomienia o ochronie prywatności, aby być informowanym o tym, w jaki sposób chronimy twoje informacje."
+  },
+  "privacyPolicyPoint13": {
+    "heading": "13. JAK MOŻESZ SKONTAKTOWAĆ SIĘ Z NAMI W SPRAWIE TEGO ZAWIADOMIENIA?",
+    "content": "Jeśli masz pytania lub uwagi dotyczące tego zawiadomienia, możesz wysłać do nas e-mail na adres anita.surma@direkt-netz.de lub skontaktować się z nami pocztą pod adresem:"
+  },
+  "privacyPolicyPoint14": {
+    "heading": "14. JAK MOŻESZ PRZEGLĄDAĆ, AKTUALIZOWAĆ LUB USUWAĆ DANE, KTÓRE OD CIEBIE POBRALIŚMY?",
+    "content": "Masz prawo żądać dostępu do danych osobowych, które od Ciebie pobieramy, zmiany tych informacji lub ich usunięcia. Możesz skontaktować się z nami pod adresem anita.surma@direkt-netz.de, aby poprosić o przeglądanie, aktualizację lub usunięcie Twoich danych osobowych."
+  },
+  "infoAboutTermlyGenerator": "Polityka prywatności została stworzona przy wykorzystaniu"
 }
