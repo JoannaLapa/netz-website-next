@@ -29,7 +29,7 @@ export default async function Page({
 
   return (
     <>
-      <Header lng={lng} nav homeLink={t('homeLink')}/>
+      <Header lng={lng} nav homeLink={t('homeLink')} href={`/${lng}`}/>
       <main className="lg:pt-[120px]">
         <HeroSlider
           skipLinkContent={t('sliderSkipLink')}
