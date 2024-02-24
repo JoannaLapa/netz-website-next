@@ -4,6 +4,7 @@ import { useTranslation } from '../../i18n';
 import Header from '@/app/components/sections/Header';
 import Wrapper from '@/app/components/ui/Wrapper';
 import Container from '@/app/components/ui/Container';
+import HeadingWithContent from '@/app/components/ui/HeadingWithContent/component';
 
 export default async function Page({
   params: { lng },
@@ -22,41 +23,22 @@ export default async function Page({
         <Wrapper element="div" variant="section">
           <Container variant="sectionSmall">
             <h1 className="text-3xl">{t('cookiesTitle')}</h1>
-            <p>Last updated February 16, 2024</p>
-            <p>
-              This Cookie Policy explains how Anita Surma und Michael Szczerbak
-              Netz GbR Company uses cookies and similar technologies to
-              recognize you when you visit our website at{' '}
+            <p className="py-2">{t('updateDateInfo')}</p>
+            <p className="py-2">
+              {t('cookiesIntroduction1')}{' '}
               <a
                 href="https://netz-website-next.vercel.app"
                 target="_blank"
                 data-custom-class="link"
               >
                 https://netz-website-next.vercel.app
-              </a>
-              Website. It explains what these technologies are and why we use
-              them, as well as your rights to control our use of them. In some
-              cases we may use cookies to collect personal information, or that
-              becomes personal information if we combine it with other
-              information.  
+              </a>{' '}
+              {t('cookiesIntroduction2')}
             </p>
-            <h2>What are cookies?</h2>
-
-            <p>
-              Cookies are small data files that are placed on your computer or
-              mobile device when you visit a website. Cookies are widely used by
-              website owners in order to make their websites work, or to work
-              more efficiently, as well as to provide reporting information.
-              Cookies set by the website owner (in this case, Anita Surma und
-              Michael Szczerbak Netz GbR are called &quot;first-party
-              cookies.&quot; Cookies set by parties other than the website owner
-              are called &quot;third-party cookies.&quot; Third-party cookies
-              enable third-party features or functionality to be provided on or
-              through the website (e.g., advertising, interactive content, and
-              analytics). The parties that set these third-party cookies can
-              recognize your computer both when it visits the website in
-              question and also when it visits certain other websites.
-            </p>
+            <HeadingWithContent
+              heading={t('whatAreCookiesTitle')}
+              content={t('whatAreCookiesContent')}
+            />
 
             <Heading title="Why do we use cookies?" />
 
