@@ -51,7 +51,7 @@ const Footer: React.FC<FooterProps> = (props) => {
         >
           <p className="text-center">
             {props.privacyInfo}
-            <Link href="#" className="font-bold underline">
+            <Link href={props.cookiesLink} className="font-bold underline">
               {props.learnMore}
             </Link>
           </p>
