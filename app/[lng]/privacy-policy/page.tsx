@@ -6,7 +6,7 @@ import Container from '@/app/components/ui/Container';
 import Header from '@/app/components/sections/Header';
 import ListItem from '@/app/components/ui/ListItem';
 import BoldedContentBox from '@/app/components/ui/BoldedContentBox';
-import HeadingWithContent from '@/app/components/ui/HeadingWithContent/component';
+import HeadingWithContent from '@/app/components/ui/HeadingWithContent';
 
 const summaryContent = new Array(6).fill('');
 const personalInformationListItems = new Array(8).fill('');
@@ -27,10 +27,10 @@ export default async function Page({
   return (
     <>
       <Header lng={lng} homeLink={t('homeLink')} href={`/${lng}`} />
-      <main className="lg:pt-[120px]">
+      <main className="pt-20 lg:pt-[120px]">
         <Wrapper element="div" variant="section">
           <Container variant="sectionSmall">
-            <h1 className="text-3xl">{t('privacyHeading')}</h1>
+            <h1 className="text-2xl lg:text-3xl">{t('privacyHeading')}</h1>
             <p className="py-2">{t('updateDateInfo')}</p>
             <p>{t('privacyPolicyUsageContentIntroduction')}</p>
             <ul>
@@ -46,7 +46,7 @@ export default async function Page({
               content={t('questionsOrConcerns.content')}
             />
 
-            <h2 className="py-2 text-2xl">{t('summaryTitle')}</h2>
+            <h2 className="py-2 text-xl lg:text-2xl">{t('summaryTitle')}</h2>
             <strong className="py-2">{t('summaryStrong')}</strong>
             {summaryContent.map((_, index) => (
               <BoldedContentBox
