@@ -46,7 +46,9 @@ export default async function Page({
               content={t('questionsOrConcerns.content')}
             />
 
-            <h2 className="py-2 text-xl lg:text-2xl">{t('summaryTitle')}</h2>
+            <h2 className="pt-10 text-xl lg:pt-20 lg:text-2xl">
+              {t('summaryTitle')}
+            </h2>
             <strong className="py-2">{t('summaryStrong')}</strong>
             {summaryContent.map((_, index) => (
               <BoldedContentBox
