@@ -105,6 +105,7 @@ export default async function Page({
         privacyInfo={t('privacyInfo')}
         realisation={t('realisation')}
         learnMore={t('privacyPolicyLink')}
+        cookiesLink={`/${lng}/cookies`}
       />
     </>
   );
