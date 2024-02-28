@@ -3,7 +3,7 @@ import privacyPoliy from '../app/i18n/locales/de/privacyPolicy.json';
 const resources = {
   translation,
   privacyPolicy,
-  cookiesPolicy
+  cookiesPolicy,
 } as const;
 
 export default resources;
