@@ -10,6 +10,7 @@ import CTAsection from '../components/sections/CTAsection';
 import Footer from '../components/sections/Footer';
 import ContentImageSection from '../components/sections/ContentImageSection';
 import QuoteImageSection from '../components/sections/QuoteImageSection';
+import CookiesBanner from '../components/sections/CookiesBanner/component';
 
 const links = [
   { href: '#contactForm' },
@@ -106,6 +107,12 @@ export default async function Page({
         realisation={t('realisation')}
         learnMore={t('privacyPolicyLink')}
         cookiesLink={`/${lng}/cookies`}
+      />
+      <CookiesBanner
+        cookiesBannerContent={t('cookiesBannerContent')}
+        cookiesBannerLinkText={t('cookiesBannerLinkText')}
+        cookiesBannerAcceptButton={t('cookiesBannerAcceptButton')}
+        cookiesBannerDeclineButton={t('cookiesBannerDeclineButton')}
       />
     </>
   );
