@@ -59,5 +59,9 @@
   "privacyPolicy": "I declare that I have read the Privacy Policy and consent to the processing of my personal data provided in the contact form. ",
   "privacyPolicyLink": "Learn more",
   "privacyInfo": "This website uses cookies, which help our site to work better.",
-  "realisation": "Website project and implementation:"
+  "realisation": "Website project and implementation:",
+  "cookiesBannerContent": "We use cookies to manage language on the website according to your preferred language. By clicking 'Accept' you agree to the use of cookies for this purpose.",
+  "cookiesBannerAcceptButton": "Accept",
+  "cookiesBannerDeclineButton": "Decline",
+  "cookiesBannerLinkText": "Learn more about our Cookie Policy"
 }

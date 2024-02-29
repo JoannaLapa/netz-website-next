@@ -59,5 +59,9 @@
   "privacyPolicy": "Ich erkläre, dass ich die Datenschutzerklärung gelesen habe und der Verarbeitung meiner personenbezogenen Daten im Kontaktformular zustimme. ",
   "privacyPolicyLink": "Erfahre mehr",
   "privacyInfo": "Diese Website verwendet Cookies, damit unser Service besser funktionieren kann.",
-  "realisation": "Projekt und Umsetzung der Website:"
+  "realisation": "Projekt und Umsetzung der Website:",
+  "cookiesBannerContent": "Wir verwenden Cookies, um die Sprache auf der Website entsprechend Ihrer bevorzugten Sprache zu verwalten. Durch Klicken auf 'Akzeptieren' stimmen Sie der Verwendung von Cookies zu diesem Zweck zu.",
+  "cookiesBannerAcceptButton": "Akzeptieren",
+  "cookiesBannerDeclineButton": "Ablehnen",
+  "cookiesBannerLinkText": "Lesen Sie unsere Cookie-Richtlinie durch"
 }

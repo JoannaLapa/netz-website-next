@@ -60,5 +60,9 @@
   "errorMessage": "Wystąpił błąd podczasy wysyłania wiadomości.",
   "privacyPolicyLink": "Dowiedz się więcej",
   "privacyInfo": "Ta strona używa ciasteczek (cookies), dzięki którym nasz serwis może działać lepiej. ",
-  "realisation": "Projekt i realizacja strony:"
+  "realisation": "Projekt i realizacja strony:",
+  "cookiesBannerContent": "Używamy plików cookie do zarządzania językiem na stronie zgodnie z preferowanym językiem użytkownika. Klikając 'Akceptuj', wyrażasz zgodę na korzystanie z plików cookie w tym celu.",
+  "cookiesBannerAcceptButton": "Akceptuj",
+  "cookiesBannerDeclineButton": "Odrzuć",
+  "cookiesBannerLinkText": "Zapoznaj się z naszą Polityką dotyczącą Cookies"
 }
