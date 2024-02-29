@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Cookie from 'js-cookie';
 import i18next, { FlatNamespace, KeyPrefix } from 'i18next';
 import {
   initReactI18next,
@@ -11,14 +12,14 @@ import {
 } from 'react-i18next';
 import { useCookies } from 'react-cookie';
 import resourcesToBackend from 'i18next-resources-to-backend';
-// import LocizeBackend from 'i18next-locize-backend'
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { getOptions, languages, cookieName } from './settings';
-
 const runsOnServerSide = typeof window === 'undefined';
 
+const consent = Cookie.get('cookieConsent');
 // on client side the normal singleton is ok
-i18next
+if(consent === 'accepted'){
+  i18next
   .use(initReactI18next)
   .use(LanguageDetector)
   .use(
@@ -32,10 +33,29 @@ i18next
     ...getOptions(),
     lng: undefined, // let detect the language on client side
     detection: {
-      order: ['path', 'htmlTag', 'cookie', 'navigator'],
+      order: ['path', 'cookie', 'htmlTag', 'navigator'],
     },
     preload: runsOnServerSide ? languages : [],
   });
+} else {
+i18next
+  .use(initReactI18next)
+  .use(LanguageDetector)
+  .use(
+    resourcesToBackend(
+      (language: string, namespace: string) =>
+        import(`./locales/${language}/${namespace}.json`),
+    ),
+  )
+  .init({
+    ...getOptions(),
+    lng: undefined, // let detect the language on client side
+    detection: {
+      order: ['path', 'htmlTag', 'navigator'],
+    },
+    preload: runsOnServerSide ? languages : [],
+  });
+} 
 
 export function useTranslation<
   Ns extends FlatNamespace,
@@ -45,7 +65,8 @@ export function useTranslation<
   ns?: Ns,
   options?: UseTranslationOptions<KPrefix>,
 ): UseTranslationResponse<FallbackNs<Ns>, KPrefix> {
-  const [cookies, setCookie] = useCookies([cookieName]);
+  const [cookies, setCookie, removeCookie] = useCookies([cookieName, "cookieConsent"]);
+
   const ret = useTranslationOrg(ns, options);
   const { i18n } = ret;
   if (runsOnServerSide && lng && i18n.resolvedLanguage !== lng) {
@@ -65,9 +86,12 @@ export function useTranslation<
     }, [lng, i18n]);
     // eslint-disable-next-line react-hooks/rules-of-hooks
     useEffect(() => {
-      if (cookies.i18next === lng) return;
+     if(cookies.cookieConsent === 'accepted'){
       setCookie(cookieName, lng, { path: '/' });
-    }, [lng, cookies.i18next, setCookie]);
+     } else {
+      removeCookie(cookieName);
+     }
+    }, [lng, setCookie, removeCookie, cookies.cookieConsent]);
   }
   return ret;
 }
