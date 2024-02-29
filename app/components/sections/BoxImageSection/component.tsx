@@ -3,6 +3,7 @@ import Wrapper from '../../ui/Wrapper';
 import Container from '../../ui/Container';
 import Heading from '../../ui/Heading';
 import Image from 'next/image';
+
 const BoxImageSection: React.FC<BoxImageSectionProps> = (props) => {
   const formattedDescription = props.description.replace(/\n/g, '<br/><br/>');
 
