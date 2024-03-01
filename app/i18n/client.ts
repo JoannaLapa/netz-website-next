@@ -17,7 +17,7 @@ import { getOptions, languages, cookieName } from './settings';
 const runsOnServerSide = typeof window === 'undefined';
 
 const consent = Cookie.get('cookieConsent');
-// on client side the normal singleton is ok
+
 if (consent === 'accepted') {
   i18next
     .use(initReactI18next)
@@ -28,10 +28,10 @@ if (consent === 'accepted') {
           import(`./locales/${language}/${namespace}.json`),
       ),
     )
-    // .use(LocizeBackend) // locize backend could be used on client side, but prefer to keep it in sync with server side
     .init({
       ...getOptions(),
-      lng: undefined, // let detect the language on client side
+      lng: undefined, // 
+
       detection: {
         order: ['path', 'cookie', 'htmlTag', 'navigator'],
       },
@@ -49,7 +49,8 @@ if (consent === 'accepted') {
     )
     .init({
       ...getOptions(),
-      lng: undefined, // let detect the language on client side
+      lng: undefined, 
+
       detection: {
         order: ['path', 'htmlTag', 'navigator'],
       },
