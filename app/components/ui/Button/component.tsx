@@ -1,15 +1,16 @@
 import { ButtonProps } from './index';
 import Link from 'next/link';
-import { twMerge } from 'tailwind-merge';
+import { StylesButton } from './component.styles';
 
-const className =
-  'relative rounded-full py-3 text-base font-semibold px-10 cursor-pointer max-w-fit overflow-hidden hover:border-primary-200 border-primary-100 border-2 focus:border-primary-200 after:absolute after:left-[-4.6875rem] after:top-[-3.125rem] after:z-[-10] after:h-[9.6875rem] after:w-[3.125rem] after:rotate-[35deg] after:bg-primary-200 after:opacity-5 hover:after:translate-x-[700%] after:transition after:duration-700 transition duration-300 min-h-12 flex items-center justify-center';
 const Button: React.FC<ButtonProps> = (props) => {
   if (props.link) {
     return (
       <Link
         href={props.link.href}
-        className={`${twMerge(className, props.styles)}`}
+        className={StylesButton({
+          variant: props.variant,
+          className: props.styles,
+        })}
       >
         {props.title}
       </Link>
@@ -18,7 +19,10 @@ const Button: React.FC<ButtonProps> = (props) => {
 
   return (
     <button
-      className={`${twMerge(className, props.styles)}`}
+      className={StylesButton({
+        variant: props.variant,
+        className: props.styles,
+      })}
       onClick={props.onClick}
       onSubmit={props.onSubmit}
       type={props.type}

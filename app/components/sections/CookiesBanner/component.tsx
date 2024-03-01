@@ -32,10 +32,12 @@ const CookiesBanner: React.FC<CookiesBannerProps> = (props) => {
             <Button
               title={props.cookiesBannerAcceptButton}
               onClick={handleCloseAcceptBanner}
+              variant="primary"
             />
             <Button
               title={props.cookiesBannerDeclineButton}
               onClick={handleCloseDeclineBanner}
+              variant="danger"
             />
           </div>
         </motion.dialog>

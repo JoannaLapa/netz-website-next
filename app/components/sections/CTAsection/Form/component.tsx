@@ -62,7 +62,12 @@ const Form: React.FC<FormProps> = (props) => {
         </label>
       </div>
       <div className="h-3">{messageState()}</div>
-      <Button type="submit" title={props.buttonTitle} styles="self-end mt-1" />
+      <Button
+        type="submit"
+        title={props.buttonTitle}
+        styles="self-end mt-1"
+        variant="primary"
+      />
     </form>
   );
 };
