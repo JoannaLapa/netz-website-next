@@ -5,7 +5,6 @@ import { fallbackLng, languages, cookieName } from './app/i18n/settings';
 acceptLanguage.languages(languages);
 
 export const config = {
-  // matcher: '/:lng*'
   matcher: ['/((?!api|_next/static|_next/image|assets|favicon.ico|sw.js).*)'],
 };
 
@@ -16,8 +15,10 @@ export function middleware(req: NextRequest) {
   )
     return NextResponse.next();
   let lng: string | undefined | null;
+
   if (req.cookies.has(cookieName))
     lng = acceptLanguage.get(req.cookies.get(cookieName)?.value);
+
   if (!lng) lng = acceptLanguage.get(req.headers.get('Accept-Language'));
   if (!lng) lng = fallbackLng;
 
@@ -37,7 +38,14 @@ export function middleware(req: NextRequest) {
       refererUrl.pathname.startsWith(`/${l}`),
     );
     const response = NextResponse.next();
-    if (lngInReferer) response.cookies.set(cookieName, lngInReferer);
+    if (
+      req.cookies.has('cookieConsent') &&
+      req.cookies.get('cookieConsent')?.value === 'accepted' &&
+      lngInReferer
+    ) {
+      response.cookies.set(cookieName, lngInReferer);
+    }
+
     return response;
   }
 

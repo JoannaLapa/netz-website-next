@@ -7,6 +7,7 @@ type ButtonProps = {
   onSubmit?: React.FormEventHandler<HTMLButtonElement>;
   type?: 'submit' | 'button' | 'reset';
   styles?: string;
+  variant: 'primary' | 'danger';
 };
 
 type LinkProps = {

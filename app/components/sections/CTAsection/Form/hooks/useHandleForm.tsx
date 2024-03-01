@@ -19,7 +19,6 @@ const useHandleForm = (successMessage: string, errorMessage: string) => {
           },
         );
         setMessage('success');
-        console.log('message', message);
         setTimeout(() => {
           if (form.current) {
             form.current.reset();
@@ -28,7 +27,6 @@ const useHandleForm = (successMessage: string, errorMessage: string) => {
         }, 3000);
       } catch (error: unknown) {
         setMessage('error');
-        console.log('message', message);
         setTimeout(() => {
           setMessage('');
         }, 3000);
@@ -40,7 +38,6 @@ const useHandleForm = (successMessage: string, errorMessage: string) => {
   };
 
   const messageState = () => {
-    console.log('message w messageState', message);
     if (message === 'success') {
       return <p className="text-primary-100">{successMessage}</p>;
     } else if (message === 'error') {

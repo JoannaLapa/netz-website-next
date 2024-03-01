@@ -40,7 +40,7 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
               key={index}
             >
               <Slide
-                tag={index === 0 ? 'h1' : 'p'}
+                tag={index === 0 ? 'h1' : 'h2'}
                 title={t(slide[0])}
                 decorator={`0${index + 1}`}
                 buttonTitle={t(slide[1])}

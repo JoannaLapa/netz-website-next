@@ -26,6 +26,7 @@ const Slide: React.FC<SlideProps> = (props) => {
           title={props.buttonTitle}
           link={props.link}
           styles="mb-[6.25rem] sm:mb-[6.75rem]"
+          variant="primary"
         />
       )}
     </div>

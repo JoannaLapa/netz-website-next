@@ -30,8 +30,9 @@ module.exports = {
       colors: {
         'primary-030': '#00EE4D4D',
         'primary-100': '#00EE4D', // green
-        'primary-200': '#00A234', //green focus
-        'danger-100': '#e3170a', // red
+        'primary-200': '#00a234', //green focus
+        'danger-100': '#ec0914', // red
+        'danger-200': '#9d060d', // red focus
         'neutral-000': '#00000000', //transparent
         'neutral-100': '#FFFFFF', // white
         'neutral-200': '#D9D9D9', // grey for underline
