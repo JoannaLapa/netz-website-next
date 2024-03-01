@@ -18,44 +18,44 @@ const runsOnServerSide = typeof window === 'undefined';
 
 const consent = Cookie.get('cookieConsent');
 // on client side the normal singleton is ok
-if(consent === 'accepted'){
+if (consent === 'accepted') {
   i18next
-  .use(initReactI18next)
-  .use(LanguageDetector)
-  .use(
-    resourcesToBackend(
-      (language: string, namespace: string) =>
-        import(`./locales/${language}/${namespace}.json`),
-    ),
-  )
-  // .use(LocizeBackend) // locize backend could be used on client side, but prefer to keep it in sync with server side
-  .init({
-    ...getOptions(),
-    lng: undefined, // let detect the language on client side
-    detection: {
-      order: ['path', 'cookie', 'htmlTag', 'navigator'],
-    },
-    preload: runsOnServerSide ? languages : [],
-  });
+    .use(initReactI18next)
+    .use(LanguageDetector)
+    .use(
+      resourcesToBackend(
+        (language: string, namespace: string) =>
+          import(`./locales/${language}/${namespace}.json`),
+      ),
+    )
+    // .use(LocizeBackend) // locize backend could be used on client side, but prefer to keep it in sync with server side
+    .init({
+      ...getOptions(),
+      lng: undefined, // let detect the language on client side
+      detection: {
+        order: ['path', 'cookie', 'htmlTag', 'navigator'],
+      },
+      preload: runsOnServerSide ? languages : [],
+    });
 } else {
-i18next
-  .use(initReactI18next)
-  .use(LanguageDetector)
-  .use(
-    resourcesToBackend(
-      (language: string, namespace: string) =>
-        import(`./locales/${language}/${namespace}.json`),
-    ),
-  )
-  .init({
-    ...getOptions(),
-    lng: undefined, // let detect the language on client side
-    detection: {
-      order: ['path', 'htmlTag', 'navigator'],
-    },
-    preload: runsOnServerSide ? languages : [],
-  });
-} 
+  i18next
+    .use(initReactI18next)
+    .use(LanguageDetector)
+    .use(
+      resourcesToBackend(
+        (language: string, namespace: string) =>
+          import(`./locales/${language}/${namespace}.json`),
+      ),
+    )
+    .init({
+      ...getOptions(),
+      lng: undefined, // let detect the language on client side
+      detection: {
+        order: ['path', 'htmlTag', 'navigator'],
+      },
+      preload: runsOnServerSide ? languages : [],
+    });
+}
 
 export function useTranslation<
   Ns extends FlatNamespace,
@@ -65,7 +65,10 @@ export function useTranslation<
   ns?: Ns,
   options?: UseTranslationOptions<KPrefix>,
 ): UseTranslationResponse<FallbackNs<Ns>, KPrefix> {
-  const [cookies, setCookie, removeCookie] = useCookies([cookieName, "cookieConsent"]);
+  const [cookies, setCookie, removeCookie] = useCookies([
+    cookieName,
+    'cookieConsent',
+  ]);
 
   const ret = useTranslationOrg(ns, options);
   const { i18n } = ret;
@@ -86,11 +89,11 @@ export function useTranslation<
     }, [lng, i18n]);
     // eslint-disable-next-line react-hooks/rules-of-hooks
     useEffect(() => {
-     if(cookies.cookieConsent === 'accepted'){
-      setCookie(cookieName, lng, { path: '/' });
-     } else {
-      removeCookie(cookieName);
-     }
+      if (cookies.cookieConsent === 'accepted') {
+        setCookie(cookieName, lng, { path: '/' });
+      } else {
+        removeCookie(cookieName);
+      }
     }, [lng, setCookie, removeCookie, cookies.cookieConsent]);
   }
   return ret;

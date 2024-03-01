@@ -27,7 +27,7 @@ const useHandleCookie = () => {
     document.body.style.overflow = 'auto';
   };
 
-  return {showBanner, ref, handleCloseAcceptBanner, handleCloseDeclineBanner};
+  return { showBanner, ref, handleCloseAcceptBanner, handleCloseDeclineBanner };
 };
 
 export default useHandleCookie;
