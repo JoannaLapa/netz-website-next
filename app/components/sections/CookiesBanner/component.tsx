@@ -1,42 +1,26 @@
 'use client';
 
-import { useCookies } from 'react-cookie';
-import { useEffect, useState, useRef } from 'react';
+import useHandleCookie from './hooks/useHandleCookie';
 import Button from '../../ui/Button';
 import Link from 'next/link';
 import { CookiesBannerProps } from './index';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const CookiesBanner: React.FC<CookiesBannerProps> = (props) => {
-  const ref = useRef<HTMLDialogElement | null>(null);
-  const [showBanner, setShowBanner] = useState(false);
-  const [cookies, setCookie] = useCookies(['cookieConsent', 'i18next']);
+  const { showBanner, ref, handleCloseAcceptBanner, handleCloseDeclineBanner } =
+    useHandleCookie();
 
-  useEffect(() => {
-    const modalElement = ref.current;
-    if (cookies.cookieConsent === undefined) {
-      modalElement?.showModal();
-      document.body.style.overflow = 'hidden';
-      setShowBanner(true);
-    }
-  }, [cookies.cookieConsent, showBanner]);
-
-  const handleCloseAcceptBanner = () => {
-    setCookie('cookieConsent', 'accepted');
-    setShowBanner(false);
-    document.body.style.overflow = 'auto';
-  };
-
-  const handleCloseDeclineBanner = () => {
-    setCookie('cookieConsent', 'declined');
-    setShowBanner(false);
-    document.body.style.overflow = 'auto';
-  };
   return (
-    <>
+    <AnimatePresence>
       {showBanner && (
-        <dialog
+        <motion.dialog
           ref={ref}
           className="flex max-w-[600px] flex-col gap-8 rounded-xl p-8"
+          initial={{ opacity: 0 }}
+          transition={{ duration: 0.5 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true, amount: 0.5 }}
+          exit={{ opacity: 0 }}
         >
           <p>
             {props.cookiesBannerContent}{' '}
@@ -54,9 +38,9 @@ const CookiesBanner: React.FC<CookiesBannerProps> = (props) => {
               onClick={handleCloseDeclineBanner}
             />
           </div>
-        </dialog>
+        </motion.dialog>
       )}
-    </>
+    </AnimatePresence>
   );
 };
 
