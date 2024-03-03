@@ -45,7 +45,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
         />
         <motion.div
           className="
-            absolute right-0 top-0 z-20 h-screen w-screen overflow-hidden bg-neutral-100 p-10"
+            fixed right-0 top-0 z-20 h-screen w-screen overflow-hidden bg-neutral-100 p-10"
           variants={sidebar}
         />
         <MenuToggle handleNav={() => toggleOpen()} />
