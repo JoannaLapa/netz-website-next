@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Container from '../../ui/Container';
-import Heading from '../../ui/Heading';
 import Wrapper from '../../ui/Wrapper';
 import NumberedBox from './NumberedBox/component';
 import { NumberedSectionProps } from './index';
+import HeadingAnimated from '../../ui/HeadingAnimated';
 
 const numberedBoxes = [1, 2, 3] as const;
 
@@ -13,7 +13,7 @@ const NumberedSection: React.FC<NumberedSectionProps> = (props) => {
     <>
       <Wrapper element="section" padding variant="section" id="offer">
         <Container variant="section">
-          <Heading
+          <HeadingAnimated
             title={props.title}
             accentText={props.accentText}
             accentPosition="right"

@@ -1,11 +1,8 @@
-'use client';
-
-import { motion } from 'framer-motion';
 import { QuoteImageSectionProps } from './index';
 import Wrapper from '../../ui/Wrapper';
 import Container from '../../ui/Container';
-import Heading from '../../ui/Heading';
 import Image from 'next/image';
+import HeadingAnimated from '../../ui/HeadingAnimated';
 
 const QuoteImageSection: React.FC<QuoteImageSectionProps> = (props) => {
   const formattedDescription = props.description.replace(/\n/g, '<br/><br/>');
@@ -20,19 +17,14 @@ const QuoteImageSection: React.FC<QuoteImageSectionProps> = (props) => {
       >
         <Container variant="section">
           <div className="grid grid-cols-1 items-center sm:grid-cols-2">
-            <motion.div
-              initial={{ opacity: 0, y: 100 }}
-              transition={{ duration: 1 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.5 }}
-              className="sm:col-span-2"
-            >
-              <Heading
+           
+              <HeadingAnimated
                 title={props.title}
                 accentText={props.accentText}
                 accentPosition="left"
+                className="sm:col-span-2"
               />
-            </motion.div>
+
             <p
               className="text-base font-light text-neutral-300 sm:col-start-1 sm:text-base lg:text-[21px]"
               dangerouslySetInnerHTML={{ __html: formattedDescription }}

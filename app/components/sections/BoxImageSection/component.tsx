@@ -1,14 +1,14 @@
 import { BoxImageSectionProps } from './index';
 import Wrapper from '../../ui/Wrapper';
 import Container from '../../ui/Container';
-import Heading from '../../ui/Heading';
 import Image from 'next/image';
+import HeadingAnimated from '../../ui/HeadingAnimated';
 
 const BoxImageSection: React.FC<BoxImageSectionProps> = (props) => {
   const formattedDescription = props.description.replace(/\n/g, '<br/><br/>');
 
   return (
-    <>
+    <div className="w-full overflow-hidden">
       <Wrapper
         element="section"
         className="pb-9 md:pb-0"
@@ -17,7 +17,7 @@ const BoxImageSection: React.FC<BoxImageSectionProps> = (props) => {
       >
         <Container variant="section">
           <div className="grid grid-cols-1 sm:grid-cols-2 sm:items-center sm:gap-x-12 md:justify-between">
-            <Heading
+            <HeadingAnimated
               title={props.title}
               accentText={props.accentText}
               accentPosition="left"
@@ -56,7 +56,7 @@ const BoxImageSection: React.FC<BoxImageSectionProps> = (props) => {
         aria-hidden="true"
         className="hidden md:block"
       />
-    </>
+    </div>
   );
 };
 

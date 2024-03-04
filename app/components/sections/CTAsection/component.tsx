@@ -1,12 +1,10 @@
 'use client';
 
-import Link from 'next/link';
-import Button from '../../ui/Button';
 import Container from '../../ui/Container';
-import Heading from '../../ui/Heading';
 import Wrapper from '../../ui/Wrapper';
 import { CTAsectionProps } from './index';
 import Form from './Form/component';
+import HeadingAnimated from '../../ui/HeadingAnimated';
 
 const CTAsection: React.FC<CTAsectionProps> = (props) => {
   return (
@@ -23,7 +21,7 @@ const CTAsection: React.FC<CTAsectionProps> = (props) => {
       >
         <Container variant="section">
           <div className="flex flex-col">
-            <Heading
+            <HeadingAnimated
               title={props.title}
               accentText={props.accentText}
               accentPosition="left"
