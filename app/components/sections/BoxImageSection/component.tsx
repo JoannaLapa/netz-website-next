@@ -8,7 +8,7 @@ const BoxImageSection: React.FC<BoxImageSectionProps> = (props) => {
   const formattedDescription = props.description.replace(/\n/g, '<br/><br/>');
 
   return (
-    <>
+    <div className="w-full overflow-hidden">
       <Wrapper
         element="section"
         className="pb-9 md:pb-0"
@@ -56,7 +56,7 @@ const BoxImageSection: React.FC<BoxImageSectionProps> = (props) => {
         aria-hidden="true"
         className="hidden md:block"
       />
-    </>
+    </div>
   );
 };
 
