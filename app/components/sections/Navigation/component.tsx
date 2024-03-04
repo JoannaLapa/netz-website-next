@@ -1,11 +1,13 @@
 'use client';
 
 import * as React from 'react';
-import { motion, useCycle } from 'framer-motion';
+import { motion } from 'framer-motion';
+import useHandleNav from './hooks/useHandleNav';
 import NavList from './NavList/component';
 import MenuToggle from './MenuToggle/component';
 import { NavigationProps } from './index';
 import { useTranslation } from '../../../i18n/client';
+
 const sidebar = {
   open: {
     clipPath: `circle(180% at 100% 0)`,
@@ -27,7 +29,8 @@ const sidebar = {
 };
 
 const Navigation: React.FC<NavigationProps> = (props) => {
-  const [isOpen, toggleOpen] = useCycle(false, true);
+  const { isOpen, toggleOpen, ref } = useHandleNav();
+
   const { i18n } = useTranslation(props.lng, 'translation');
 
   return (
@@ -42,10 +45,11 @@ const Navigation: React.FC<NavigationProps> = (props) => {
           i18n={i18n}
           lng={props.lng}
           handleNav={() => toggleOpen()}
+          ref={ref}
         />
         <motion.div
           className="
-            fixed right-0 top-0 z-20 h-screen w-screen overflow-hidden bg-neutral-100 p-10"
+            fixed right-0 top-0 z-20 h-screen w-screen overflow-hidden bg-neutral-100 p-10 sm:hidden"
           variants={sidebar}
         />
         <MenuToggle handleNav={() => toggleOpen()} />
