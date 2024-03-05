@@ -15,7 +15,7 @@ const CookiesBanner: React.FC<CookiesBannerProps> = (props) => {
       {showBanner && (
         <motion.dialog
           ref={ref}
-          className="flex max-w-[600px] flex-col gap-8 rounded-xl p-8"
+          className="mx-auto flex max-w-[80%] flex-col gap-8 rounded-xl p-8 md:max-w-[600px]"
           initial={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
           whileInView={{ opacity: 1 }}
