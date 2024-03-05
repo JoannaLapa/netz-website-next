@@ -1,5 +1,6 @@
 import { languages, fallbackLng } from '../i18n/settings';
 import { useTranslation } from '../i18n';
+import { notFound } from 'next/navigation';
 import Header from '../components/sections/Header/index';
 import HeroSlider from '../components/sections/HeroSlider/index';
 import BoxImageSection from '../components/sections/BoxImageSection';
@@ -27,6 +28,10 @@ export default async function Page({
 }) {
   if (languages.indexOf(lng) < 0) lng = fallbackLng;
   const { t, i18n } = await useTranslation(lng);
+
+  if (!Page) {
+    return notFound();
+  }
 
   return (
     <>
