@@ -17,7 +17,7 @@ const variants = {
 };
 const NavList = forwardRef<HTMLDialogElement, NavListProps>((props, ref) => {
   const t = props.i18n.getFixedT(props.lng, 'translation');
-  
+
   return (
     <>
       <dialog
