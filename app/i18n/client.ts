@@ -30,7 +30,7 @@ if (consent === 'accepted') {
     )
     .init({
       ...getOptions(),
-      lng: undefined, // 
+      lng: undefined, //
 
       detection: {
         order: ['path', 'cookie', 'htmlTag', 'navigator'],
@@ -49,7 +49,7 @@ if (consent === 'accepted') {
     )
     .init({
       ...getOptions(),
-      lng: undefined, 
+      lng: undefined,
 
       detection: {
         order: ['path', 'htmlTag', 'navigator'],

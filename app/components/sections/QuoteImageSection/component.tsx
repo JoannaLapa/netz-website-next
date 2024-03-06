@@ -17,13 +17,12 @@ const QuoteImageSection: React.FC<QuoteImageSectionProps> = (props) => {
       >
         <Container variant="section">
           <div className="grid grid-cols-1 items-center sm:grid-cols-2">
-           
-              <HeadingAnimated
-                title={props.title}
-                accentText={props.accentText}
-                accentPosition="left"
-                className="sm:col-span-2"
-              />
+            <HeadingAnimated
+              title={props.title}
+              accentText={props.accentText}
+              accentPosition="left"
+              className="sm:col-span-2"
+            />
 
             <p
               className="text-base font-light text-neutral-300 sm:col-start-1 sm:text-base lg:text-[21px]"
