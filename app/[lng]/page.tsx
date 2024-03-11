@@ -27,7 +27,7 @@ export default async function Page({
 }) {
   if (languages.indexOf(lng) < 0) lng = fallbackLng;
   const { t, i18n } = await useTranslation(lng);
-
+ 
   return (
     <>
       <Header lng={lng} nav homeLink={t('homeLink')} href={`/${lng}`} />
