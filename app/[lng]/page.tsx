@@ -1,5 +1,7 @@
 import { languages, fallbackLng } from '../i18n/settings';
 import { useTranslation } from '../i18n';
+// import { headers } from 'next/headers';
+// import Script from 'next/script';
 import Header from '../components/sections/Header/index';
 import HeroSlider from '../components/sections/HeroSlider/index';
 import BoxImageSection from '../components/sections/BoxImageSection';
@@ -27,7 +29,7 @@ export default async function Page({
 }) {
   if (languages.indexOf(lng) < 0) lng = fallbackLng;
   const { t, i18n } = await useTranslation(lng);
-
+  // const nonce = headers().get('x-nonce');
   return (
     <>
       <Header lng={lng} nav homeLink={t('homeLink')} href={`/${lng}`} />
