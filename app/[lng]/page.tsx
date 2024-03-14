@@ -1,4 +1,5 @@
 import { languages, fallbackLng } from '../i18n/settings';
+import type { Metadata } from 'next';
 import { useTranslation } from '../i18n';
 import Header from '../components/sections/Header/index';
 import HeroSlider from '../components/sections/HeroSlider/index';
@@ -17,17 +18,23 @@ const links = [
   { href: '#aboutUs' },
   { href: '#contact' },
 ];
+type Props = {
+  params: { lng: string };
+};
 
-export default async function Page({
-  params: { lng },
-}: {
-  params: {
-    lng: string;
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  if (languages.indexOf(params.lng) < 0) params.lng = fallbackLng;
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const { t } = await useTranslation(params.lng);
+  return {
+    title: t('metaTitle'),
+    description: t('content'),
   };
-}) {
+}
+
+export default async function Page({ params: { lng } }: Props) {
   if (languages.indexOf(lng) < 0) lng = fallbackLng;
   const { t, i18n } = await useTranslation(lng);
- 
   return (
     <>
       <Header lng={lng} nav homeLink={t('homeLink')} href={`/${lng}`} />
