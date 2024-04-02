@@ -17,7 +17,7 @@
   "summaryContent": [
     {
       "strong": "Welche personenbezogenen Daten verarbeiten wir?",
-      "content": "Wenn Sie unsere Dienste besuchen, nutzen oder navigieren, können wir personenbezogene Daten verarbeiten, je nachdem, wie Sie mit uns und den Diensten interagieren, welche Entscheidungen Sie treffen und welche Produkte und Funktionen Sie nutzen. Erfahren Sie mehr über die personenbezogenen Daten, die Sie uns offenlegen."
+      "content": "Wenn Sie unsere Dienste besuchen, nutzen oder navigieren, können wir personenbezogene Daten verarbeiten, je nachdem, wie Sie mit uns und den Diensten interagieren, welche Entscheidungen Sie treffen und welche Produkte und Funktionen Sie nutzen."
     },
     {
       "strong": "Verarbeiten wir sensible personenbezogene Daten?",
@@ -29,7 +29,15 @@
     },
     {
       "strong": "Wie verarbeiten wir Ihre Informationen?",
-      "content": "Wir verarbeiten Ihre Informationen, um unsere Dienste bereitzustellen, zu verbessern und zu verwalten, mit Ihnen zu kommunizieren, für Sicherheit und Betrugsprävention und um gesetzliche Vorschriften einzuhalten. Wir können Ihre Informationen auch für andere Zwecke mit Ihrer Einwilligung verarbeiten. Wir verarbeiten Ihre Informationen nur, wenn wir einen gültigen rechtlichen Grund dafür haben. In welchen Situationen und mit welchen Parteien teilen wir personenbezogene Informationen? Wir können Informationen in spezifischen Situationen und mit spezifischen Dritten teilen. Wann und mit wem teilen wir Ihre personenbezogenen Informationen? Wie schützen wir Ihre Informationen? Wir haben organisatorische und technische Prozesse und Verfahren zum Schutz Ihrer personenbezogenen Informationen. Keine elektronische Übertragung über das Internet oder Informationsspeichertechnologie kann jedoch zu 100 % sicher garantiert werden, daher können wir nicht versprechen oder garantieren, dass Hacker, Cyberkriminelle oder andere unbefugte Dritte unsere Sicherheit nicht überwinden und Ihre Informationen unrechtmäßig sammeln, darauf zugreifen, stehlen oder ändern können."
+      "content": "Wir verarbeiten Ihre Informationen, um unsere Dienste bereitzustellen, zu verbessern und zu verwalten, mit Ihnen zu kommunizieren, für Sicherheit und Betrugsprävention und um gesetzliche Vorschriften einzuhalten. Wir können Ihre Informationen auch für andere Zwecke mit Ihrer Einwilligung verarbeiten. Wir verarbeiten Ihre Informationen nur, wenn wir einen gültigen rechtlichen Grund dafür haben."
+    },
+    {
+      "strong": "In welchen Situationen und mit welchen Parteien teilen wir personenbezogene Informationen?",
+      "content": " Wir können Informationen in spezifischen Situationen und mit spezifischen Dritten teilen."
+    },
+    {
+      "strong": "Wann und mit wem teilen wir Ihre personenbezogenen Informationen? Wie schützen wir Ihre Informationen?",
+      "content": "Wir haben organisatorische und technische Prozesse und Verfahren zum Schutz Ihrer personenbezogenen Informationen. Keine elektronische Übertragung über das Internet oder Informationsspeichertechnologie kann jedoch zu 100 % sicher garantiert werden, daher können wir nicht versprechen oder garantieren, dass Hacker, Cyberkriminelle oder andere unbefugte Dritte unsere Sicherheit nicht überwinden und Ihre Informationen unrechtmäßig sammeln, darauf zugreifen, stehlen oder ändern können."
     },
     {
       "strong": "Was sind Ihre Rechte?",
@@ -106,7 +114,7 @@
       "content": "Wir können Ihre Informationen verarbeiten, wenn Sie uns die Erlaubnis (d. h. die Einwilligung) gegeben haben, Ihre persönlichen Informationen für einen bestimmten Zweck zu verwenden. Sie können Ihre Einwilligung jederzeit widerrufen."
     },
     {
-      "importantNotice": "Vertragserfüllung",
+      "importantNotice": "Vertragserfüllung.",
       "content": "Wir können Ihre persönlichen Informationen verarbeiten, wenn wir glauben, dass es notwendig ist, um unsere vertraglichen Verpflichtungen Ihnen gegenüber zu erfüllen, einschließlich der Bereitstellung unserer Dienstleistungen oder auf Ihren Wunsch vor Abschluss eines Vertrags mit Ihnen."
     },
     {
@@ -149,7 +157,7 @@
   "privacyPolicyPoint6": {
     "heading": "6. WIRD IHRE INFORMATION INTERNATIONAL ÜBERTRAGEN?",
     "inShort": "Kurz gesagt: Wir können Ihre Informationen in Länder außerhalb Ihres eigenen übertragen, speichern und verarbeiten.",
-    "content": "Unsere Server befinden sich Wenn Sie auf unsere Dienste von außerhalb zugreifen, beachten Sie bitte, dass Ihre Informationen von uns in unseren Einrichtungen und von den Dritten, mit denen wir Ihre persönlichen Informationen teilen können, in den Vereinigten Staaten und anderen Ländern übertragen, gespeichert und verarbeitet werden können. \nWenn Sie in der Europäischen Wirtschaftszone (EWR), im Vereinigten Königreich (VK) oder in der Schweiz ansässig sind, haben diese Länder möglicherweise nicht unbedingt Datenschutzgesetze oder andere ähnliche Gesetze, die so umfassend sind wie die in Ihrem Land. Wir werden jedoch alle erforderlichen Maßnahmen zum Schutz Ihrer persönlichen Informationen gemäß diesem Datenschutzhinweis und geltendem Recht ergreifen. \n Standardvertragsklauseln der Europäischen Kommission: \n Wir haben Maßnahmen zum Schutz Ihrer persönlichen Informationen implementiert, einschließlich der Verwendung der Standardvertragsklauseln der Europäischen Kommission für die Übertragung personenbezogener Daten zwischen unseren Konzernunternehmen und zwischen uns und unseren Drittanbietern. Diese Klauseln erfordern, dass alle Empfänger alle personenbezogenen Daten, die sie aus der EWR oder dem VK verarbeiten, gemäß den europäischen Datenschutzgesetzen und -vorschriften schützen. Unsere Standardvertragsklauseln können auf Anfrage zur Verfügung gestellt werden. Wir haben ähnliche angemessene Schutzmaßnahmen mit unseren Drittanbieterdiensten und -partnern implementiert, und weitere Details können auf Anfrage bereitgestellt werden."
+    "content": "Beachten Sie bitte, dass Ihre Informationen von uns in unseren Einrichtungen und von den Dritten, mit denen wir Ihre persönlichen Informationen teilen können, in den Vereinigten Staaten und anderen Ländern übertragen, gespeichert und verarbeitet werden können. \nWenn Sie in der Europäischen Wirtschaftszone (EWR), im Vereinigten Königreich (VK) oder in der Schweiz ansässig sind, haben diese Länder möglicherweise nicht unbedingt Datenschutzgesetze oder andere ähnliche Gesetze, die so umfassend sind wie die in Ihrem Land. Wir werden jedoch alle erforderlichen Maßnahmen zum Schutz Ihrer persönlichen Informationen gemäß diesem Datenschutzhinweis und geltendem Recht ergreifen. \n Standardvertragsklauseln der Europäischen Kommission: \n Wir haben Maßnahmen zum Schutz Ihrer persönlichen Informationen implementiert, einschließlich der Verwendung der Standardvertragsklauseln der Europäischen Kommission für die Übertragung personenbezogener Daten zwischen unseren Konzernunternehmen und zwischen uns und unseren Drittanbietern. Diese Klauseln erfordern, dass alle Empfänger alle personenbezogenen Daten, die sie aus der EWR oder dem VK verarbeiten, gemäß den europäischen Datenschutzgesetzen und -vorschriften schützen. Unsere Standardvertragsklauseln können auf Anfrage zur Verfügung gestellt werden. Wir haben ähnliche angemessene Schutzmaßnahmen mit unseren Drittanbieterdiensten und -partnern implementiert, und weitere Details können auf Anfrage bereitgestellt werden."
   },
   "privacyPolicyPoint7": {
     "heading": "7. WIE LANGE BEWAHREN WIR IHRE INFORMATIONEN AUF?",

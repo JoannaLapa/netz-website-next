@@ -44,14 +44,6 @@ const WhyUsSection: React.FC<WhyUsSectionProps> = (props) => {
         <div className="grid justify-center sm:grid-cols-2 sm:items-center">
           <div className="relative flex h-fit max-w-[246px] justify-center">
             <Counter experienceSuffix={props.experienceSuffix} />
-            <Image
-              src="/assets/grid_04.svg"
-              width={483}
-              height={120}
-              alt=""
-              aria-hidden="true"
-              className="absolute top-[22%] max-w-[90%] -rotate-12 animate-rotate"
-            />
           </div>
           <div className="flex flex-col gap-8">
             {boxes.map((box) => (

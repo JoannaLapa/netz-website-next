@@ -46,6 +46,7 @@
     "Bis zu 7,5 Tonnen DMC: 3500 kg Ladekapazität, 18 Euro-Paletten, Laderaumabmessungen sind 700x240x250 cm;",
     "Bis zu 40 Tonnen DMC LKW: 24000 kg Ladekapazität, 33 Euro-Paletten, Laderaumabmessungen sind 1360x245x300 cm;"
   ],
+  "fleetImageAlt": "Einen weißen LKW auf der Straße.",
   "CTAtitle": "und fordern Sie ein Angebot an",
   "CTAaccentText": "Kontaktiere uns ",
   "CTAdescription": "Wir beantworten gerne alle deine Fragen! Möchtest du mit uns arbeiten? Erhalte ein KOSTENLOSES Angebot!",
@@ -58,7 +59,7 @@
   "errorMessage": "Beim Senden der Nachricht ist ein Fehler aufgetreten.",
   "privacyPolicy": "Ich erkläre, dass ich die Datenschutzerklärung gelesen habe und der Verarbeitung meiner personenbezogenen Daten im Kontaktformular zustimme. ",
   "privacyPolicyLink": "Erfahre mehr",
-  "privacyInfo": "Diese Website verwendet Cookies, damit unser Service besser funktionieren kann.",
+  "privacyInfo": "Diese Website verwendet Cookies, damit unser Service besser funktionieren kann. ",
   "realisation": "Projekt und Umsetzung der Website:",
   "cookiesBannerContent": "Wir verwenden Cookies, um die Sprache auf der Website entsprechend Ihrer bevorzugten Sprache zu verwalten. Durch Klicken auf 'Akzeptieren' stimmen Sie der Verwendung von Cookies zu diesem Zweck zu.",
   "cookiesBannerAcceptButton": "Akzeptieren",

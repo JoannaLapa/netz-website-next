@@ -17,7 +17,7 @@
   "summaryContent": [
     {
       "strong": "Jakie dane osobowe przetwarzamy?",
-      "content": "Podczas korzystania z naszych Usług możemy przetwarzać dane osobowe w zależności od sposobu interakcji z nami i Usługami, dokonywanych wyborów oraz używanych produktów i funkcji. Dowiedz się więcej o danych osobowych, które ujawniasz nam."
+      "content": "Podczas korzystania z naszych Usług możemy przetwarzać dane osobowe w zależności od sposobu interakcji z nami i Usługami, dokonywanych wyborów oraz używanych produktów i funkcji."
     },
     {
       "strong": "Czy przetwarzamy jakiekolwiek wrażliwe dane osobowe?",
@@ -29,7 +29,15 @@
     },
     {
       "strong": "Jak przetwarzamy Twoje informacje?",
-      "content": "Przetwarzamy Twoje informacje w celu świadczenia, ulepszania i zarządzania naszymi Usługami, komunikacji z Tobą, zapewnienia bezpieczeństwa i zapobiegania oszustwom oraz w celu przestrzegania prawa. Możemy również przetwarzać Twoje informacje w innych celach za Twoją zgodą. Przetwarzamy Twoje informacje tylko wtedy, gdy mamy ważny prawny powód do tego. W jakich sytuacjach i z jakimi stronami dzielimy się danymi osobowymi? Możemy udostępniać informacje w określonych sytuacjach i konkretnym stronom trzecim. Kiedy i z kim dzielimy Twoje dane osobowe? Jak dbamy o bezpieczeństwo Twoich informacji? Mamy ustalone procesy i procedury organizacyjne i techniczne, które mają na celu ochronę Twoich danych osobowych. Jednakże żadna elektroniczna transmisja przez Internet ani technologia przechowywania informacji nie może być gwarantowana na 100% jako bezpieczna, więc nie możemy obiecać ani zagwarantować, że hakerzy, cyberprzestępcy lub inne nieautoryzowane trzecie strony nie będą w stanie pokonać naszego zabezpieczenia i nieprawidłowo zbierać, uzyskiwać dostęp do, kraść lub modyfikować Twoich informacji."
+      "content": "Przetwarzamy Twoje informacje w celu świadczenia, ulepszania i zarządzania naszymi Usługami, komunikacji z Tobą, zapewnienia bezpieczeństwa i zapobiegania oszustwom oraz w celu przestrzegania prawa. Możemy również przetwarzać Twoje informacje w innych celach za Twoją zgodą. Przetwarzamy Twoje informacje tylko wtedy, gdy mamy ważny prawny powód do tego."
+    },
+    {
+      "strong": "W jakich sytuacjach i z jakimi stronami dzielimy się danymi osobowymi?",
+      "content": "Możemy udostępniać informacje w określonych sytuacjach i konkretnym stronom trzecim."
+    },
+    {
+      "strong": "Kiedy i z kim dzielimy Twoje dane osobowe? Jak dbamy o bezpieczeństwo Twoich informacji? ",
+      "content": "Mamy ustalone procesy i procedury organizacyjne i techniczne, które mają na celu ochronę Twoich danych osobowych. Jednakże żadna elektroniczna transmisja przez Internet ani technologia przechowywania informacji nie może być gwarantowana na 100% jako bezpieczna, więc nie możemy obiecać ani zagwarantować, że hakerzy, cyberprzestępcy lub inne nieautoryzowane trzecie strony nie będą w stanie pokonać naszego zabezpieczenia i nieprawidłowo zbierać, uzyskiwać dostęp do, kraść lub modyfikować Twoich informacji."
     },
     {
       "strong": "Jakie są Twoje prawa?",
@@ -106,7 +114,7 @@
       "content": "Możemy przetwarzać Twoje informacje, jeśli udzieliłeś nam zgody (tj. zgody) na wykorzystanie Twoich danych osobowych w określonym celu. Możesz w dowolnym momencie wycofać swoją zgodę."
     },
     {
-      "importantNotice": "Wykonanie umowy",
+      "importantNotice": "Wykonanie umowy.",
       "content": "Możemy przetwarzać Twoje dane osobowe, gdy uważamy, że jest to konieczne do spełnienia naszych zobowiązań umownych wobec Ciebie, w tym do świadczenia naszych usług lub na Twoje życzenie przed zawarciem umowy z Tobą."
     },
     {
@@ -149,7 +157,7 @@
   "privacyPolicyPoint6": {
     "heading": "6. CZY TWOJE INFORMACJE SĄ PRZENOSZONE MIĘDZYNARODOWO?",
     "inShort": "W skrócie: Możemy przesyłać, przechowywać i przetwarzać Twoje informacje w krajach innych niż Twój własny.",
-    "content": "Nasze serwery znajdują się Jeśli korzystasz z naszych Usług spoza, prosimy mieć świadomość, że Twoje informacje mogą być przesyłane do, przechowywane i przetwarzane przez nas w naszych placówkach oraz przez te osoby trzecie, z którymi możemy udostępniać Twoje dane osobowe, w Stanach Zjednoczonych i innych krajach. \nJeśli jesteś mieszkańcem Europejskiego Obszaru Gospodarczego (EOG), Zjednoczonego Królestwa (UK) lub Szwajcarii, to te kraje mogą niekoniecznie posiadać prawa ochrony danych ani inne podobne prawa tak wszechstronne jak te w Twoim kraju. Niemniej jednak podejmiemy wszystkie niezbędne środki w celu ochrony Twoich danych osobowych zgodnie z niniejszym zawiadomieniem o ochronie prywatności oraz obowiązującym prawem. \n Standardowe klauzule umowne Komisji Europejskiej: \n Wdrożyliśmy środki w celu ochrony Twoich danych osobowych, w tym poprzez stosowanie standardowych klauzul umownych Komisji Europejskiej dotyczących przekazywania danych osobowych między naszymi spółkami grupowymi oraz między nami a naszymi dostawcami usług trzeciego stopnia. Klauzule te wymagają, aby wszyscy odbiorcy chronili wszystkie dane osobowe, które przetwarzają, pochodzące z EOG lub UK, zgodnie z europejskimi przepisami i przepisami o ochronie danych. Nasze standardowe klauzule umowne mogą zostać udostępnione na życzenie. Wdrożyliśmy podobne odpowiednie zabezpieczenia wraz z naszymi dostawcami usług trzeciego stopnia i partnerami, a dodatkowe szczegóły mogą być udostępnione na życzenie."
+    "content": "Prosimy miej świadomość, że Twoje informacje mogą być przesyłane do, przechowywane i przetwarzane przez nas w naszych placówkach oraz przez te osoby trzecie, z którymi możemy udostępniać Twoje dane osobowe, w Stanach Zjednoczonych i innych krajach. \nJeśli jesteś mieszkańcem Europejskiego Obszaru Gospodarczego (EOG), Zjednoczonego Królestwa (UK) lub Szwajcarii, to te kraje mogą niekoniecznie posiadać prawa ochrony danych ani inne podobne prawa tak wszechstronne jak te w Twoim kraju. Niemniej jednak podejmiemy wszystkie niezbędne środki w celu ochrony Twoich danych osobowych zgodnie z niniejszym zawiadomieniem o ochronie prywatności oraz obowiązującym prawem. \n Standardowe klauzule umowne Komisji Europejskiej: \n Wdrożyliśmy środki w celu ochrony Twoich danych osobowych, w tym poprzez stosowanie standardowych klauzul umownych Komisji Europejskiej dotyczących przekazywania danych osobowych między naszymi spółkami grupowymi oraz między nami a naszymi dostawcami usług trzeciego stopnia. Klauzule te wymagają, aby wszyscy odbiorcy chronili wszystkie dane osobowe, które przetwarzają, pochodzące z EOG lub UK, zgodnie z europejskimi przepisami i przepisami o ochronie danych. Nasze standardowe klauzule umowne mogą zostać udostępnione na życzenie. Wdrożyliśmy podobne odpowiednie zabezpieczenia wraz z naszymi dostawcami usług trzeciego stopnia i partnerami, a dodatkowe szczegóły mogą być udostępnione na życzenie."
   },
   "privacyPolicyPoint7": {
     "heading": "7. JAK DŁUGO PRZECHOWUJEMY TWOJE INFORMACJE?",

@@ -17,7 +17,7 @@
   "summaryContent": [
     {
       "strong": "What personal information do we process?",
-      "content": "When you visit, use or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make and the products and features you use. Learn more about personal information you disclose to us"
+      "content": "When you visit, use or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make and the products and features you use."
     },
     {
       "strong": "Do we process any sensitive personal information?",
@@ -29,7 +29,15 @@
     },
     {
       "strong": "How do we process your information?",
-      "content": "We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. In what situations and with which parties do we share personal information? We may share information in specific situations and with specific third parties. when and with whom we share your personal information How do we keep your information safe? We have organisational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers cybercriminals, or other unauthorised third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information."
+      "content": "We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so."
+    },
+    {
+      "strong": "In what situations and with which parties do we share personal information?",
+      "content": "We may share information in specific situations and with specific third parties."
+    },
+    {
+      "strong": "When and with whom we share your personal information How do we keep your information safe? ",
+      "content": "We may share information in specific situations and with specific third parties. We have organisational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers cybercriminals, or other unauthorised third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information."
     },
     {
       "strong": "What are your rights?",
@@ -106,7 +114,7 @@
       "content": "We may process your information if you have given us permission (i.e.consent) to use your personal information for a specific purpose. You can withdraw your consent at any time."
     },
     {
-      "importantNotice": "Performance of a Contract",
+      "importantNotice": "Performance of a Contract.",
       "content": " We may process your personal information when we believe it is necessary to fulfil our contractual obligations to you, including providing our Services or at your request prior to entering into a contract with you."
     },
     {
@@ -114,7 +122,7 @@
       "content": "We may process your information where we believe it is necessary for compliance with our legal obligations, such as to cooperate with a law enforcement body or regulatory agency, exercise or defend our legal rights, or disclose your information as evidence in litigation in which we are involved."
     },
     {
-      "importantNotice": "Vital Interests. ",
+      "importantNotice": "Vital Interests.",
       "content": "We may process your information where we believe it is necessary to protect your vital interests or the vital interests of a third party, such as situations involving potential threats to the safety of any person."
     }
   ],
@@ -149,7 +157,7 @@
   "privacyPolicyPoint6": {
     "heading": "6. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?",
     "inShort": " In Short:  We may transfer, store, and process your information in countries other than your own.",
-    "content": " Our servers are located in If you are accessing our Services from outside, please be aware that your information may be transferred to, stored, and processed by us in our facilities and by those third parties with whom we may share your personal information, in the United States and other countries. \n  If you are a resident in the European Economic Area (EEA), United Kingdom (UK), or Switzerland, then these countries may not necessarily have data protection laws or other similar laws as comprehensive as those in your country. However, we will take all necessary measures to protect your personal information in accordance with this privacy notice and applicable law. \n European Commission&apos;s Standard Contractual Clauses: \n  We have implemented measures to protect your personal information, including by using the European Commission's Standard Contractual Clauses for transfers of personal information between our group companies and between us and our third-party providers. These clauses require all recipients to protect all personal information that they process originating from the EEA or UK in accordance with European data protection laws and regulations. Our Standard Contractual Clauses can be provided upon request. We have implemented similar appropriate safeguards with our third-party service providers and partners and further details can be provided upon request."
+    "content": "Please be aware that your information may be transferred to, stored, and processed by us in our facilities and by those third parties with whom we may share your personal information, in the United States and other countries. \n  If you are a resident in the European Economic Area (EEA), United Kingdom (UK), or Switzerland, then these countries may not necessarily have data protection laws or other similar laws as comprehensive as those in your country. However, we will take all necessary measures to protect your personal information in accordance with this privacy notice and applicable law. \n European Commission&apos;s Standard Contractual Clauses: \n  We have implemented measures to protect your personal information, including by using the European Commission's Standard Contractual Clauses for transfers of personal information between our group companies and between us and our third-party providers. These clauses require all recipients to protect all personal information that they process originating from the EEA or UK in accordance with European data protection laws and regulations. Our Standard Contractual Clauses can be provided upon request. We have implemented similar appropriate safeguards with our third-party service providers and partners and further details can be provided upon request."
   },
   "privacyPolicyPoint7": {
     "heading": "7. HOW LONG DO WE KEEP YOUR INFORMATION?",

@@ -35,7 +35,7 @@
   "numberedBox2Title": "Kompleksowe wyposażenie pojazdów",
   "numberedBox2Description": "Windy, wózki podnośnikowe itp.",
   "numberedBox3Title": "Magazyny",
-  "numberedBox3Description": "Przechowywanie,zabezpieczenie i pakowanie towaru",
+  "numberedBox3Description": "Przechowywanie, zabezpieczenie i pakowanie towaru",
   "fleetTitle": "jakimi dysponujemy",
   "accentText": "Pojazdy ",
   "listTitle": "Dysponujemy pojazdami o różnnych gabarytach oraz dopuszczalnej masie:",
@@ -47,6 +47,7 @@
     "do 7,5 tony DMC: 3500 kg ładowności, 18 europalet, wymiary paki ładunkowej to 700x240x250 cm;",
     "do 40 ton DMC: 24000 kg ładowności, 33 europalety, wymiary paki ładunkowej to 1360x245x300 cm;"
   ],
+  "fleetImageAlt": "Biała ciężarówka na drodze.",
   "CTAtitle": "z nami i zamów wycenę",
   "CTAaccentText": "Skontaktuj się ",
   "CTAdescription": "Chętnie odpowiemy na wszystkie Twoje pytania!  Chcesz z nami pracować? Uzyskaj BEZPŁATNĄ wycenę!",

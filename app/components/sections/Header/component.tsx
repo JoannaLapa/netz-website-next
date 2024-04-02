@@ -21,6 +21,7 @@ const Header: React.FC<HeaderProps> = (props) => {
                 src="/assets/images/netz_x2.jpg"
                 width={476}
                 height={174}
+                priority
               />
             </Link>
           </div>

@@ -8,11 +8,8 @@ import ListItem from '@/app/components/ui/ListItem';
 import BoldedContentBox from '@/app/components/ui/BoldedContentBox';
 import HeadingWithContent from '@/app/components/ui/HeadingWithContent';
 
-const summaryContent = new Array(6).fill('');
-const personalInformationListItems = new Array(8).fill('');
-const privacyPolicyPoint2ListItems = new Array(6).fill('');
 
-const privacyPolicyPoint3ListItems = new Array(4).fill('');
+
 
 export default async function Page({
   params: { lng },
@@ -50,7 +47,7 @@ export default async function Page({
               {t('summaryTitle')}
             </h2>
             <strong className="py-2">{t('summaryStrong')}</strong>
-            {summaryContent.map((_, index) => (
+            {[...Array(8)].map((_, index) => (
               <BoldedContentBox
                 content={t(`summaryContent.${index}.content`)}
                 importantNotice={t(`summaryContent.${index}.strong`)}
@@ -73,7 +70,7 @@ export default async function Page({
                 />
 
                 <ul>
-                  {personalInformationListItems.map((item, index) => (
+                  {[...Array(8)].map((item, index) => (
                     <ListItem
                       content={t(`personalInformationListItems.${index}`)}
                       key={index}
@@ -95,7 +92,7 @@ export default async function Page({
               content={t('privacyPolicyPoint2.content')}
             >
               <ul>
-                {privacyPolicyPoint2ListItems.map((item, index) => (
+                {[...Array(6)].map((item, index) => (
                   <li key={index} className="first:mt-4 last:mb-4">
                     <BoldedContentBox
                       content={t(
@@ -117,7 +114,7 @@ export default async function Page({
               content={t('privacyPolicyPoint3.content')}
             >
               <ul>
-                {privacyPolicyPoint3ListItems.map((item, index) => (
+                {[...Array(4)].map((item, index) => (
                   <li key={index} className="first:mt-4 last:mb-4">
                     <BoldedContentBox
                       content={t(

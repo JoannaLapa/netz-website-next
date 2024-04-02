@@ -27,7 +27,7 @@ const NumberedSection: React.FC<NumberedSectionProps> = (props) => {
                   decorator={`0${index + 1}`}
                   boxNr={index}
                   title={t(`numberedBox${box}Title`)}
-                  description={t(`numberedBox${box}Title`)}
+                  description={t(`numberedBox${box}Description`)}
                 />
               );
             })}
