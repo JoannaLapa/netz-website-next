@@ -8,7 +8,7 @@ import ListItem from '@/app/components/ui/ListItem';
 import BoldedContentBox from '@/app/components/ui/BoldedContentBox';
 import HeadingWithContent from '@/app/components/ui/HeadingWithContent';
 
-const summaryContent = new Array(6).fill('');
+const summaryContent = new Array(8).fill('');
 const personalInformationListItems = new Array(8).fill('');
 const privacyPolicyPoint2ListItems = new Array(6).fill('');
 
