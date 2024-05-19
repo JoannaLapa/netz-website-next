@@ -3,10 +3,8 @@ import type { Metadata } from 'next';
 import { useTranslation } from '../i18n';
 import Header from '../components/sections/Header/index';
 import HeroSlider from '../components/sections/HeroSlider/index';
-import BoxImageSection from '../components/sections/BoxImageSection';
 import WhyUsSection from '../components/sections/WhyUsSection';
 import NumberedSection from '../components/sections/NumberedSection/component';
-import ListSection from '../components/sections/ListSection';
 import CTAsection from '../components/sections/CTAsection';
 import Footer from '../components/sections/Footer';
 import ContentImageSection from '../components/sections/ContentImageSection';
@@ -52,14 +50,6 @@ export default async function Page({ params: { lng } }: Props) {
           alt={t('aboutUsImageAlt')}
           id="aboutUs"
         />
-
-        <BoxImageSection
-          title={t('aboutUsTitle')}
-          accentText={t('aboutUsAccentText')}
-          description={t('aboutUsDescription')}
-          alt={t('aboutUsImageAlt')}
-          id="aboutUs"
-        />
         <WhyUsSection
           title={t('whyUsTitle')}
           accentText={t('whyUsAccentText')}
@@ -67,19 +57,11 @@ export default async function Page({ params: { lng } }: Props) {
           lng={lng}
           i18n={i18n}
         />
-
         <NumberedSection
           title={t('offerTitle')}
           accentText={t('offerAccentText')}
           lng={lng}
           i18n={i18n}
-        />
-        <ListSection
-          title={t('fleetTitle')}
-          accentText={t('accentText')}
-          content="fleetList"
-          index={6}
-          listTitle={t('listTitle')}
         />
         <ContentImageSection
           title={t('fleetTitle')}
