@@ -52,7 +52,7 @@ const HeroSlider: React.FC<HeroSliderProps> = (props) => {
           ))}
         </div>
 
-        <div className="absolute bottom-28 left-1/2 flex h-[64px] -translate-x-1/2 gap-4 md:bottom-28">
+        <div className="absolute bottom-28 left-1/2 flex h-[64px] -translate-x-1/2 gap-4 md:bottom-32">
           {slides.map((slide, index) => {
             return (
               <button
