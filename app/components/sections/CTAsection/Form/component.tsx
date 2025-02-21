@@ -52,7 +52,7 @@ const Form: React.FC<FormProps> = (props) => {
           htmlFor="privacyPolicy"
           className="relative mr-4 inline-block cursor-pointer pl-6 text-xs before:absolute before:-left-0 before:top-1 before:inline-block before:h-3 before:w-3 before:border before:border-neutral-400 before:bg-transparent"
         >
-          {props.privacyPolicyText}*
+          {props.privacyPolicyText}
           <Link
             href={props.privacyPolicyLink.href}
             className="font-bold underline"
